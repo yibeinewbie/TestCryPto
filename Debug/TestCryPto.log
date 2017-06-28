@@ -1,0 +1,1594 @@
+﻿生成启动时间为 2017/6/27 17:14:24。
+     1>项目“D:\Practice\TestCryPto\TestCryPto\TestCryPto.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I../TestCryPto/include /I"C:\Program Files (x86)\Visual Leak Detector\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\TestCryPto.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I../TestCryPto/include /I"C:\Program Files (x86)\Visual Leak Detector\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\TestCryPto.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt TestCryPto.cpp
+         TestCryPto.cpp
+     1>d:\practice\testcrypto\testcrypto\testcrypto.cpp(17): warning C4101: “txt”: 未引用的局部变量
+     1>d:\practice\testcrypto\testcrypto\testcrypto.cpp(16): warning C4101: “output”: 未引用的局部变量
+     1>d:\practice\testcrypto\testcrypto\testcrypto.cpp(14): warning C4101: “key”: 未引用的局部变量
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Practice\TestCryPto\Debug\TestCryPto.exe" /INCREMENTAL /NOLOGO /LIBPATH:../TestCryPto/lib /LIBPATH:"C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\Lib" /LIBPATH:"C:\Program Files (x86)\Visual Leak Detector\lib\Win32" odbc32.lib odbccp32.lib Ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:libcmtd.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Practice\TestCryPto\Debug\TestCryPto.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Practice\TestCryPto\Debug\TestCryPto.lib" /MACHINE:X86 Debug\stdafx.obj
+         Debug\TestCryPto.obj
+     1>cryptlib.lib(hrtimer.obj) : error LNK2001: 无法解析的外部符号 __purecall
+     1>libcpmtd.lib(mutex.obj) : error LNK2001: 无法解析的外部符号 __purecall
+     1>libcpmtd.lib(thread0.obj) : error LNK2001: 无法解析的外部符号 __purecall
+     1>cryptlib.lib(rng.obj) : error LNK2001: 无法解析的外部符号 __purecall
+     1>cryptlib.lib(osrng.obj) : error LNK2001: 无法解析的外部符号 __purecall
+     1>cryptlib.lib(hmac.obj) : error LNK2001: 无法解析的外部符号 __purecall
+     1>cryptlib.lib(randpool.obj) : error LNK2001: 无法解析的外部符号 __purecall
+     1>cryptlib.lib(ec2n.obj) : error LNK2001: 无法解析的外部符号 __purecall
+     1>cryptlib.lib(ecp.obj) : error LNK2001: 无法解析的外部符号 __purecall
+     1>cryptlib.lib(basecode.obj) : error LNK2001: 无法解析的外部符号 __purecall
+     1>cryptlib.lib(hex.obj) : error LNK2001: 无法解析的外部符号 __purecall
+     1>cryptlib.lib(rijndael.obj) : error LNK2001: 无法解析的外部符号 __purecall
+     1>cryptlib.lib(modes.obj) : error LNK2001: 无法解析的外部符号 __purecall
+     1>cryptlib.lib(gfpcrypt.obj) : error LNK2001: 无法解析的外部符号 __purecall
+     1>cryptlib.lib(gf2n.obj) : error LNK2001: 无法解析的外部符号 __purecall
+     1>cryptlib.lib(pubkey.obj) : error LNK2001: 无法解析的外部符号 __purecall
+     1>cryptlib.lib(iterhash.obj) : error LNK2001: 无法解析的外部符号 __purecall
+     1>cryptlib.lib(sha.obj) : error LNK2001: 无法解析的外部符号 __purecall
+     1>cryptlib.lib(mqueue.obj) : error LNK2001: 无法解析的外部符号 __purecall
+     1>cryptlib.lib(fips140.obj) : error LNK2001: 无法解析的外部符号 __purecall
+     1>cryptlib.lib(dll.obj) : error LNK2001: 无法解析的外部符号 __purecall
+     1>cryptlib.lib(nbtheory.obj) : error LNK2001: 无法解析的外部符号 __purecall
+     1>cryptlib.lib(asn.obj) : error LNK2001: 无法解析的外部符号 __purecall
+     1>cryptlib.lib(misc.obj) : error LNK2001: 无法解析的外部符号 __purecall
+     1>cryptlib.lib(queue.obj) : error LNK2001: 无法解析的外部符号 __purecall
+     1>cryptlib.lib(algparam.obj) : error LNK2001: 无法解析的外部符号 __purecall
+     1>cryptlib.lib(filters.obj) : error LNK2001: 无法解析的外部符号 __purecall
+     1>cryptlib.lib(cryptlib.obj) : error LNK2001: 无法解析的外部符号 __purecall
+     1>cryptlib.lib(des.obj) : error LNK2001: 无法解析的外部符号 __purecall
+     1>cryptlib.lib(pch.obj) : error LNK2001: 无法解析的外部符号 __purecall
+     1>cryptlib.lib(integer.obj) : error LNK2001: 无法解析的外部符号 __purecall
+     1>libcpmtd.lib(locale.obj) : error LNK2001: 无法解析的外部符号 __purecall
+     1>libcpmtd.lib(wlocale.obj) : error LNK2001: 无法解析的外部符号 __purecall
+     1>libcpmtd.lib(xlocale.obj) : error LNK2001: 无法解析的外部符号 __purecall
+     1>libcpmtd.lib(xdateord.obj) : error LNK2001: 无法解析的外部符号 __purecall
+     1>libcpmtd.lib(ios.obj) : error LNK2001: 无法解析的外部符号 __purecall
+     1>libcpmtd.lib(cout.obj) : error LNK2001: 无法解析的外部符号 __purecall
+     1>libcpmtd.lib(cerr.obj) : error LNK2001: 无法解析的外部符号 __purecall
+     1>libcpmtd.lib(iosptrs.obj) : error LNK2001: 无法解析的外部符号 __purecall
+     1>TestCryPto.obj : error LNK2001: 无法解析的外部符号 __purecall
+     1>libcpmtd.lib(xthrow.obj) : error LNK2001: 无法解析的外部符号 __purecall
+     1>libcpmtd.lib(locale0.obj) : error LNK2001: 无法解析的外部符号 __purecall
+     1>libcpmtd.lib(syserror.obj) : error LNK2001: 无法解析的外部符号 __purecall
+     1>cryptlib.lib(hrtimer.obj) : error LNK2019: 无法解析的外部符号 "void * __cdecl operator new(unsigned int)" (??2@YAPAXI@Z)，该符号在函数 "public: __thiscall CryptoPP::Exception::Exception(class CryptoPP::Exception const &)" (??0Exception@CryptoPP@@QAE@ABV01@@Z) 中被引用
+     1>libcpmtd.lib(mutex.obj) : error LNK2001: 无法解析的外部符号 "void * __cdecl operator new(unsigned int)" (??2@YAPAXI@Z)
+     1>libcpmtd.lib(thread0.obj) : error LNK2001: 无法解析的外部符号 "void * __cdecl operator new(unsigned int)" (??2@YAPAXI@Z)
+     1>cryptlib.lib(rng.obj) : error LNK2001: 无法解析的外部符号 "void * __cdecl operator new(unsigned int)" (??2@YAPAXI@Z)
+     1>cryptlib.lib(osrng.obj) : error LNK2001: 无法解析的外部符号 "void * __cdecl operator new(unsigned int)" (??2@YAPAXI@Z)
+     1>cryptlib.lib(hmac.obj) : error LNK2001: 无法解析的外部符号 "void * __cdecl operator new(unsigned int)" (??2@YAPAXI@Z)
+     1>cryptlib.lib(randpool.obj) : error LNK2001: 无法解析的外部符号 "void * __cdecl operator new(unsigned int)" (??2@YAPAXI@Z)
+     1>cryptlib.lib(ec2n.obj) : error LNK2001: 无法解析的外部符号 "void * __cdecl operator new(unsigned int)" (??2@YAPAXI@Z)
+     1>cryptlib.lib(ecp.obj) : error LNK2001: 无法解析的外部符号 "void * __cdecl operator new(unsigned int)" (??2@YAPAXI@Z)
+     1>cryptlib.lib(basecode.obj) : error LNK2001: 无法解析的外部符号 "void * __cdecl operator new(unsigned int)" (??2@YAPAXI@Z)
+     1>cryptlib.lib(hex.obj) : error LNK2001: 无法解析的外部符号 "void * __cdecl operator new(unsigned int)" (??2@YAPAXI@Z)
+     1>cryptlib.lib(rijndael.obj) : error LNK2001: 无法解析的外部符号 "void * __cdecl operator new(unsigned int)" (??2@YAPAXI@Z)
+     1>cryptlib.lib(modes.obj) : error LNK2001: 无法解析的外部符号 "void * __cdecl operator new(unsigned int)" (??2@YAPAXI@Z)
+     1>cryptlib.lib(gfpcrypt.obj) : error LNK2001: 无法解析的外部符号 "void * __cdecl operator new(unsigned int)" (??2@YAPAXI@Z)
+     1>cryptlib.lib(gf2n.obj) : error LNK2001: 无法解析的外部符号 "void * __cdecl operator new(unsigned int)" (??2@YAPAXI@Z)
+     1>cryptlib.lib(pubkey.obj) : error LNK2001: 无法解析的外部符号 "void * __cdecl operator new(unsigned int)" (??2@YAPAXI@Z)
+     1>cryptlib.lib(iterhash.obj) : error LNK2001: 无法解析的外部符号 "void * __cdecl operator new(unsigned int)" (??2@YAPAXI@Z)
+     1>cryptlib.lib(sha.obj) : error LNK2001: 无法解析的外部符号 "void * __cdecl operator new(unsigned int)" (??2@YAPAXI@Z)
+     1>cryptlib.lib(mqueue.obj) : error LNK2001: 无法解析的外部符号 "void * __cdecl operator new(unsigned int)" (??2@YAPAXI@Z)
+     1>cryptlib.lib(fips140.obj) : error LNK2001: 无法解析的外部符号 "void * __cdecl operator new(unsigned int)" (??2@YAPAXI@Z)
+     1>cryptlib.lib(dll.obj) : error LNK2001: 无法解析的外部符号 "void * __cdecl operator new(unsigned int)" (??2@YAPAXI@Z)
+     1>cryptlib.lib(nbtheory.obj) : error LNK2001: 无法解析的外部符号 "void * __cdecl operator new(unsigned int)" (??2@YAPAXI@Z)
+     1>cryptlib.lib(asn.obj) : error LNK2001: 无法解析的外部符号 "void * __cdecl operator new(unsigned int)" (??2@YAPAXI@Z)
+     1>cryptlib.lib(misc.obj) : error LNK2001: 无法解析的外部符号 "void * __cdecl operator new(unsigned int)" (??2@YAPAXI@Z)
+     1>cryptlib.lib(queue.obj) : error LNK2001: 无法解析的外部符号 "void * __cdecl operator new(unsigned int)" (??2@YAPAXI@Z)
+     1>cryptlib.lib(algparam.obj) : error LNK2001: 无法解析的外部符号 "void * __cdecl operator new(unsigned int)" (??2@YAPAXI@Z)
+     1>cryptlib.lib(filters.obj) : error LNK2001: 无法解析的外部符号 "void * __cdecl operator new(unsigned int)" (??2@YAPAXI@Z)
+     1>cryptlib.lib(cryptlib.obj) : error LNK2001: 无法解析的外部符号 "void * __cdecl operator new(unsigned int)" (??2@YAPAXI@Z)
+     1>cryptlib.lib(des.obj) : error LNK2001: 无法解析的外部符号 "void * __cdecl operator new(unsigned int)" (??2@YAPAXI@Z)
+     1>cryptlib.lib(pch.obj) : error LNK2001: 无法解析的外部符号 "void * __cdecl operator new(unsigned int)" (??2@YAPAXI@Z)
+     1>cryptlib.lib(integer.obj) : error LNK2001: 无法解析的外部符号 "void * __cdecl operator new(unsigned int)" (??2@YAPAXI@Z)
+     1>libcpmtd.lib(locale.obj) : error LNK2001: 无法解析的外部符号 "void * __cdecl operator new(unsigned int)" (??2@YAPAXI@Z)
+     1>libcpmtd.lib(wlocale.obj) : error LNK2001: 无法解析的外部符号 "void * __cdecl operator new(unsigned int)" (??2@YAPAXI@Z)
+     1>libcpmtd.lib(xlocale.obj) : error LNK2001: 无法解析的外部符号 "void * __cdecl operator new(unsigned int)" (??2@YAPAXI@Z)
+     1>libcpmtd.lib(xdateord.obj) : error LNK2001: 无法解析的外部符号 "void * __cdecl operator new(unsigned int)" (??2@YAPAXI@Z)
+     1>libcpmtd.lib(ios.obj) : error LNK2001: 无法解析的外部符号 "void * __cdecl operator new(unsigned int)" (??2@YAPAXI@Z)
+     1>libcpmtd.lib(cout.obj) : error LNK2001: 无法解析的外部符号 "void * __cdecl operator new(unsigned int)" (??2@YAPAXI@Z)
+     1>libcpmtd.lib(cerr.obj) : error LNK2001: 无法解析的外部符号 "void * __cdecl operator new(unsigned int)" (??2@YAPAXI@Z)
+     1>libcpmtd.lib(iosptrs.obj) : error LNK2001: 无法解析的外部符号 "void * __cdecl operator new(unsigned int)" (??2@YAPAXI@Z)
+     1>TestCryPto.obj : error LNK2001: 无法解析的外部符号 "void * __cdecl operator new(unsigned int)" (??2@YAPAXI@Z)
+     1>libcpmtd.lib(xthrow.obj) : error LNK2001: 无法解析的外部符号 "void * __cdecl operator new(unsigned int)" (??2@YAPAXI@Z)
+     1>libcpmtd.lib(locale0.obj) : error LNK2001: 无法解析的外部符号 "void * __cdecl operator new(unsigned int)" (??2@YAPAXI@Z)
+     1>libcpmtd.lib(syserror.obj) : error LNK2001: 无法解析的外部符号 "void * __cdecl operator new(unsigned int)" (??2@YAPAXI@Z)
+     1>cryptlib.lib(hrtimer.obj) : error LNK2001: 无法解析的外部符号 "void __cdecl operator delete(void *)" (??3@YAXPAX@Z)
+     1>libcpmtd.lib(mutex.obj) : error LNK2001: 无法解析的外部符号 "void __cdecl operator delete(void *)" (??3@YAXPAX@Z)
+     1>libcpmtd.lib(thread0.obj) : error LNK2001: 无法解析的外部符号 "void __cdecl operator delete(void *)" (??3@YAXPAX@Z)
+     1>libcpmtd.lib(cond.obj) : error LNK2001: 无法解析的外部符号 "void __cdecl operator delete(void *)" (??3@YAXPAX@Z)
+     1>cryptlib.lib(rng.obj) : error LNK2001: 无法解析的外部符号 "void __cdecl operator delete(void *)" (??3@YAXPAX@Z)
+     1>cryptlib.lib(osrng.obj) : error LNK2001: 无法解析的外部符号 "void __cdecl operator delete(void *)" (??3@YAXPAX@Z)
+     1>cryptlib.lib(hmac.obj) : error LNK2001: 无法解析的外部符号 "void __cdecl operator delete(void *)" (??3@YAXPAX@Z)
+     1>cryptlib.lib(randpool.obj) : error LNK2001: 无法解析的外部符号 "void __cdecl operator delete(void *)" (??3@YAXPAX@Z)
+     1>cryptlib.lib(ec2n.obj) : error LNK2001: 无法解析的外部符号 "void __cdecl operator delete(void *)" (??3@YAXPAX@Z)
+     1>cryptlib.lib(ecp.obj) : error LNK2001: 无法解析的外部符号 "void __cdecl operator delete(void *)" (??3@YAXPAX@Z)
+     1>cryptlib.lib(basecode.obj) : error LNK2001: 无法解析的外部符号 "void __cdecl operator delete(void *)" (??3@YAXPAX@Z)
+     1>cryptlib.lib(hex.obj) : error LNK2001: 无法解析的外部符号 "void __cdecl operator delete(void *)" (??3@YAXPAX@Z)
+     1>cryptlib.lib(rijndael.obj) : error LNK2001: 无法解析的外部符号 "void __cdecl operator delete(void *)" (??3@YAXPAX@Z)
+     1>cryptlib.lib(modes.obj) : error LNK2001: 无法解析的外部符号 "void __cdecl operator delete(void *)" (??3@YAXPAX@Z)
+     1>cryptlib.lib(gfpcrypt.obj) : error LNK2001: 无法解析的外部符号 "void __cdecl operator delete(void *)" (??3@YAXPAX@Z)
+     1>cryptlib.lib(gf2n.obj) : error LNK2001: 无法解析的外部符号 "void __cdecl operator delete(void *)" (??3@YAXPAX@Z)
+     1>cryptlib.lib(pubkey.obj) : error LNK2001: 无法解析的外部符号 "void __cdecl operator delete(void *)" (??3@YAXPAX@Z)
+     1>cryptlib.lib(iterhash.obj) : error LNK2001: 无法解析的外部符号 "void __cdecl operator delete(void *)" (??3@YAXPAX@Z)
+     1>cryptlib.lib(sha.obj) : error LNK2001: 无法解析的外部符号 "void __cdecl operator delete(void *)" (??3@YAXPAX@Z)
+     1>cryptlib.lib(mqueue.obj) : error LNK2001: 无法解析的外部符号 "void __cdecl operator delete(void *)" (??3@YAXPAX@Z)
+     1>cryptlib.lib(fips140.obj) : error LNK2001: 无法解析的外部符号 "void __cdecl operator delete(void *)" (??3@YAXPAX@Z)
+     1>cryptlib.lib(dll.obj) : error LNK2001: 无法解析的外部符号 "void __cdecl operator delete(void *)" (??3@YAXPAX@Z)
+     1>cryptlib.lib(nbtheory.obj) : error LNK2001: 无法解析的外部符号 "void __cdecl operator delete(void *)" (??3@YAXPAX@Z)
+     1>cryptlib.lib(asn.obj) : error LNK2001: 无法解析的外部符号 "void __cdecl operator delete(void *)" (??3@YAXPAX@Z)
+     1>cryptlib.lib(misc.obj) : error LNK2001: 无法解析的外部符号 "void __cdecl operator delete(void *)" (??3@YAXPAX@Z)
+     1>cryptlib.lib(queue.obj) : error LNK2001: 无法解析的外部符号 "void __cdecl operator delete(void *)" (??3@YAXPAX@Z)
+     1>cryptlib.lib(algparam.obj) : error LNK2001: 无法解析的外部符号 "void __cdecl operator delete(void *)" (??3@YAXPAX@Z)
+     1>cryptlib.lib(filters.obj) : error LNK2001: 无法解析的外部符号 "void __cdecl operator delete(void *)" (??3@YAXPAX@Z)
+     1>cryptlib.lib(cryptlib.obj) : error LNK2001: 无法解析的外部符号 "void __cdecl operator delete(void *)" (??3@YAXPAX@Z)
+     1>cryptlib.lib(des.obj) : error LNK2001: 无法解析的外部符号 "void __cdecl operator delete(void *)" (??3@YAXPAX@Z)
+     1>cryptlib.lib(pch.obj) : error LNK2001: 无法解析的外部符号 "void __cdecl operator delete(void *)" (??3@YAXPAX@Z)
+     1>cryptlib.lib(integer.obj) : error LNK2001: 无法解析的外部符号 "void __cdecl operator delete(void *)" (??3@YAXPAX@Z)
+     1>libcpmtd.lib(locale.obj) : error LNK2001: 无法解析的外部符号 "void __cdecl operator delete(void *)" (??3@YAXPAX@Z)
+     1>libcpmtd.lib(wlocale.obj) : error LNK2001: 无法解析的外部符号 "void __cdecl operator delete(void *)" (??3@YAXPAX@Z)
+     1>libcpmtd.lib(xlocale.obj) : error LNK2001: 无法解析的外部符号 "void __cdecl operator delete(void *)" (??3@YAXPAX@Z)
+     1>libcpmtd.lib(xdateord.obj) : error LNK2001: 无法解析的外部符号 "void __cdecl operator delete(void *)" (??3@YAXPAX@Z)
+     1>libcpmtd.lib(ios.obj) : error LNK2001: 无法解析的外部符号 "void __cdecl operator delete(void *)" (??3@YAXPAX@Z)
+     1>libcpmtd.lib(cout.obj) : error LNK2001: 无法解析的外部符号 "void __cdecl operator delete(void *)" (??3@YAXPAX@Z)
+     1>libcpmtd.lib(cerr.obj) : error LNK2001: 无法解析的外部符号 "void __cdecl operator delete(void *)" (??3@YAXPAX@Z)
+     1>libcpmtd.lib(iosptrs.obj) : error LNK2001: 无法解析的外部符号 "void __cdecl operator delete(void *)" (??3@YAXPAX@Z)
+     1>TestCryPto.obj : error LNK2001: 无法解析的外部符号 "void __cdecl operator delete(void *)" (??3@YAXPAX@Z)
+     1>libcpmtd.lib(xthrow.obj) : error LNK2001: 无法解析的外部符号 "void __cdecl operator delete(void *)" (??3@YAXPAX@Z)
+     1>libcpmtd.lib(locale0.obj) : error LNK2001: 无法解析的外部符号 "void __cdecl operator delete(void *)" (??3@YAXPAX@Z)
+     1>libcpmtd.lib(syserror.obj) : error LNK2001: 无法解析的外部符号 "void __cdecl operator delete(void *)" (??3@YAXPAX@Z)
+     1>libcpmtd.lib(tss.obj) : error LNK2001: 无法解析的外部符号 _atexit
+     1>libcpmtd.lib(xnotify.obj) : error LNK2001: 无法解析的外部符号 _atexit
+     1>libcpmtd.lib(once.obj) : error LNK2001: 无法解析的外部符号 _atexit
+     1>cryptlib.lib(randpool.obj) : error LNK2001: 无法解析的外部符号 _atexit
+     1>cryptlib.lib(hrtimer.obj) : error LNK2001: 无法解析的外部符号 _atexit
+     1>libcpmtd.lib(mutex.obj) : error LNK2001: 无法解析的外部符号 _atexit
+     1>libcpmtd.lib(thread0.obj) : error LNK2001: 无法解析的外部符号 _atexit
+     1>cryptlib.lib(hex.obj) : error LNK2001: 无法解析的外部符号 _atexit
+     1>cryptlib.lib(rng.obj) : error LNK2001: 无法解析的外部符号 _atexit
+     1>cryptlib.lib(osrng.obj) : error LNK2001: 无法解析的外部符号 _atexit
+     1>cryptlib.lib(hmac.obj) : error LNK2001: 无法解析的外部符号 _atexit
+     1>cryptlib.lib(gf2n.obj) : error LNK2001: 无法解析的外部符号 _atexit
+     1>cryptlib.lib(ec2n.obj) : error LNK2001: 无法解析的外部符号 _atexit
+     1>cryptlib.lib(ecp.obj) : error LNK2001: 无法解析的外部符号 _atexit
+     1>cryptlib.lib(basecode.obj) : error LNK2001: 无法解析的外部符号 _atexit
+     1>cryptlib.lib(mqueue.obj) : error LNK2001: 无法解析的外部符号 _atexit
+     1>cryptlib.lib(rijndael.obj) : error LNK2001: 无法解析的外部符号 _atexit
+     1>cryptlib.lib(modes.obj) : error LNK2001: 无法解析的外部符号 _atexit
+     1>cryptlib.lib(gfpcrypt.obj) : error LNK2001: 无法解析的外部符号 _atexit
+     1>cryptlib.lib(asn.obj) : error LNK2001: 无法解析的外部符号 _atexit
+     1>cryptlib.lib(pubkey.obj) : error LNK2001: 无法解析的外部符号 _atexit
+     1>cryptlib.lib(iterhash.obj) : error LNK2001: 无法解析的外部符号 _atexit
+     1>cryptlib.lib(sha.obj) : error LNK2001: 无法解析的外部符号 _atexit
+     1>cryptlib.lib(filters.obj) : error LNK2001: 无法解析的外部符号 _atexit
+     1>cryptlib.lib(fips140.obj) : error LNK2001: 无法解析的外部符号 _atexit
+     1>cryptlib.lib(dll.obj) : error LNK2001: 无法解析的外部符号 _atexit
+     1>cryptlib.lib(nbtheory.obj) : error LNK2001: 无法解析的外部符号 _atexit
+     1>cryptlib.lib(integer.obj) : error LNK2001: 无法解析的外部符号 _atexit
+     1>cryptlib.lib(misc.obj) : error LNK2001: 无法解析的外部符号 _atexit
+     1>cryptlib.lib(queue.obj) : error LNK2001: 无法解析的外部符号 _atexit
+     1>cryptlib.lib(algparam.obj) : error LNK2001: 无法解析的外部符号 _atexit
+     1>libcpmtd.lib(xdateord.obj) : error LNK2001: 无法解析的外部符号 _atexit
+     1>cryptlib.lib(cryptlib.obj) : error LNK2001: 无法解析的外部符号 _atexit
+     1>cryptlib.lib(des.obj) : error LNK2001: 无法解析的外部符号 _atexit
+     1>cryptlib.lib(pch.obj) : error LNK2001: 无法解析的外部符号 _atexit
+     1>libcpmtd.lib(iosptrs.obj) : error LNK2001: 无法解析的外部符号 _atexit
+     1>libcpmtd.lib(locale.obj) : error LNK2001: 无法解析的外部符号 _atexit
+     1>libcpmtd.lib(wlocale.obj) : error LNK2001: 无法解析的外部符号 _atexit
+     1>libcpmtd.lib(xlocale.obj) : error LNK2001: 无法解析的外部符号 _atexit
+     1>libcpmtd.lib(syserror.obj) : error LNK2001: 无法解析的外部符号 _atexit
+     1>libcpmtd.lib(ios.obj) : error LNK2001: 无法解析的外部符号 _atexit
+     1>libcpmtd.lib(cout.obj) : error LNK2001: 无法解析的外部符号 _atexit
+     1>libcpmtd.lib(cerr.obj) : error LNK2001: 无法解析的外部符号 _atexit
+     1>TestCryPto.obj : error LNK2001: 无法解析的外部符号 _atexit
+     1>libcpmtd.lib(xlock.obj) : error LNK2001: 无法解析的外部符号 _atexit
+     1>libcpmtd.lib(xthrow.obj) : error LNK2001: 无法解析的外部符号 _atexit
+     1>libcpmtd.lib(locale0.obj) : error LNK2001: 无法解析的外部符号 _atexit
+     1>cryptlib.lib(hmac.obj) : error LNK2001: 无法解析的外部符号 _sprintf_s
+     1>cryptlib.lib(randpool.obj) : error LNK2001: 无法解析的外部符号 _sprintf_s
+     1>cryptlib.lib(hrtimer.obj) : error LNK2001: 无法解析的外部符号 _sprintf_s
+     1>cryptlib.lib(ecp.obj) : error LNK2001: 无法解析的外部符号 _sprintf_s
+     1>cryptlib.lib(basecode.obj) : error LNK2001: 无法解析的外部符号 _sprintf_s
+     1>cryptlib.lib(rng.obj) : error LNK2001: 无法解析的外部符号 _sprintf_s
+     1>cryptlib.lib(osrng.obj) : error LNK2001: 无法解析的外部符号 _sprintf_s
+     1>cryptlib.lib(modes.obj) : error LNK2001: 无法解析的外部符号 _sprintf_s
+     1>cryptlib.lib(gfpcrypt.obj) : error LNK2001: 无法解析的外部符号 _sprintf_s
+     1>cryptlib.lib(gf2n.obj) : error LNK2001: 无法解析的外部符号 _sprintf_s
+     1>cryptlib.lib(ec2n.obj) : error LNK2001: 无法解析的外部符号 _sprintf_s
+     1>cryptlib.lib(iterhash.obj) : error LNK2001: 无法解析的外部符号 _sprintf_s
+     1>cryptlib.lib(sha.obj) : error LNK2001: 无法解析的外部符号 _sprintf_s
+     1>cryptlib.lib(mqueue.obj) : error LNK2001: 无法解析的外部符号 _sprintf_s
+     1>cryptlib.lib(rijndael.obj) : error LNK2001: 无法解析的外部符号 _sprintf_s
+     1>cryptlib.lib(dll.obj) : error LNK2001: 无法解析的外部符号 _sprintf_s
+     1>cryptlib.lib(nbtheory.obj) : error LNK2001: 无法解析的外部符号 _sprintf_s
+     1>cryptlib.lib(asn.obj) : error LNK2001: 无法解析的外部符号 _sprintf_s
+     1>cryptlib.lib(pubkey.obj) : error LNK2001: 无法解析的外部符号 _sprintf_s
+     1>cryptlib.lib(queue.obj) : error LNK2001: 无法解析的外部符号 _sprintf_s
+     1>cryptlib.lib(algparam.obj) : error LNK2001: 无法解析的外部符号 _sprintf_s
+     1>cryptlib.lib(filters.obj) : error LNK2001: 无法解析的外部符号 _sprintf_s
+     1>cryptlib.lib(fips140.obj) : error LNK2001: 无法解析的外部符号 _sprintf_s
+     1>cryptlib.lib(cryptlib.obj) : error LNK2001: 无法解析的外部符号 _sprintf_s
+     1>cryptlib.lib(des.obj) : error LNK2001: 无法解析的外部符号 _sprintf_s
+     1>cryptlib.lib(integer.obj) : error LNK2001: 无法解析的外部符号 _sprintf_s
+     1>cryptlib.lib(misc.obj) : error LNK2001: 无法解析的外部符号 _sprintf_s
+     1>TestCryPto.obj : error LNK2001: 无法解析的外部符号 _sprintf_s
+     1>libcpmtd.lib(locale.obj) : error LNK2001: 无法解析的外部符号 _sprintf_s
+     1>libcpmtd.lib(wlocale.obj) : error LNK2001: 无法解析的外部符号 _sprintf_s
+     1>libcpmtd.lib(xlocale.obj) : error LNK2001: 无法解析的外部符号 _sprintf_s
+     1>cryptlib.lib(hrtimer.obj) : error LNK2001: 无法解析的外部符号 _memmove
+     1>libcpmtd.lib(mutex.obj) : error LNK2001: 无法解析的外部符号 _memmove
+     1>libcpmtd.lib(thread0.obj) : error LNK2001: 无法解析的外部符号 _memmove
+     1>cryptlib.lib(rng.obj) : error LNK2001: 无法解析的外部符号 _memmove
+     1>cryptlib.lib(osrng.obj) : error LNK2001: 无法解析的外部符号 _memmove
+     1>cryptlib.lib(hmac.obj) : error LNK2001: 无法解析的外部符号 _memmove
+     1>cryptlib.lib(randpool.obj) : error LNK2001: 无法解析的外部符号 _memmove
+     1>cryptlib.lib(ec2n.obj) : error LNK2001: 无法解析的外部符号 _memmove
+     1>cryptlib.lib(ecp.obj) : error LNK2001: 无法解析的外部符号 _memmove
+     1>cryptlib.lib(basecode.obj) : error LNK2001: 无法解析的外部符号 _memmove
+     1>cryptlib.lib(hex.obj) : error LNK2001: 无法解析的外部符号 _memmove
+     1>cryptlib.lib(rijndael.obj) : error LNK2001: 无法解析的外部符号 _memmove
+     1>cryptlib.lib(modes.obj) : error LNK2001: 无法解析的外部符号 _memmove
+     1>cryptlib.lib(gfpcrypt.obj) : error LNK2001: 无法解析的外部符号 _memmove
+     1>cryptlib.lib(gf2n.obj) : error LNK2001: 无法解析的外部符号 _memmove
+     1>cryptlib.lib(pubkey.obj) : error LNK2001: 无法解析的外部符号 _memmove
+     1>cryptlib.lib(iterhash.obj) : error LNK2001: 无法解析的外部符号 _memmove
+     1>cryptlib.lib(sha.obj) : error LNK2001: 无法解析的外部符号 _memmove
+     1>cryptlib.lib(mqueue.obj) : error LNK2001: 无法解析的外部符号 _memmove
+     1>cryptlib.lib(fips140.obj) : error LNK2001: 无法解析的外部符号 _memmove
+     1>cryptlib.lib(dll.obj) : error LNK2001: 无法解析的外部符号 _memmove
+     1>cryptlib.lib(nbtheory.obj) : error LNK2001: 无法解析的外部符号 _memmove
+     1>cryptlib.lib(asn.obj) : error LNK2001: 无法解析的外部符号 _memmove
+     1>cryptlib.lib(misc.obj) : error LNK2001: 无法解析的外部符号 _memmove
+     1>cryptlib.lib(queue.obj) : error LNK2001: 无法解析的外部符号 _memmove
+     1>cryptlib.lib(algparam.obj) : error LNK2001: 无法解析的外部符号 _memmove
+     1>cryptlib.lib(filters.obj) : error LNK2001: 无法解析的外部符号 _memmove
+     1>cryptlib.lib(cryptlib.obj) : error LNK2001: 无法解析的外部符号 _memmove
+     1>cryptlib.lib(des.obj) : error LNK2001: 无法解析的外部符号 _memmove
+     1>cryptlib.lib(pch.obj) : error LNK2001: 无法解析的外部符号 _memmove
+     1>cryptlib.lib(integer.obj) : error LNK2001: 无法解析的外部符号 _memmove
+     1>libcpmtd.lib(locale.obj) : error LNK2001: 无法解析的外部符号 _memmove
+     1>libcpmtd.lib(wlocale.obj) : error LNK2001: 无法解析的外部符号 _memmove
+     1>libcpmtd.lib(xlocale.obj) : error LNK2001: 无法解析的外部符号 _memmove
+     1>libcpmtd.lib(xdateord.obj) : error LNK2001: 无法解析的外部符号 _memmove
+     1>libcpmtd.lib(ios.obj) : error LNK2001: 无法解析的外部符号 _memmove
+     1>libcpmtd.lib(cout.obj) : error LNK2001: 无法解析的外部符号 _memmove
+     1>libcpmtd.lib(cerr.obj) : error LNK2001: 无法解析的外部符号 _memmove
+     1>libcpmtd.lib(iosptrs.obj) : error LNK2001: 无法解析的外部符号 _memmove
+     1>TestCryPto.obj : error LNK2001: 无法解析的外部符号 _memmove
+     1>libcpmtd.lib(xthrow.obj) : error LNK2001: 无法解析的外部符号 _memmove
+     1>libcpmtd.lib(locale0.obj) : error LNK2001: 无法解析的外部符号 _memmove
+     1>libcpmtd.lib(syserror.obj) : error LNK2001: 无法解析的外部符号 _memmove
+     1>libcpmtd.lib(thread0.obj) : error LNK2001: 无法解析的外部符号 _memcpy
+     1>cryptlib.lib(hmac.obj) : error LNK2001: 无法解析的外部符号 _memcpy
+     1>cryptlib.lib(randpool.obj) : error LNK2001: 无法解析的外部符号 _memcpy
+     1>cryptlib.lib(hrtimer.obj) : error LNK2001: 无法解析的外部符号 _memcpy
+     1>libcpmtd.lib(mutex.obj) : error LNK2001: 无法解析的外部符号 _memcpy
+     1>cryptlib.lib(basecode.obj) : error LNK2001: 无法解析的外部符号 _memcpy
+     1>cryptlib.lib(hex.obj) : error LNK2001: 无法解析的外部符号 _memcpy
+     1>cryptlib.lib(rng.obj) : error LNK2001: 无法解析的外部符号 _memcpy
+     1>cryptlib.lib(osrng.obj) : error LNK2001: 无法解析的外部符号 _memcpy
+     1>cryptlib.lib(gfpcrypt.obj) : error LNK2001: 无法解析的外部符号 _memcpy
+     1>cryptlib.lib(gf2n.obj) : error LNK2001: 无法解析的外部符号 _memcpy
+     1>cryptlib.lib(ec2n.obj) : error LNK2001: 无法解析的外部符号 _memcpy
+     1>cryptlib.lib(ecp.obj) : error LNK2001: 无法解析的外部符号 _memcpy
+     1>cryptlib.lib(sha.obj) : error LNK2001: 无法解析的外部符号 _memcpy
+     1>cryptlib.lib(mqueue.obj) : error LNK2001: 无法解析的外部符号 _memcpy
+     1>cryptlib.lib(rijndael.obj) : error LNK2001: 无法解析的外部符号 _memcpy
+     1>cryptlib.lib(modes.obj) : error LNK2001: 无法解析的外部符号 _memcpy
+     1>cryptlib.lib(nbtheory.obj) : error LNK2001: 无法解析的外部符号 _memcpy
+     1>cryptlib.lib(asn.obj) : error LNK2001: 无法解析的外部符号 _memcpy
+     1>cryptlib.lib(pubkey.obj) : error LNK2001: 无法解析的外部符号 _memcpy
+     1>cryptlib.lib(iterhash.obj) : error LNK2001: 无法解析的外部符号 _memcpy
+     1>cryptlib.lib(algparam.obj) : error LNK2001: 无法解析的外部符号 _memcpy
+     1>cryptlib.lib(filters.obj) : error LNK2001: 无法解析的外部符号 _memcpy
+     1>cryptlib.lib(fips140.obj) : error LNK2001: 无法解析的外部符号 _memcpy
+     1>cryptlib.lib(dll.obj) : error LNK2001: 无法解析的外部符号 _memcpy
+     1>cryptlib.lib(pch.obj) : error LNK2001: 无法解析的外部符号 _memcpy
+     1>cryptlib.lib(integer.obj) : error LNK2001: 无法解析的外部符号 _memcpy
+     1>cryptlib.lib(misc.obj) : error LNK2001: 无法解析的外部符号 _memcpy
+     1>cryptlib.lib(queue.obj) : error LNK2001: 无法解析的外部符号 _memcpy
+     1>libcpmtd.lib(xprec.obj) : error LNK2001: 无法解析的外部符号 _memcpy
+     1>libcpmtd.lib(xlprec.obj) : error LNK2001: 无法解析的外部符号 _memcpy
+     1>cryptlib.lib(cryptlib.obj) : error LNK2001: 无法解析的外部符号 _memcpy
+     1>cryptlib.lib(des.obj) : error LNK2001: 无法解析的外部符号 _memcpy
+     1>libcpmtd.lib(xdateord.obj) : error LNK2001: 无法解析的外部符号 _memcpy
+     1>libcpmtd.lib(xwcsxfrm.obj) : error LNK2001: 无法解析的外部符号 _memcpy
+     1>libcpmtd.lib(xstrxfrm.obj) : error LNK2001: 无法解析的外部符号 _memcpy
+     1>libcpmtd.lib(xfprec.obj) : error LNK2001: 无法解析的外部符号 _memcpy
+     1>libcpmtd.lib(iosptrs.obj) : error LNK2001: 无法解析的外部符号 _memcpy
+     1>libcpmtd.lib(locale.obj) : error LNK2001: 无法解析的外部符号 _memcpy
+     1>libcpmtd.lib(wlocale.obj) : error LNK2001: 无法解析的外部符号 _memcpy
+     1>libcpmtd.lib(xlocale.obj) : error LNK2001: 无法解析的外部符号 _memcpy
+     1>libcpmtd.lib(syserror.obj) : error LNK2001: 无法解析的外部符号 _memcpy
+     1>libcpmtd.lib(ios.obj) : error LNK2001: 无法解析的外部符号 _memcpy
+     1>libcpmtd.lib(cout.obj) : error LNK2001: 无法解析的外部符号 _memcpy
+     1>libcpmtd.lib(cerr.obj) : error LNK2001: 无法解析的外部符号 _memcpy
+     1>TestCryPto.obj : error LNK2001: 无法解析的外部符号 _memcpy
+     1>libcpmtd.lib(xthrow.obj) : error LNK2001: 无法解析的外部符号 _memcpy
+     1>libcpmtd.lib(_tolower.obj) : error LNK2001: 无法解析的外部符号 _memcpy
+     1>libcpmtd.lib(locale0.obj) : error LNK2001: 无法解析的外部符号 _memcpy
+     1>cryptlib.lib(randpool.obj) : error LNK2019: 无法解析的外部符号 _memcpy_s，该符号在函数 "public: __thiscall CryptoPP::IteratedHash<unsigned int,struct CryptoPP::EnumToType<enum CryptoPP::ByteOrder,1>,64,class CryptoPP::HashTransformation>::IteratedHash<unsigned int,struct CryptoPP::EnumToType<enum CryptoPP::ByteOrder,1>,64,class CryptoPP::HashTransformation>(void)" (??0?$IteratedHash@IU?$EnumToType@W4ByteOrder@CryptoPP@@$00@CryptoPP@@$0EA@VHashTransformation@2@@CryptoPP@@QAE@XZ) 中被引用
+     1>cryptlib.lib(ecp.obj) : error LNK2001: 无法解析的外部符号 _memcpy_s
+     1>cryptlib.lib(basecode.obj) : error LNK2001: 无法解析的外部符号 _memcpy_s
+     1>cryptlib.lib(rng.obj) : error LNK2001: 无法解析的外部符号 _memcpy_s
+     1>cryptlib.lib(hmac.obj) : error LNK2001: 无法解析的外部符号 _memcpy_s
+     1>cryptlib.lib(modes.obj) : error LNK2001: 无法解析的外部符号 _memcpy_s
+     1>cryptlib.lib(gfpcrypt.obj) : error LNK2001: 无法解析的外部符号 _memcpy_s
+     1>cryptlib.lib(gf2n.obj) : error LNK2001: 无法解析的外部符号 _memcpy_s
+     1>cryptlib.lib(ec2n.obj) : error LNK2001: 无法解析的外部符号 _memcpy_s
+     1>cryptlib.lib(asn.obj) : error LNK2001: 无法解析的外部符号 _memcpy_s
+     1>cryptlib.lib(pubkey.obj) : error LNK2001: 无法解析的外部符号 _memcpy_s
+     1>cryptlib.lib(iterhash.obj) : error LNK2001: 无法解析的外部符号 _memcpy_s
+     1>cryptlib.lib(rijndael.obj) : error LNK2001: 无法解析的外部符号 _memcpy_s
+     1>cryptlib.lib(queue.obj) : error LNK2001: 无法解析的外部符号 _memcpy_s
+     1>cryptlib.lib(filters.obj) : error LNK2001: 无法解析的外部符号 _memcpy_s
+     1>cryptlib.lib(dll.obj) : error LNK2001: 无法解析的外部符号 _memcpy_s
+     1>cryptlib.lib(nbtheory.obj) : error LNK2001: 无法解析的外部符号 _memcpy_s
+     1>libcpmtd.lib(xlocale.obj) : error LNK2001: 无法解析的外部符号 _memcpy_s
+     1>cryptlib.lib(cryptlib.obj) : error LNK2001: 无法解析的外部符号 _memcpy_s
+     1>cryptlib.lib(des.obj) : error LNK2001: 无法解析的外部符号 _memcpy_s
+     1>cryptlib.lib(integer.obj) : error LNK2001: 无法解析的外部符号 _memcpy_s
+     1>TestCryPto.obj : error LNK2001: 无法解析的外部符号 _memcpy_s
+     1>libcpmtd.lib(cout.obj) : error LNK2001: 无法解析的外部符号 _memcpy_s
+     1>libcpmtd.lib(cerr.obj) : error LNK2001: 无法解析的外部符号 _memcpy_s
+     1>libcpmtd.lib(wlocale.obj) : error LNK2001: 无法解析的外部符号 _memcpy_s
+     1>libcpmtd.lib(mutex.obj) : error LNK2001: 无法解析的外部符号 __hypot
+     1>libcpmtd.lib(thread0.obj) : error LNK2001: 无法解析的外部符号 __hypot
+     1>libcpmtd.lib(xdateord.obj) : error LNK2001: 无法解析的外部符号 __hypot
+     1>cryptlib.lib(pch.obj) : error LNK2001: 无法解析的外部符号 __hypot
+     1>cryptlib.lib(dll.obj) : error LNK2001: 无法解析的外部符号 __hypot
+     1>cryptlib.lib(iterhash.obj) : error LNK2001: 无法解析的外部符号 __hypot
+     1>libcpmtd.lib(iosptrs.obj) : error LNK2001: 无法解析的外部符号 __hypot
+     1>libcpmtd.lib(locale.obj) : error LNK2001: 无法解析的外部符号 __hypot
+     1>libcpmtd.lib(wlocale.obj) : error LNK2001: 无法解析的外部符号 __hypot
+     1>libcpmtd.lib(xlocale.obj) : error LNK2001: 无法解析的外部符号 __hypot
+     1>libcpmtd.lib(syserror.obj) : error LNK2001: 无法解析的外部符号 __hypot
+     1>libcpmtd.lib(ios.obj) : error LNK2001: 无法解析的外部符号 __hypot
+     1>libcpmtd.lib(cout.obj) : error LNK2001: 无法解析的外部符号 __hypot
+     1>libcpmtd.lib(cerr.obj) : error LNK2001: 无法解析的外部符号 __hypot
+     1>TestCryPto.obj : error LNK2001: 无法解析的外部符号 __hypot
+     1>libcpmtd.lib(xthrow.obj) : error LNK2001: 无法解析的外部符号 __hypot
+     1>libcpmtd.lib(locale0.obj) : error LNK2001: 无法解析的外部符号 __hypot
+     1>libcpmtd.lib(xdebug.obj) : error LNK2001: 无法解析的外部符号 __hypot
+     1>TestCryPto.obj : error LNK2019: 无法解析的外部符号 _system，该符号在函数 _wmain 中被引用
+     1>libcpmtd.lib(tss.obj) : error LNK2001: 无法解析的外部符号 _free
+     1>cryptlib.lib(hmac.obj) : error LNK2001: 无法解析的外部符号 _free
+     1>cryptlib.lib(randpool.obj) : error LNK2001: 无法解析的外部符号 _free
+     1>cryptlib.lib(hrtimer.obj) : error LNK2001: 无法解析的外部符号 _free
+     1>libcpmtd.lib(mutex.obj) : error LNK2001: 无法解析的外部符号 _free
+     1>cryptlib.lib(ecp.obj) : error LNK2001: 无法解析的外部符号 _free
+     1>cryptlib.lib(basecode.obj) : error LNK2001: 无法解析的外部符号 _free
+     1>cryptlib.lib(rng.obj) : error LNK2001: 无法解析的外部符号 _free
+     1>cryptlib.lib(osrng.obj) : error LNK2001: 无法解析的外部符号 _free
+     1>cryptlib.lib(modes.obj) : error LNK2001: 无法解析的外部符号 _free
+     1>cryptlib.lib(gfpcrypt.obj) : error LNK2001: 无法解析的外部符号 _free
+     1>cryptlib.lib(gf2n.obj) : error LNK2001: 无法解析的外部符号 _free
+     1>cryptlib.lib(ec2n.obj) : error LNK2001: 无法解析的外部符号 _free
+     1>cryptlib.lib(iterhash.obj) : error LNK2001: 无法解析的外部符号 _free
+     1>cryptlib.lib(sha.obj) : error LNK2001: 无法解析的外部符号 _free
+     1>cryptlib.lib(mqueue.obj) : error LNK2001: 无法解析的外部符号 _free
+     1>cryptlib.lib(rijndael.obj) : error LNK2001: 无法解析的外部符号 _free
+     1>cryptlib.lib(dll.obj) : error LNK2001: 无法解析的外部符号 _free
+     1>cryptlib.lib(nbtheory.obj) : error LNK2001: 无法解析的外部符号 _free
+     1>cryptlib.lib(asn.obj) : error LNK2001: 无法解析的外部符号 _free
+     1>cryptlib.lib(pubkey.obj) : error LNK2001: 无法解析的外部符号 _free
+     1>cryptlib.lib(queue.obj) : error LNK2001: 无法解析的外部符号 _free
+     1>cryptlib.lib(algparam.obj) : error LNK2001: 无法解析的外部符号 _free
+     1>cryptlib.lib(filters.obj) : error LNK2001: 无法解析的外部符号 _free
+     1>cryptlib.lib(fips140.obj) : error LNK2001: 无法解析的外部符号 _free
+     1>cryptlib.lib(cryptlib.obj) : error LNK2001: 无法解析的外部符号 _free
+     1>cryptlib.lib(des.obj) : error LNK2001: 无法解析的外部符号 _free
+     1>cryptlib.lib(integer.obj) : error LNK2001: 无法解析的外部符号 _free
+     1>cryptlib.lib(misc.obj) : error LNK2001: 无法解析的外部符号 _free
+     1>libcpmtd.lib(cerr.obj) : error LNK2001: 无法解析的外部符号 _free
+     1>libcpmtd.lib(locale.obj) : error LNK2001: 无法解析的外部符号 _free
+     1>libcpmtd.lib(wlocale.obj) : error LNK2001: 无法解析的外部符号 _free
+     1>libcpmtd.lib(xlocale.obj) : error LNK2001: 无法解析的外部符号 _free
+     1>TestCryPto.obj : error LNK2001: 无法解析的外部符号 _free
+     1>libcpmtd.lib(locale0.obj) : error LNK2001: 无法解析的外部符号 _free
+     1>libcpmtd.lib(ios.obj) : error LNK2001: 无法解析的外部符号 _free
+     1>libcpmtd.lib(cout.obj) : error LNK2001: 无法解析的外部符号 _free
+     1>cryptlib.lib(randpool.obj) : error LNK2019: 无法解析的外部符号 _memset，该符号在函数 __unwindfunclet$??0?$IteratedHash@IU?$EnumToType@W4ByteOrder@CryptoPP@@$00@CryptoPP@@$0EA@VHashTransformation@2@@CryptoPP@@QAE@ABV01@@Z$0 中被引用
+     1>cryptlib.lib(hrtimer.obj) : error LNK2001: 无法解析的外部符号 _memset
+     1>cryptlib.lib(basecode.obj) : error LNK2001: 无法解析的外部符号 _memset
+     1>cryptlib.lib(rng.obj) : error LNK2001: 无法解析的外部符号 _memset
+     1>cryptlib.lib(osrng.obj) : error LNK2001: 无法解析的外部符号 _memset
+     1>cryptlib.lib(hmac.obj) : error LNK2001: 无法解析的外部符号 _memset
+     1>cryptlib.lib(gfpcrypt.obj) : error LNK2001: 无法解析的外部符号 _memset
+     1>cryptlib.lib(gf2n.obj) : error LNK2001: 无法解析的外部符号 _memset
+     1>cryptlib.lib(ec2n.obj) : error LNK2001: 无法解析的外部符号 _memset
+     1>cryptlib.lib(ecp.obj) : error LNK2001: 无法解析的外部符号 _memset
+     1>cryptlib.lib(sha.obj) : error LNK2001: 无法解析的外部符号 _memset
+     1>cryptlib.lib(mqueue.obj) : error LNK2001: 无法解析的外部符号 _memset
+     1>cryptlib.lib(rijndael.obj) : error LNK2001: 无法解析的外部符号 _memset
+     1>cryptlib.lib(modes.obj) : error LNK2001: 无法解析的外部符号 _memset
+     1>cryptlib.lib(nbtheory.obj) : error LNK2001: 无法解析的外部符号 _memset
+     1>cryptlib.lib(asn.obj) : error LNK2001: 无法解析的外部符号 _memset
+     1>cryptlib.lib(pubkey.obj) : error LNK2001: 无法解析的外部符号 _memset
+     1>cryptlib.lib(iterhash.obj) : error LNK2001: 无法解析的外部符号 _memset
+     1>cryptlib.lib(algparam.obj) : error LNK2001: 无法解析的外部符号 _memset
+     1>cryptlib.lib(filters.obj) : error LNK2001: 无法解析的外部符号 _memset
+     1>cryptlib.lib(fips140.obj) : error LNK2001: 无法解析的外部符号 _memset
+     1>cryptlib.lib(dll.obj) : error LNK2001: 无法解析的外部符号 _memset
+     1>cryptlib.lib(des.obj) : error LNK2001: 无法解析的外部符号 _memset
+     1>cryptlib.lib(integer.obj) : error LNK2001: 无法解析的外部符号 _memset
+     1>cryptlib.lib(misc.obj) : error LNK2001: 无法解析的外部符号 _memset
+     1>cryptlib.lib(queue.obj) : error LNK2001: 无法解析的外部符号 _memset
+     1>libcpmtd.lib(locale.obj) : error LNK2001: 无法解析的外部符号 _memset
+     1>libcpmtd.lib(wlocale.obj) : error LNK2001: 无法解析的外部符号 _memset
+     1>libcpmtd.lib(xlocale.obj) : error LNK2001: 无法解析的外部符号 _memset
+     1>cryptlib.lib(cryptlib.obj) : error LNK2001: 无法解析的外部符号 _memset
+     1>TestCryPto.obj : error LNK2001: 无法解析的外部符号 _memset
+     1>TestCryPto.obj : error LNK2001: 无法解析的外部符号 _memset
+     1>libcpmtd.lib(cout.obj) : error LNK2001: 无法解析的外部符号 _memset
+     1>libcpmtd.lib(cerr.obj) : error LNK2001: 无法解析的外部符号 _memset
+     1>libcpmtd.lib(mutex.obj) : error LNK2001: 无法解析的外部符号 _strlen
+     1>libcpmtd.lib(thread0.obj) : error LNK2001: 无法解析的外部符号 _strlen
+     1>libcpmtd.lib(locale.obj) : error LNK2001: 无法解析的外部符号 _strlen
+     1>libcpmtd.lib(wlocale.obj) : error LNK2001: 无法解析的外部符号 _strlen
+     1>libcpmtd.lib(xlocale.obj) : error LNK2001: 无法解析的外部符号 _strlen
+     1>libcpmtd.lib(xdateord.obj) : error LNK2001: 无法解析的外部符号 _strlen
+     1>libcpmtd.lib(ios.obj) : error LNK2001: 无法解析的外部符号 _strlen
+     1>libcpmtd.lib(cout.obj) : error LNK2001: 无法解析的外部符号 _strlen
+     1>libcpmtd.lib(cerr.obj) : error LNK2001: 无法解析的外部符号 _strlen
+     1>libcpmtd.lib(iosptrs.obj) : error LNK2001: 无法解析的外部符号 _strlen
+     1>TestCryPto.obj : error LNK2001: 无法解析的外部符号 _strlen
+     1>libcpmtd.lib(xthrow.obj) : error LNK2001: 无法解析的外部符号 _strlen
+     1>libcpmtd.lib(locale0.obj) : error LNK2001: 无法解析的外部符号 _strlen
+     1>libcpmtd.lib(syserror.obj) : error LNK2001: 无法解析的外部符号 _strlen
+     1>cryptlib.lib(randpool.obj) : error LNK2019: 无法解析的外部符号 _strcspn，该符号在函数 "public: virtual __thiscall CryptoPP::AlgorithmImpl<class CryptoPP::IteratedHash<unsigned int,struct CryptoPP::EnumToType<enum CryptoPP::ByteOrder,1>,64,class CryptoPP::HashTransformation>,class CryptoPP::SHA256>::~AlgorithmImpl<class CryptoPP::IteratedHash<unsigned int,struct CryptoPP::EnumToType<enum CryptoPP::ByteOrder,1>,64,class CryptoPP::HashTransformation>,class CryptoPP::SHA256>(void)" (??1?$AlgorithmImpl@V?$IteratedHash@IU?$EnumToType@W4ByteOrder@CryptoPP@@$00@CryptoPP@@$0EA@VHashTransformation@2@@CryptoPP@@VSHA256@2@@CryptoPP@@UAE@XZ) 中被引用
+     1>cryptlib.lib(hrtimer.obj) : error LNK2001: 无法解析的外部符号 _strcspn
+     1>cryptlib.lib(basecode.obj) : error LNK2001: 无法解析的外部符号 _strcspn
+     1>cryptlib.lib(rng.obj) : error LNK2001: 无法解析的外部符号 _strcspn
+     1>cryptlib.lib(osrng.obj) : error LNK2001: 无法解析的外部符号 _strcspn
+     1>cryptlib.lib(hmac.obj) : error LNK2001: 无法解析的外部符号 _strcspn
+     1>cryptlib.lib(gfpcrypt.obj) : error LNK2001: 无法解析的外部符号 _strcspn
+     1>cryptlib.lib(gf2n.obj) : error LNK2001: 无法解析的外部符号 _strcspn
+     1>cryptlib.lib(ec2n.obj) : error LNK2001: 无法解析的外部符号 _strcspn
+     1>cryptlib.lib(ecp.obj) : error LNK2001: 无法解析的外部符号 _strcspn
+     1>cryptlib.lib(sha.obj) : error LNK2001: 无法解析的外部符号 _strcspn
+     1>cryptlib.lib(mqueue.obj) : error LNK2001: 无法解析的外部符号 _strcspn
+     1>cryptlib.lib(rijndael.obj) : error LNK2001: 无法解析的外部符号 _strcspn
+     1>cryptlib.lib(modes.obj) : error LNK2001: 无法解析的外部符号 _strcspn
+     1>cryptlib.lib(nbtheory.obj) : error LNK2001: 无法解析的外部符号 _strcspn
+     1>cryptlib.lib(asn.obj) : error LNK2001: 无法解析的外部符号 _strcspn
+     1>cryptlib.lib(pubkey.obj) : error LNK2001: 无法解析的外部符号 _strcspn
+     1>cryptlib.lib(iterhash.obj) : error LNK2001: 无法解析的外部符号 _strcspn
+     1>cryptlib.lib(algparam.obj) : error LNK2001: 无法解析的外部符号 _strcspn
+     1>cryptlib.lib(filters.obj) : error LNK2001: 无法解析的外部符号 _strcspn
+     1>cryptlib.lib(fips140.obj) : error LNK2001: 无法解析的外部符号 _strcspn
+     1>cryptlib.lib(dll.obj) : error LNK2001: 无法解析的外部符号 _strcspn
+     1>cryptlib.lib(des.obj) : error LNK2001: 无法解析的外部符号 _strcspn
+     1>cryptlib.lib(integer.obj) : error LNK2001: 无法解析的外部符号 _strcspn
+     1>cryptlib.lib(misc.obj) : error LNK2001: 无法解析的外部符号 _strcspn
+     1>cryptlib.lib(queue.obj) : error LNK2001: 无法解析的外部符号 _strcspn
+     1>TestCryPto.obj : error LNK2001: 无法解析的外部符号 _strcspn
+     1>libcpmtd.lib(locale.obj) : error LNK2001: 无法解析的外部符号 _strcspn
+     1>libcpmtd.lib(wlocale.obj) : error LNK2001: 无法解析的外部符号 _strcspn
+     1>cryptlib.lib(cryptlib.obj) : error LNK2001: 无法解析的外部符号 _strcspn
+     1>cryptlib.lib(osrng.obj) : error LNK2001: 无法解析的外部符号 "public: __thiscall std::exception::exception(void)" (??0exception@std@@QAE@XZ)
+     1>cryptlib.lib(hmac.obj) : error LNK2001: 无法解析的外部符号 "public: __thiscall std::exception::exception(void)" (??0exception@std@@QAE@XZ)
+     1>cryptlib.lib(randpool.obj) : error LNK2001: 无法解析的外部符号 "public: __thiscall std::exception::exception(void)" (??0exception@std@@QAE@XZ)
+     1>cryptlib.lib(hrtimer.obj) : error LNK2001: 无法解析的外部符号 "public: __thiscall std::exception::exception(void)" (??0exception@std@@QAE@XZ)
+     1>cryptlib.lib(ecp.obj) : error LNK2001: 无法解析的外部符号 "public: __thiscall std::exception::exception(void)" (??0exception@std@@QAE@XZ)
+     1>cryptlib.lib(basecode.obj) : error LNK2001: 无法解析的外部符号 "public: __thiscall std::exception::exception(void)" (??0exception@std@@QAE@XZ)
+     1>cryptlib.lib(hex.obj) : error LNK2001: 无法解析的外部符号 "public: __thiscall std::exception::exception(void)" (??0exception@std@@QAE@XZ)
+     1>cryptlib.lib(rng.obj) : error LNK2001: 无法解析的外部符号 "public: __thiscall std::exception::exception(void)" (??0exception@std@@QAE@XZ)
+     1>cryptlib.lib(modes.obj) : error LNK2001: 无法解析的外部符号 "public: __thiscall std::exception::exception(void)" (??0exception@std@@QAE@XZ)
+     1>cryptlib.lib(gfpcrypt.obj) : error LNK2001: 无法解析的外部符号 "public: __thiscall std::exception::exception(void)" (??0exception@std@@QAE@XZ)
+     1>cryptlib.lib(gf2n.obj) : error LNK2001: 无法解析的外部符号 "public: __thiscall std::exception::exception(void)" (??0exception@std@@QAE@XZ)
+     1>cryptlib.lib(ec2n.obj) : error LNK2001: 无法解析的外部符号 "public: __thiscall std::exception::exception(void)" (??0exception@std@@QAE@XZ)
+     1>cryptlib.lib(pubkey.obj) : error LNK2001: 无法解析的外部符号 "public: __thiscall std::exception::exception(void)" (??0exception@std@@QAE@XZ)
+     1>cryptlib.lib(iterhash.obj) : error LNK2001: 无法解析的外部符号 "public: __thiscall std::exception::exception(void)" (??0exception@std@@QAE@XZ)
+     1>cryptlib.lib(mqueue.obj) : error LNK2001: 无法解析的外部符号 "public: __thiscall std::exception::exception(void)" (??0exception@std@@QAE@XZ)
+     1>cryptlib.lib(rijndael.obj) : error LNK2001: 无法解析的外部符号 "public: __thiscall std::exception::exception(void)" (??0exception@std@@QAE@XZ)
+     1>cryptlib.lib(filters.obj) : error LNK2001: 无法解析的外部符号 "public: __thiscall std::exception::exception(void)" (??0exception@std@@QAE@XZ)
+     1>cryptlib.lib(dll.obj) : error LNK2001: 无法解析的外部符号 "public: __thiscall std::exception::exception(void)" (??0exception@std@@QAE@XZ)
+     1>cryptlib.lib(nbtheory.obj) : error LNK2001: 无法解析的外部符号 "public: __thiscall std::exception::exception(void)" (??0exception@std@@QAE@XZ)
+     1>cryptlib.lib(asn.obj) : error LNK2001: 无法解析的外部符号 "public: __thiscall std::exception::exception(void)" (??0exception@std@@QAE@XZ)
+     1>cryptlib.lib(integer.obj) : error LNK2001: 无法解析的外部符号 "public: __thiscall std::exception::exception(void)" (??0exception@std@@QAE@XZ)
+     1>cryptlib.lib(misc.obj) : error LNK2001: 无法解析的外部符号 "public: __thiscall std::exception::exception(void)" (??0exception@std@@QAE@XZ)
+     1>cryptlib.lib(queue.obj) : error LNK2001: 无法解析的外部符号 "public: __thiscall std::exception::exception(void)" (??0exception@std@@QAE@XZ)
+     1>cryptlib.lib(algparam.obj) : error LNK2001: 无法解析的外部符号 "public: __thiscall std::exception::exception(void)" (??0exception@std@@QAE@XZ)
+     1>TestCryPto.obj : error LNK2001: 无法解析的外部符号 "public: __thiscall std::exception::exception(void)" (??0exception@std@@QAE@XZ)
+     1>libcpmtd.lib(xthrow.obj) : error LNK2001: 无法解析的外部符号 "public: __thiscall std::exception::exception(void)" (??0exception@std@@QAE@XZ)
+     1>cryptlib.lib(cryptlib.obj) : error LNK2001: 无法解析的外部符号 "public: __thiscall std::exception::exception(void)" (??0exception@std@@QAE@XZ)
+     1>cryptlib.lib(des.obj) : error LNK2001: 无法解析的外部符号 "public: __thiscall std::exception::exception(void)" (??0exception@std@@QAE@XZ)
+     1>cryptlib.lib(randpool.obj) : error LNK2001: 无法解析的外部符号 "public: __thiscall std::exception::exception(char const * const &)" (??0exception@std@@QAE@ABQBD@Z)
+     1>cryptlib.lib(hrtimer.obj) : error LNK2001: 无法解析的外部符号 "public: __thiscall std::exception::exception(char const * const &)" (??0exception@std@@QAE@ABQBD@Z)
+     1>libcpmtd.lib(thread0.obj) : error LNK2001: 无法解析的外部符号 "public: __thiscall std::exception::exception(char const * const &)" (??0exception@std@@QAE@ABQBD@Z)
+     1>cryptlib.lib(basecode.obj) : error LNK2001: 无法解析的外部符号 "public: __thiscall std::exception::exception(char const * const &)" (??0exception@std@@QAE@ABQBD@Z)
+     1>cryptlib.lib(rng.obj) : error LNK2001: 无法解析的外部符号 "public: __thiscall std::exception::exception(char const * const &)" (??0exception@std@@QAE@ABQBD@Z)
+     1>cryptlib.lib(osrng.obj) : error LNK2001: 无法解析的外部符号 "public: __thiscall std::exception::exception(char const * const &)" (??0exception@std@@QAE@ABQBD@Z)
+     1>cryptlib.lib(hmac.obj) : error LNK2001: 无法解析的外部符号 "public: __thiscall std::exception::exception(char const * const &)" (??0exception@std@@QAE@ABQBD@Z)
+     1>cryptlib.lib(gfpcrypt.obj) : error LNK2001: 无法解析的外部符号 "public: __thiscall std::exception::exception(char const * const &)" (??0exception@std@@QAE@ABQBD@Z)
+     1>cryptlib.lib(gf2n.obj) : error LNK2001: 无法解析的外部符号 "public: __thiscall std::exception::exception(char const * const &)" (??0exception@std@@QAE@ABQBD@Z)
+     1>cryptlib.lib(ec2n.obj) : error LNK2001: 无法解析的外部符号 "public: __thiscall std::exception::exception(char const * const &)" (??0exception@std@@QAE@ABQBD@Z)
+     1>cryptlib.lib(ecp.obj) : error LNK2001: 无法解析的外部符号 "public: __thiscall std::exception::exception(char const * const &)" (??0exception@std@@QAE@ABQBD@Z)
+     1>cryptlib.lib(sha.obj) : error LNK2001: 无法解析的外部符号 "public: __thiscall std::exception::exception(char const * const &)" (??0exception@std@@QAE@ABQBD@Z)
+     1>cryptlib.lib(mqueue.obj) : error LNK2001: 无法解析的外部符号 "public: __thiscall std::exception::exception(char const * const &)" (??0exception@std@@QAE@ABQBD@Z)
+     1>cryptlib.lib(rijndael.obj) : error LNK2001: 无法解析的外部符号 "public: __thiscall std::exception::exception(char const * const &)" (??0exception@std@@QAE@ABQBD@Z)
+     1>cryptlib.lib(modes.obj) : error LNK2001: 无法解析的外部符号 "public: __thiscall std::exception::exception(char const * const &)" (??0exception@std@@QAE@ABQBD@Z)
+     1>cryptlib.lib(nbtheory.obj) : error LNK2001: 无法解析的外部符号 "public: __thiscall std::exception::exception(char const * const &)" (??0exception@std@@QAE@ABQBD@Z)
+     1>cryptlib.lib(asn.obj) : error LNK2001: 无法解析的外部符号 "public: __thiscall std::exception::exception(char const * const &)" (??0exception@std@@QAE@ABQBD@Z)
+     1>cryptlib.lib(pubkey.obj) : error LNK2001: 无法解析的外部符号 "public: __thiscall std::exception::exception(char const * const &)" (??0exception@std@@QAE@ABQBD@Z)
+     1>cryptlib.lib(iterhash.obj) : error LNK2001: 无法解析的外部符号 "public: __thiscall std::exception::exception(char const * const &)" (??0exception@std@@QAE@ABQBD@Z)
+     1>cryptlib.lib(algparam.obj) : error LNK2001: 无法解析的外部符号 "public: __thiscall std::exception::exception(char const * const &)" (??0exception@std@@QAE@ABQBD@Z)
+     1>cryptlib.lib(filters.obj) : error LNK2001: 无法解析的外部符号 "public: __thiscall std::exception::exception(char const * const &)" (??0exception@std@@QAE@ABQBD@Z)
+     1>cryptlib.lib(fips140.obj) : error LNK2001: 无法解析的外部符号 "public: __thiscall std::exception::exception(char const * const &)" (??0exception@std@@QAE@ABQBD@Z)
+     1>cryptlib.lib(dll.obj) : error LNK2001: 无法解析的外部符号 "public: __thiscall std::exception::exception(char const * const &)" (??0exception@std@@QAE@ABQBD@Z)
+     1>cryptlib.lib(des.obj) : error LNK2001: 无法解析的外部符号 "public: __thiscall std::exception::exception(char const * const &)" (??0exception@std@@QAE@ABQBD@Z)
+     1>cryptlib.lib(integer.obj) : error LNK2001: 无法解析的外部符号 "public: __thiscall std::exception::exception(char const * const &)" (??0exception@std@@QAE@ABQBD@Z)
+     1>cryptlib.lib(misc.obj) : error LNK2001: 无法解析的外部符号 "public: __thiscall std::exception::exception(char const * const &)" (??0exception@std@@QAE@ABQBD@Z)
+     1>cryptlib.lib(queue.obj) : error LNK2001: 无法解析的外部符号 "public: __thiscall std::exception::exception(char const * const &)" (??0exception@std@@QAE@ABQBD@Z)
+     1>libcpmtd.lib(locale.obj) : error LNK2001: 无法解析的外部符号 "public: __thiscall std::exception::exception(char const * const &)" (??0exception@std@@QAE@ABQBD@Z)
+     1>libcpmtd.lib(wlocale.obj) : error LNK2001: 无法解析的外部符号 "public: __thiscall std::exception::exception(char const * const &)" (??0exception@std@@QAE@ABQBD@Z)
+     1>libcpmtd.lib(xlocale.obj) : error LNK2001: 无法解析的外部符号 "public: __thiscall std::exception::exception(char const * const &)" (??0exception@std@@QAE@ABQBD@Z)
+     1>cryptlib.lib(cryptlib.obj) : error LNK2001: 无法解析的外部符号 "public: __thiscall std::exception::exception(char const * const &)" (??0exception@std@@QAE@ABQBD@Z)
+     1>TestCryPto.obj : error LNK2001: 无法解析的外部符号 "public: __thiscall std::exception::exception(char const * const &)" (??0exception@std@@QAE@ABQBD@Z)
+     1>libcpmtd.lib(xthrow.obj) : error LNK2001: 无法解析的外部符号 "public: __thiscall std::exception::exception(char const * const &)" (??0exception@std@@QAE@ABQBD@Z)
+     1>libcpmtd.lib(cout.obj) : error LNK2001: 无法解析的外部符号 "public: __thiscall std::exception::exception(char const * const &)" (??0exception@std@@QAE@ABQBD@Z)
+     1>libcpmtd.lib(cerr.obj) : error LNK2001: 无法解析的外部符号 "public: __thiscall std::exception::exception(char const * const &)" (??0exception@std@@QAE@ABQBD@Z)
+     1>cryptlib.lib(hmac.obj) : error LNK2001: 无法解析的外部符号 "public: __thiscall std::exception::exception(class std::exception const &)" (??0exception@std@@QAE@ABV01@@Z)
+     1>cryptlib.lib(randpool.obj) : error LNK2001: 无法解析的外部符号 "public: __thiscall std::exception::exception(class std::exception const &)" (??0exception@std@@QAE@ABV01@@Z)
+     1>cryptlib.lib(hrtimer.obj) : error LNK2001: 无法解析的外部符号 "public: __thiscall std::exception::exception(class std::exception const &)" (??0exception@std@@QAE@ABV01@@Z)
+     1>libcpmtd.lib(thread0.obj) : error LNK2001: 无法解析的外部符号 "public: __thiscall std::exception::exception(class std::exception const &)" (??0exception@std@@QAE@ABV01@@Z)
+     1>cryptlib.lib(basecode.obj) : error LNK2001: 无法解析的外部符号 "public: __thiscall std::exception::exception(class std::exception const &)" (??0exception@std@@QAE@ABV01@@Z)
+     1>cryptlib.lib(hex.obj) : error LNK2001: 无法解析的外部符号 "public: __thiscall std::exception::exception(class std::exception const &)" (??0exception@std@@QAE@ABV01@@Z)
+     1>cryptlib.lib(rng.obj) : error LNK2001: 无法解析的外部符号 "public: __thiscall std::exception::exception(class std::exception const &)" (??0exception@std@@QAE@ABV01@@Z)
+     1>cryptlib.lib(osrng.obj) : error LNK2001: 无法解析的外部符号 "public: __thiscall std::exception::exception(class std::exception const &)" (??0exception@std@@QAE@ABV01@@Z)
+     1>cryptlib.lib(gfpcrypt.obj) : error LNK2001: 无法解析的外部符号 "public: __thiscall std::exception::exception(class std::exception const &)" (??0exception@std@@QAE@ABV01@@Z)
+     1>cryptlib.lib(gf2n.obj) : error LNK2001: 无法解析的外部符号 "public: __thiscall std::exception::exception(class std::exception const &)" (??0exception@std@@QAE@ABV01@@Z)
+     1>cryptlib.lib(ec2n.obj) : error LNK2001: 无法解析的外部符号 "public: __thiscall std::exception::exception(class std::exception const &)" (??0exception@std@@QAE@ABV01@@Z)
+     1>cryptlib.lib(ecp.obj) : error LNK2001: 无法解析的外部符号 "public: __thiscall std::exception::exception(class std::exception const &)" (??0exception@std@@QAE@ABV01@@Z)
+     1>cryptlib.lib(sha.obj) : error LNK2001: 无法解析的外部符号 "public: __thiscall std::exception::exception(class std::exception const &)" (??0exception@std@@QAE@ABV01@@Z)
+     1>cryptlib.lib(mqueue.obj) : error LNK2001: 无法解析的外部符号 "public: __thiscall std::exception::exception(class std::exception const &)" (??0exception@std@@QAE@ABV01@@Z)
+     1>cryptlib.lib(rijndael.obj) : error LNK2001: 无法解析的外部符号 "public: __thiscall std::exception::exception(class std::exception const &)" (??0exception@std@@QAE@ABV01@@Z)
+     1>cryptlib.lib(modes.obj) : error LNK2001: 无法解析的外部符号 "public: __thiscall std::exception::exception(class std::exception const &)" (??0exception@std@@QAE@ABV01@@Z)
+     1>cryptlib.lib(nbtheory.obj) : error LNK2001: 无法解析的外部符号 "public: __thiscall std::exception::exception(class std::exception const &)" (??0exception@std@@QAE@ABV01@@Z)
+     1>cryptlib.lib(asn.obj) : error LNK2001: 无法解析的外部符号 "public: __thiscall std::exception::exception(class std::exception const &)" (??0exception@std@@QAE@ABV01@@Z)
+     1>cryptlib.lib(pubkey.obj) : error LNK2001: 无法解析的外部符号 "public: __thiscall std::exception::exception(class std::exception const &)" (??0exception@std@@QAE@ABV01@@Z)
+     1>cryptlib.lib(iterhash.obj) : error LNK2001: 无法解析的外部符号 "public: __thiscall std::exception::exception(class std::exception const &)" (??0exception@std@@QAE@ABV01@@Z)
+     1>cryptlib.lib(algparam.obj) : error LNK2001: 无法解析的外部符号 "public: __thiscall std::exception::exception(class std::exception const &)" (??0exception@std@@QAE@ABV01@@Z)
+     1>cryptlib.lib(filters.obj) : error LNK2001: 无法解析的外部符号 "public: __thiscall std::exception::exception(class std::exception const &)" (??0exception@std@@QAE@ABV01@@Z)
+     1>cryptlib.lib(fips140.obj) : error LNK2001: 无法解析的外部符号 "public: __thiscall std::exception::exception(class std::exception const &)" (??0exception@std@@QAE@ABV01@@Z)
+     1>cryptlib.lib(dll.obj) : error LNK2001: 无法解析的外部符号 "public: __thiscall std::exception::exception(class std::exception const &)" (??0exception@std@@QAE@ABV01@@Z)
+     1>cryptlib.lib(des.obj) : error LNK2001: 无法解析的外部符号 "public: __thiscall std::exception::exception(class std::exception const &)" (??0exception@std@@QAE@ABV01@@Z)
+     1>cryptlib.lib(integer.obj) : error LNK2001: 无法解析的外部符号 "public: __thiscall std::exception::exception(class std::exception const &)" (??0exception@std@@QAE@ABV01@@Z)
+     1>cryptlib.lib(misc.obj) : error LNK2001: 无法解析的外部符号 "public: __thiscall std::exception::exception(class std::exception const &)" (??0exception@std@@QAE@ABV01@@Z)
+     1>cryptlib.lib(queue.obj) : error LNK2001: 无法解析的外部符号 "public: __thiscall std::exception::exception(class std::exception const &)" (??0exception@std@@QAE@ABV01@@Z)
+     1>libcpmtd.lib(locale.obj) : error LNK2001: 无法解析的外部符号 "public: __thiscall std::exception::exception(class std::exception const &)" (??0exception@std@@QAE@ABV01@@Z)
+     1>libcpmtd.lib(wlocale.obj) : error LNK2001: 无法解析的外部符号 "public: __thiscall std::exception::exception(class std::exception const &)" (??0exception@std@@QAE@ABV01@@Z)
+     1>libcpmtd.lib(xlocale.obj) : error LNK2001: 无法解析的外部符号 "public: __thiscall std::exception::exception(class std::exception const &)" (??0exception@std@@QAE@ABV01@@Z)
+     1>cryptlib.lib(cryptlib.obj) : error LNK2001: 无法解析的外部符号 "public: __thiscall std::exception::exception(class std::exception const &)" (??0exception@std@@QAE@ABV01@@Z)
+     1>TestCryPto.obj : error LNK2001: 无法解析的外部符号 "public: __thiscall std::exception::exception(class std::exception const &)" (??0exception@std@@QAE@ABV01@@Z)
+     1>libcpmtd.lib(xthrow.obj) : error LNK2001: 无法解析的外部符号 "public: __thiscall std::exception::exception(class std::exception const &)" (??0exception@std@@QAE@ABV01@@Z)
+     1>libcpmtd.lib(cout.obj) : error LNK2001: 无法解析的外部符号 "public: __thiscall std::exception::exception(class std::exception const &)" (??0exception@std@@QAE@ABV01@@Z)
+     1>libcpmtd.lib(cerr.obj) : error LNK2001: 无法解析的外部符号 "public: __thiscall std::exception::exception(class std::exception const &)" (??0exception@std@@QAE@ABV01@@Z)
+     1>cryptlib.lib(hmac.obj) : error LNK2001: 无法解析的外部符号 "public: virtual __thiscall std::exception::~exception(void)" (??1exception@std@@UAE@XZ)
+     1>cryptlib.lib(randpool.obj) : error LNK2001: 无法解析的外部符号 "public: virtual __thiscall std::exception::~exception(void)" (??1exception@std@@UAE@XZ)
+     1>cryptlib.lib(hrtimer.obj) : error LNK2001: 无法解析的外部符号 "public: virtual __thiscall std::exception::~exception(void)" (??1exception@std@@UAE@XZ)
+     1>libcpmtd.lib(thread0.obj) : error LNK2001: 无法解析的外部符号 "public: virtual __thiscall std::exception::~exception(void)" (??1exception@std@@UAE@XZ)
+     1>cryptlib.lib(basecode.obj) : error LNK2001: 无法解析的外部符号 "public: virtual __thiscall std::exception::~exception(void)" (??1exception@std@@UAE@XZ)
+     1>cryptlib.lib(hex.obj) : error LNK2001: 无法解析的外部符号 "public: virtual __thiscall std::exception::~exception(void)" (??1exception@std@@UAE@XZ)
+     1>cryptlib.lib(rng.obj) : error LNK2001: 无法解析的外部符号 "public: virtual __thiscall std::exception::~exception(void)" (??1exception@std@@UAE@XZ)
+     1>cryptlib.lib(osrng.obj) : error LNK2001: 无法解析的外部符号 "public: virtual __thiscall std::exception::~exception(void)" (??1exception@std@@UAE@XZ)
+     1>cryptlib.lib(gfpcrypt.obj) : error LNK2001: 无法解析的外部符号 "public: virtual __thiscall std::exception::~exception(void)" (??1exception@std@@UAE@XZ)
+     1>cryptlib.lib(gf2n.obj) : error LNK2001: 无法解析的外部符号 "public: virtual __thiscall std::exception::~exception(void)" (??1exception@std@@UAE@XZ)
+     1>cryptlib.lib(ec2n.obj) : error LNK2001: 无法解析的外部符号 "public: virtual __thiscall std::exception::~exception(void)" (??1exception@std@@UAE@XZ)
+     1>cryptlib.lib(ecp.obj) : error LNK2001: 无法解析的外部符号 "public: virtual __thiscall std::exception::~exception(void)" (??1exception@std@@UAE@XZ)
+     1>cryptlib.lib(sha.obj) : error LNK2001: 无法解析的外部符号 "public: virtual __thiscall std::exception::~exception(void)" (??1exception@std@@UAE@XZ)
+     1>cryptlib.lib(mqueue.obj) : error LNK2001: 无法解析的外部符号 "public: virtual __thiscall std::exception::~exception(void)" (??1exception@std@@UAE@XZ)
+     1>cryptlib.lib(rijndael.obj) : error LNK2001: 无法解析的外部符号 "public: virtual __thiscall std::exception::~exception(void)" (??1exception@std@@UAE@XZ)
+     1>cryptlib.lib(modes.obj) : error LNK2001: 无法解析的外部符号 "public: virtual __thiscall std::exception::~exception(void)" (??1exception@std@@UAE@XZ)
+     1>cryptlib.lib(nbtheory.obj) : error LNK2001: 无法解析的外部符号 "public: virtual __thiscall std::exception::~exception(void)" (??1exception@std@@UAE@XZ)
+     1>cryptlib.lib(asn.obj) : error LNK2001: 无法解析的外部符号 "public: virtual __thiscall std::exception::~exception(void)" (??1exception@std@@UAE@XZ)
+     1>cryptlib.lib(pubkey.obj) : error LNK2001: 无法解析的外部符号 "public: virtual __thiscall std::exception::~exception(void)" (??1exception@std@@UAE@XZ)
+     1>cryptlib.lib(iterhash.obj) : error LNK2001: 无法解析的外部符号 "public: virtual __thiscall std::exception::~exception(void)" (??1exception@std@@UAE@XZ)
+     1>cryptlib.lib(algparam.obj) : error LNK2001: 无法解析的外部符号 "public: virtual __thiscall std::exception::~exception(void)" (??1exception@std@@UAE@XZ)
+     1>cryptlib.lib(filters.obj) : error LNK2001: 无法解析的外部符号 "public: virtual __thiscall std::exception::~exception(void)" (??1exception@std@@UAE@XZ)
+     1>cryptlib.lib(fips140.obj) : error LNK2001: 无法解析的外部符号 "public: virtual __thiscall std::exception::~exception(void)" (??1exception@std@@UAE@XZ)
+     1>cryptlib.lib(dll.obj) : error LNK2001: 无法解析的外部符号 "public: virtual __thiscall std::exception::~exception(void)" (??1exception@std@@UAE@XZ)
+     1>cryptlib.lib(des.obj) : error LNK2001: 无法解析的外部符号 "public: virtual __thiscall std::exception::~exception(void)" (??1exception@std@@UAE@XZ)
+     1>cryptlib.lib(integer.obj) : error LNK2001: 无法解析的外部符号 "public: virtual __thiscall std::exception::~exception(void)" (??1exception@std@@UAE@XZ)
+     1>cryptlib.lib(misc.obj) : error LNK2001: 无法解析的外部符号 "public: virtual __thiscall std::exception::~exception(void)" (??1exception@std@@UAE@XZ)
+     1>cryptlib.lib(queue.obj) : error LNK2001: 无法解析的外部符号 "public: virtual __thiscall std::exception::~exception(void)" (??1exception@std@@UAE@XZ)
+     1>libcpmtd.lib(locale.obj) : error LNK2001: 无法解析的外部符号 "public: virtual __thiscall std::exception::~exception(void)" (??1exception@std@@UAE@XZ)
+     1>libcpmtd.lib(wlocale.obj) : error LNK2001: 无法解析的外部符号 "public: virtual __thiscall std::exception::~exception(void)" (??1exception@std@@UAE@XZ)
+     1>libcpmtd.lib(xlocale.obj) : error LNK2001: 无法解析的外部符号 "public: virtual __thiscall std::exception::~exception(void)" (??1exception@std@@UAE@XZ)
+     1>cryptlib.lib(cryptlib.obj) : error LNK2001: 无法解析的外部符号 "public: virtual __thiscall std::exception::~exception(void)" (??1exception@std@@UAE@XZ)
+     1>TestCryPto.obj : error LNK2001: 无法解析的外部符号 "public: virtual __thiscall std::exception::~exception(void)" (??1exception@std@@UAE@XZ)
+     1>libcpmtd.lib(xthrow.obj) : error LNK2001: 无法解析的外部符号 "public: virtual __thiscall std::exception::~exception(void)" (??1exception@std@@UAE@XZ)
+     1>libcpmtd.lib(cout.obj) : error LNK2001: 无法解析的外部符号 "public: virtual __thiscall std::exception::~exception(void)" (??1exception@std@@UAE@XZ)
+     1>libcpmtd.lib(cerr.obj) : error LNK2001: 无法解析的外部符号 "public: virtual __thiscall std::exception::~exception(void)" (??1exception@std@@UAE@XZ)
+     1>cryptlib.lib(randpool.obj) : error LNK2019: 无法解析的外部符号 "public: virtual char const * __thiscall std::exception::what(void)const " (?what@exception@std@@UBEPBDXZ)，该符号在函数 "public: __thiscall CryptoPP::SecBlock<unsigned int,class CryptoPP::FixedSizeAllocatorWithCleanup<unsigned int,16,class CryptoPP::NullAllocator<unsigned int>,0> >::SecBlock<unsigned int,class CryptoPP::FixedSizeAllocatorWithCleanup<unsigned int,16,class CryptoPP::NullAllocator<unsigned int>,0> >(class CryptoPP::SecBlock<unsigned int,class CryptoPP::FixedSizeAllocatorWithCleanup<unsigned int,16,class CryptoPP::NullAllocator<unsigned int>,0> > const &)" (??0?$SecBlock@IV?$FixedSizeAllocatorWithCleanup@I$0BA@V?$NullAllocator@I@CryptoPP@@$0A@@CryptoPP@@@CryptoPP@@QAE@ABV01@@Z) 中被引用
+     1>cryptlib.lib(hrtimer.obj) : error LNK2001: 无法解析的外部符号 "public: virtual char const * __thiscall std::exception::what(void)const " (?what@exception@std@@UBEPBDXZ)
+     1>libcpmtd.lib(thread0.obj) : error LNK2001: 无法解析的外部符号 "public: virtual char const * __thiscall std::exception::what(void)const " (?what@exception@std@@UBEPBDXZ)
+     1>cryptlib.lib(basecode.obj) : error LNK2001: 无法解析的外部符号 "public: virtual char const * __thiscall std::exception::what(void)const " (?what@exception@std@@UBEPBDXZ)
+     1>cryptlib.lib(rng.obj) : error LNK2001: 无法解析的外部符号 "public: virtual char const * __thiscall std::exception::what(void)const " (?what@exception@std@@UBEPBDXZ)
+     1>cryptlib.lib(osrng.obj) : error LNK2001: 无法解析的外部符号 "public: virtual char const * __thiscall std::exception::what(void)const " (?what@exception@std@@UBEPBDXZ)
+     1>cryptlib.lib(hmac.obj) : error LNK2001: 无法解析的外部符号 "public: virtual char const * __thiscall std::exception::what(void)const " (?what@exception@std@@UBEPBDXZ)
+     1>cryptlib.lib(gfpcrypt.obj) : error LNK2001: 无法解析的外部符号 "public: virtual char const * __thiscall std::exception::what(void)const " (?what@exception@std@@UBEPBDXZ)
+     1>cryptlib.lib(gf2n.obj) : error LNK2001: 无法解析的外部符号 "public: virtual char const * __thiscall std::exception::what(void)const " (?what@exception@std@@UBEPBDXZ)
+     1>cryptlib.lib(ec2n.obj) : error LNK2001: 无法解析的外部符号 "public: virtual char const * __thiscall std::exception::what(void)const " (?what@exception@std@@UBEPBDXZ)
+     1>cryptlib.lib(ecp.obj) : error LNK2001: 无法解析的外部符号 "public: virtual char const * __thiscall std::exception::what(void)const " (?what@exception@std@@UBEPBDXZ)
+     1>cryptlib.lib(sha.obj) : error LNK2001: 无法解析的外部符号 "public: virtual char const * __thiscall std::exception::what(void)const " (?what@exception@std@@UBEPBDXZ)
+     1>cryptlib.lib(mqueue.obj) : error LNK2001: 无法解析的外部符号 "public: virtual char const * __thiscall std::exception::what(void)const " (?what@exception@std@@UBEPBDXZ)
+     1>cryptlib.lib(rijndael.obj) : error LNK2001: 无法解析的外部符号 "public: virtual char const * __thiscall std::exception::what(void)const " (?what@exception@std@@UBEPBDXZ)
+     1>cryptlib.lib(modes.obj) : error LNK2001: 无法解析的外部符号 "public: virtual char const * __thiscall std::exception::what(void)const " (?what@exception@std@@UBEPBDXZ)
+     1>cryptlib.lib(nbtheory.obj) : error LNK2001: 无法解析的外部符号 "public: virtual char const * __thiscall std::exception::what(void)const " (?what@exception@std@@UBEPBDXZ)
+     1>cryptlib.lib(asn.obj) : error LNK2001: 无法解析的外部符号 "public: virtual char const * __thiscall std::exception::what(void)const " (?what@exception@std@@UBEPBDXZ)
+     1>cryptlib.lib(pubkey.obj) : error LNK2001: 无法解析的外部符号 "public: virtual char const * __thiscall std::exception::what(void)const " (?what@exception@std@@UBEPBDXZ)
+     1>cryptlib.lib(iterhash.obj) : error LNK2001: 无法解析的外部符号 "public: virtual char const * __thiscall std::exception::what(void)const " (?what@exception@std@@UBEPBDXZ)
+     1>cryptlib.lib(algparam.obj) : error LNK2001: 无法解析的外部符号 "public: virtual char const * __thiscall std::exception::what(void)const " (?what@exception@std@@UBEPBDXZ)
+     1>cryptlib.lib(filters.obj) : error LNK2001: 无法解析的外部符号 "public: virtual char const * __thiscall std::exception::what(void)const " (?what@exception@std@@UBEPBDXZ)
+     1>cryptlib.lib(fips140.obj) : error LNK2001: 无法解析的外部符号 "public: virtual char const * __thiscall std::exception::what(void)const " (?what@exception@std@@UBEPBDXZ)
+     1>cryptlib.lib(dll.obj) : error LNK2001: 无法解析的外部符号 "public: virtual char const * __thiscall std::exception::what(void)const " (?what@exception@std@@UBEPBDXZ)
+     1>cryptlib.lib(des.obj) : error LNK2001: 无法解析的外部符号 "public: virtual char const * __thiscall std::exception::what(void)const " (?what@exception@std@@UBEPBDXZ)
+     1>cryptlib.lib(integer.obj) : error LNK2001: 无法解析的外部符号 "public: virtual char const * __thiscall std::exception::what(void)const " (?what@exception@std@@UBEPBDXZ)
+     1>cryptlib.lib(misc.obj) : error LNK2001: 无法解析的外部符号 "public: virtual char const * __thiscall std::exception::what(void)const " (?what@exception@std@@UBEPBDXZ)
+     1>cryptlib.lib(queue.obj) : error LNK2001: 无法解析的外部符号 "public: virtual char const * __thiscall std::exception::what(void)const " (?what@exception@std@@UBEPBDXZ)
+     1>libcpmtd.lib(locale.obj) : error LNK2001: 无法解析的外部符号 "public: virtual char const * __thiscall std::exception::what(void)const " (?what@exception@std@@UBEPBDXZ)
+     1>libcpmtd.lib(wlocale.obj) : error LNK2001: 无法解析的外部符号 "public: virtual char const * __thiscall std::exception::what(void)const " (?what@exception@std@@UBEPBDXZ)
+     1>libcpmtd.lib(xlocale.obj) : error LNK2001: 无法解析的外部符号 "public: virtual char const * __thiscall std::exception::what(void)const " (?what@exception@std@@UBEPBDXZ)
+     1>cryptlib.lib(cryptlib.obj) : error LNK2001: 无法解析的外部符号 "public: virtual char const * __thiscall std::exception::what(void)const " (?what@exception@std@@UBEPBDXZ)
+     1>TestCryPto.obj : error LNK2001: 无法解析的外部符号 "public: virtual char const * __thiscall std::exception::what(void)const " (?what@exception@std@@UBEPBDXZ)
+     1>libcpmtd.lib(xthrow.obj) : error LNK2001: 无法解析的外部符号 "public: virtual char const * __thiscall std::exception::what(void)const " (?what@exception@std@@UBEPBDXZ)
+     1>libcpmtd.lib(cout.obj) : error LNK2001: 无法解析的外部符号 "public: virtual char const * __thiscall std::exception::what(void)const " (?what@exception@std@@UBEPBDXZ)
+     1>libcpmtd.lib(cerr.obj) : error LNK2001: 无法解析的外部符号 "public: virtual char const * __thiscall std::exception::what(void)const " (?what@exception@std@@UBEPBDXZ)
+     1>libcpmtd.lib(mutex.obj) : error LNK2001: 无法解析的外部符号 "void __cdecl operator delete[](void *)" (??_V@YAXPAX@Z)
+     1>cryptlib.lib(osrng.obj) : error LNK2001: 无法解析的外部符号 "void __cdecl operator delete[](void *)" (??_V@YAXPAX@Z)
+     1>cryptlib.lib(hmac.obj) : error LNK2001: 无法解析的外部符号 "void __cdecl operator delete[](void *)" (??_V@YAXPAX@Z)
+     1>cryptlib.lib(randpool.obj) : error LNK2001: 无法解析的外部符号 "void __cdecl operator delete[](void *)" (??_V@YAXPAX@Z)
+     1>cryptlib.lib(hrtimer.obj) : error LNK2001: 无法解析的外部符号 "void __cdecl operator delete[](void *)" (??_V@YAXPAX@Z)
+     1>cryptlib.lib(ec2n.obj) : error LNK2001: 无法解析的外部符号 "void __cdecl operator delete[](void *)" (??_V@YAXPAX@Z)
+     1>cryptlib.lib(ecp.obj) : error LNK2001: 无法解析的外部符号 "void __cdecl operator delete[](void *)" (??_V@YAXPAX@Z)
+     1>cryptlib.lib(basecode.obj) : error LNK2001: 无法解析的外部符号 "void __cdecl operator delete[](void *)" (??_V@YAXPAX@Z)
+     1>cryptlib.lib(rng.obj) : error LNK2001: 无法解析的外部符号 "void __cdecl operator delete[](void *)" (??_V@YAXPAX@Z)
+     1>cryptlib.lib(rijndael.obj) : error LNK2001: 无法解析的外部符号 "void __cdecl operator delete[](void *)" (??_V@YAXPAX@Z)
+     1>cryptlib.lib(modes.obj) : error LNK2001: 无法解析的外部符号 "void __cdecl operator delete[](void *)" (??_V@YAXPAX@Z)
+     1>cryptlib.lib(gfpcrypt.obj) : error LNK2001: 无法解析的外部符号 "void __cdecl operator delete[](void *)" (??_V@YAXPAX@Z)
+     1>cryptlib.lib(gf2n.obj) : error LNK2001: 无法解析的外部符号 "void __cdecl operator delete[](void *)" (??_V@YAXPAX@Z)
+     1>cryptlib.lib(pubkey.obj) : error LNK2001: 无法解析的外部符号 "void __cdecl operator delete[](void *)" (??_V@YAXPAX@Z)
+     1>cryptlib.lib(iterhash.obj) : error LNK2001: 无法解析的外部符号 "void __cdecl operator delete[](void *)" (??_V@YAXPAX@Z)
+     1>cryptlib.lib(sha.obj) : error LNK2001: 无法解析的外部符号 "void __cdecl operator delete[](void *)" (??_V@YAXPAX@Z)
+     1>cryptlib.lib(mqueue.obj) : error LNK2001: 无法解析的外部符号 "void __cdecl operator delete[](void *)" (??_V@YAXPAX@Z)
+     1>cryptlib.lib(fips140.obj) : error LNK2001: 无法解析的外部符号 "void __cdecl operator delete[](void *)" (??_V@YAXPAX@Z)
+     1>cryptlib.lib(dll.obj) : error LNK2001: 无法解析的外部符号 "void __cdecl operator delete[](void *)" (??_V@YAXPAX@Z)
+     1>cryptlib.lib(nbtheory.obj) : error LNK2001: 无法解析的外部符号 "void __cdecl operator delete[](void *)" (??_V@YAXPAX@Z)
+     1>cryptlib.lib(asn.obj) : error LNK2001: 无法解析的外部符号 "void __cdecl operator delete[](void *)" (??_V@YAXPAX@Z)
+     1>cryptlib.lib(misc.obj) : error LNK2001: 无法解析的外部符号 "void __cdecl operator delete[](void *)" (??_V@YAXPAX@Z)
+     1>cryptlib.lib(queue.obj) : error LNK2001: 无法解析的外部符号 "void __cdecl operator delete[](void *)" (??_V@YAXPAX@Z)
+     1>cryptlib.lib(algparam.obj) : error LNK2001: 无法解析的外部符号 "void __cdecl operator delete[](void *)" (??_V@YAXPAX@Z)
+     1>cryptlib.lib(filters.obj) : error LNK2001: 无法解析的外部符号 "void __cdecl operator delete[](void *)" (??_V@YAXPAX@Z)
+     1>libcpmtd.lib(xlocale.obj) : error LNK2001: 无法解析的外部符号 "void __cdecl operator delete[](void *)" (??_V@YAXPAX@Z)
+     1>cryptlib.lib(cryptlib.obj) : error LNK2001: 无法解析的外部符号 "void __cdecl operator delete[](void *)" (??_V@YAXPAX@Z)
+     1>cryptlib.lib(des.obj) : error LNK2001: 无法解析的外部符号 "void __cdecl operator delete[](void *)" (??_V@YAXPAX@Z)
+     1>cryptlib.lib(integer.obj) : error LNK2001: 无法解析的外部符号 "void __cdecl operator delete[](void *)" (??_V@YAXPAX@Z)
+     1>TestCryPto.obj : error LNK2001: 无法解析的外部符号 "void __cdecl operator delete[](void *)" (??_V@YAXPAX@Z)
+     1>libcpmtd.lib(cout.obj) : error LNK2001: 无法解析的外部符号 "void __cdecl operator delete[](void *)" (??_V@YAXPAX@Z)
+     1>libcpmtd.lib(cerr.obj) : error LNK2001: 无法解析的外部符号 "void __cdecl operator delete[](void *)" (??_V@YAXPAX@Z)
+     1>libcpmtd.lib(locale.obj) : error LNK2001: 无法解析的外部符号 "void __cdecl operator delete[](void *)" (??_V@YAXPAX@Z)
+     1>libcpmtd.lib(mutex.obj) : error LNK2001: 无法解析的外部符号 __free_dbg
+     1>libcpmtd.lib(cond.obj) : error LNK2001: 无法解析的外部符号 __free_dbg
+     1>cryptlib.lib(osrng.obj) : error LNK2001: 无法解析的外部符号 __free_dbg
+     1>cryptlib.lib(hmac.obj) : error LNK2001: 无法解析的外部符号 __free_dbg
+     1>cryptlib.lib(randpool.obj) : error LNK2001: 无法解析的外部符号 __free_dbg
+     1>cryptlib.lib(hrtimer.obj) : error LNK2001: 无法解析的外部符号 __free_dbg
+     1>cryptlib.lib(ec2n.obj) : error LNK2001: 无法解析的外部符号 __free_dbg
+     1>cryptlib.lib(ecp.obj) : error LNK2001: 无法解析的外部符号 __free_dbg
+     1>cryptlib.lib(basecode.obj) : error LNK2001: 无法解析的外部符号 __free_dbg
+     1>cryptlib.lib(rng.obj) : error LNK2001: 无法解析的外部符号 __free_dbg
+     1>cryptlib.lib(rijndael.obj) : error LNK2001: 无法解析的外部符号 __free_dbg
+     1>cryptlib.lib(modes.obj) : error LNK2001: 无法解析的外部符号 __free_dbg
+     1>cryptlib.lib(gfpcrypt.obj) : error LNK2001: 无法解析的外部符号 __free_dbg
+     1>cryptlib.lib(gf2n.obj) : error LNK2001: 无法解析的外部符号 __free_dbg
+     1>cryptlib.lib(pubkey.obj) : error LNK2001: 无法解析的外部符号 __free_dbg
+     1>cryptlib.lib(iterhash.obj) : error LNK2001: 无法解析的外部符号 __free_dbg
+     1>cryptlib.lib(sha.obj) : error LNK2001: 无法解析的外部符号 __free_dbg
+     1>cryptlib.lib(mqueue.obj) : error LNK2001: 无法解析的外部符号 __free_dbg
+     1>cryptlib.lib(fips140.obj) : error LNK2001: 无法解析的外部符号 __free_dbg
+     1>cryptlib.lib(dll.obj) : error LNK2001: 无法解析的外部符号 __free_dbg
+     1>cryptlib.lib(nbtheory.obj) : error LNK2001: 无法解析的外部符号 __free_dbg
+     1>cryptlib.lib(asn.obj) : error LNK2001: 无法解析的外部符号 __free_dbg
+     1>cryptlib.lib(misc.obj) : error LNK2001: 无法解析的外部符号 __free_dbg
+     1>cryptlib.lib(queue.obj) : error LNK2001: 无法解析的外部符号 __free_dbg
+     1>cryptlib.lib(algparam.obj) : error LNK2001: 无法解析的外部符号 __free_dbg
+     1>cryptlib.lib(filters.obj) : error LNK2001: 无法解析的外部符号 __free_dbg
+     1>libcpmtd.lib(xwcsxfrm.obj) : error LNK2001: 无法解析的外部符号 __free_dbg
+     1>cryptlib.lib(cryptlib.obj) : error LNK2001: 无法解析的外部符号 __free_dbg
+     1>cryptlib.lib(des.obj) : error LNK2001: 无法解析的外部符号 __free_dbg
+     1>cryptlib.lib(integer.obj) : error LNK2001: 无法解析的外部符号 __free_dbg
+     1>libcpmtd.lib(cerr.obj) : error LNK2001: 无法解析的外部符号 __free_dbg
+     1>libcpmtd.lib(locale.obj) : error LNK2001: 无法解析的外部符号 __free_dbg
+     1>libcpmtd.lib(wlocale.obj) : error LNK2001: 无法解析的外部符号 __free_dbg
+     1>libcpmtd.lib(xlocale.obj) : error LNK2001: 无法解析的外部符号 __free_dbg
+     1>TestCryPto.obj : error LNK2001: 无法解析的外部符号 __free_dbg
+     1>libcpmtd.lib(locale0.obj) : error LNK2001: 无法解析的外部符号 __free_dbg
+     1>libcpmtd.lib(xdebug.obj) : error LNK2001: 无法解析的外部符号 __free_dbg
+     1>libcpmtd.lib(cout.obj) : error LNK2001: 无法解析的外部符号 __free_dbg
+     1>cryptlib.lib(hrtimer.obj) : error LNK2001: 无法解析的外部符号 "public: __thiscall std::bad_cast::bad_cast(char const *)" (??0bad_cast@std@@QAE@PBD@Z)
+     1>cryptlib.lib(rng.obj) : error LNK2001: 无法解析的外部符号 "public: __thiscall std::bad_cast::bad_cast(char const *)" (??0bad_cast@std@@QAE@PBD@Z)
+     1>cryptlib.lib(osrng.obj) : error LNK2001: 无法解析的外部符号 "public: __thiscall std::bad_cast::bad_cast(char const *)" (??0bad_cast@std@@QAE@PBD@Z)
+     1>cryptlib.lib(hmac.obj) : error LNK2001: 无法解析的外部符号 "public: __thiscall std::bad_cast::bad_cast(char const *)" (??0bad_cast@std@@QAE@PBD@Z)
+     1>cryptlib.lib(randpool.obj) : error LNK2001: 无法解析的外部符号 "public: __thiscall std::bad_cast::bad_cast(char const *)" (??0bad_cast@std@@QAE@PBD@Z)
+     1>cryptlib.lib(gf2n.obj) : error LNK2001: 无法解析的外部符号 "public: __thiscall std::bad_cast::bad_cast(char const *)" (??0bad_cast@std@@QAE@PBD@Z)
+     1>cryptlib.lib(ec2n.obj) : error LNK2001: 无法解析的外部符号 "public: __thiscall std::bad_cast::bad_cast(char const *)" (??0bad_cast@std@@QAE@PBD@Z)
+     1>cryptlib.lib(ecp.obj) : error LNK2001: 无法解析的外部符号 "public: __thiscall std::bad_cast::bad_cast(char const *)" (??0bad_cast@std@@QAE@PBD@Z)
+     1>cryptlib.lib(basecode.obj) : error LNK2001: 无法解析的外部符号 "public: __thiscall std::bad_cast::bad_cast(char const *)" (??0bad_cast@std@@QAE@PBD@Z)
+     1>cryptlib.lib(mqueue.obj) : error LNK2001: 无法解析的外部符号 "public: __thiscall std::bad_cast::bad_cast(char const *)" (??0bad_cast@std@@QAE@PBD@Z)
+     1>cryptlib.lib(rijndael.obj) : error LNK2001: 无法解析的外部符号 "public: __thiscall std::bad_cast::bad_cast(char const *)" (??0bad_cast@std@@QAE@PBD@Z)
+     1>cryptlib.lib(modes.obj) : error LNK2001: 无法解析的外部符号 "public: __thiscall std::bad_cast::bad_cast(char const *)" (??0bad_cast@std@@QAE@PBD@Z)
+     1>cryptlib.lib(gfpcrypt.obj) : error LNK2001: 无法解析的外部符号 "public: __thiscall std::bad_cast::bad_cast(char const *)" (??0bad_cast@std@@QAE@PBD@Z)
+     1>cryptlib.lib(asn.obj) : error LNK2001: 无法解析的外部符号 "public: __thiscall std::bad_cast::bad_cast(char const *)" (??0bad_cast@std@@QAE@PBD@Z)
+     1>cryptlib.lib(pubkey.obj) : error LNK2001: 无法解析的外部符号 "public: __thiscall std::bad_cast::bad_cast(char const *)" (??0bad_cast@std@@QAE@PBD@Z)
+     1>cryptlib.lib(iterhash.obj) : error LNK2001: 无法解析的外部符号 "public: __thiscall std::bad_cast::bad_cast(char const *)" (??0bad_cast@std@@QAE@PBD@Z)
+     1>cryptlib.lib(sha.obj) : error LNK2001: 无法解析的外部符号 "public: __thiscall std::bad_cast::bad_cast(char const *)" (??0bad_cast@std@@QAE@PBD@Z)
+     1>cryptlib.lib(filters.obj) : error LNK2001: 无法解析的外部符号 "public: __thiscall std::bad_cast::bad_cast(char const *)" (??0bad_cast@std@@QAE@PBD@Z)
+     1>cryptlib.lib(fips140.obj) : error LNK2001: 无法解析的外部符号 "public: __thiscall std::bad_cast::bad_cast(char const *)" (??0bad_cast@std@@QAE@PBD@Z)
+     1>cryptlib.lib(dll.obj) : error LNK2001: 无法解析的外部符号 "public: __thiscall std::bad_cast::bad_cast(char const *)" (??0bad_cast@std@@QAE@PBD@Z)
+     1>cryptlib.lib(nbtheory.obj) : error LNK2001: 无法解析的外部符号 "public: __thiscall std::bad_cast::bad_cast(char const *)" (??0bad_cast@std@@QAE@PBD@Z)
+     1>cryptlib.lib(integer.obj) : error LNK2001: 无法解析的外部符号 "public: __thiscall std::bad_cast::bad_cast(char const *)" (??0bad_cast@std@@QAE@PBD@Z)
+     1>cryptlib.lib(misc.obj) : error LNK2001: 无法解析的外部符号 "public: __thiscall std::bad_cast::bad_cast(char const *)" (??0bad_cast@std@@QAE@PBD@Z)
+     1>cryptlib.lib(queue.obj) : error LNK2001: 无法解析的外部符号 "public: __thiscall std::bad_cast::bad_cast(char const *)" (??0bad_cast@std@@QAE@PBD@Z)
+     1>cryptlib.lib(algparam.obj) : error LNK2001: 无法解析的外部符号 "public: __thiscall std::bad_cast::bad_cast(char const *)" (??0bad_cast@std@@QAE@PBD@Z)
+     1>libcpmtd.lib(wlocale.obj) : error LNK2001: 无法解析的外部符号 "public: __thiscall std::bad_cast::bad_cast(char const *)" (??0bad_cast@std@@QAE@PBD@Z)
+     1>libcpmtd.lib(xlocale.obj) : error LNK2001: 无法解析的外部符号 "public: __thiscall std::bad_cast::bad_cast(char const *)" (??0bad_cast@std@@QAE@PBD@Z)
+     1>cryptlib.lib(cryptlib.obj) : error LNK2001: 无法解析的外部符号 "public: __thiscall std::bad_cast::bad_cast(char const *)" (??0bad_cast@std@@QAE@PBD@Z)
+     1>cryptlib.lib(des.obj) : error LNK2001: 无法解析的外部符号 "public: __thiscall std::bad_cast::bad_cast(char const *)" (??0bad_cast@std@@QAE@PBD@Z)
+     1>TestCryPto.obj : error LNK2001: 无法解析的外部符号 "public: __thiscall std::bad_cast::bad_cast(char const *)" (??0bad_cast@std@@QAE@PBD@Z)
+     1>libcpmtd.lib(cout.obj) : error LNK2001: 无法解析的外部符号 "public: __thiscall std::bad_cast::bad_cast(char const *)" (??0bad_cast@std@@QAE@PBD@Z)
+     1>libcpmtd.lib(cerr.obj) : error LNK2001: 无法解析的外部符号 "public: __thiscall std::bad_cast::bad_cast(char const *)" (??0bad_cast@std@@QAE@PBD@Z)
+     1>libcpmtd.lib(locale.obj) : error LNK2001: 无法解析的外部符号 "public: __thiscall std::bad_cast::bad_cast(char const *)" (??0bad_cast@std@@QAE@PBD@Z)
+     1>cryptlib.lib(hrtimer.obj) : error LNK2019: 无法解析的外部符号 "public: __thiscall std::bad_cast::bad_cast(class std::bad_cast const &)" (??0bad_cast@std@@QAE@ABV01@@Z)，该符号在函数 "void __cdecl std::_Debug_range2<char const *>(char const *,char const *,wchar_t const *,unsigned int,struct std::random_access_iterator_tag)" (??$_Debug_range2@PBD@std@@YAXPBD0PB_WIUrandom_access_iterator_tag@0@@Z) 中被引用
+     1>cryptlib.lib(rng.obj) : error LNK2001: 无法解析的外部符号 "public: __thiscall std::bad_cast::bad_cast(class std::bad_cast const &)" (??0bad_cast@std@@QAE@ABV01@@Z)
+     1>cryptlib.lib(osrng.obj) : error LNK2001: 无法解析的外部符号 "public: __thiscall std::bad_cast::bad_cast(class std::bad_cast const &)" (??0bad_cast@std@@QAE@ABV01@@Z)
+     1>cryptlib.lib(hmac.obj) : error LNK2001: 无法解析的外部符号 "public: __thiscall std::bad_cast::bad_cast(class std::bad_cast const &)" (??0bad_cast@std@@QAE@ABV01@@Z)
+     1>cryptlib.lib(randpool.obj) : error LNK2001: 无法解析的外部符号 "public: __thiscall std::bad_cast::bad_cast(class std::bad_cast const &)" (??0bad_cast@std@@QAE@ABV01@@Z)
+     1>cryptlib.lib(gf2n.obj) : error LNK2001: 无法解析的外部符号 "public: __thiscall std::bad_cast::bad_cast(class std::bad_cast const &)" (??0bad_cast@std@@QAE@ABV01@@Z)
+     1>cryptlib.lib(ec2n.obj) : error LNK2001: 无法解析的外部符号 "public: __thiscall std::bad_cast::bad_cast(class std::bad_cast const &)" (??0bad_cast@std@@QAE@ABV01@@Z)
+     1>cryptlib.lib(ecp.obj) : error LNK2001: 无法解析的外部符号 "public: __thiscall std::bad_cast::bad_cast(class std::bad_cast const &)" (??0bad_cast@std@@QAE@ABV01@@Z)
+     1>cryptlib.lib(basecode.obj) : error LNK2001: 无法解析的外部符号 "public: __thiscall std::bad_cast::bad_cast(class std::bad_cast const &)" (??0bad_cast@std@@QAE@ABV01@@Z)
+     1>cryptlib.lib(mqueue.obj) : error LNK2001: 无法解析的外部符号 "public: __thiscall std::bad_cast::bad_cast(class std::bad_cast const &)" (??0bad_cast@std@@QAE@ABV01@@Z)
+     1>cryptlib.lib(rijndael.obj) : error LNK2001: 无法解析的外部符号 "public: __thiscall std::bad_cast::bad_cast(class std::bad_cast const &)" (??0bad_cast@std@@QAE@ABV01@@Z)
+     1>cryptlib.lib(modes.obj) : error LNK2001: 无法解析的外部符号 "public: __thiscall std::bad_cast::bad_cast(class std::bad_cast const &)" (??0bad_cast@std@@QAE@ABV01@@Z)
+     1>cryptlib.lib(gfpcrypt.obj) : error LNK2001: 无法解析的外部符号 "public: __thiscall std::bad_cast::bad_cast(class std::bad_cast const &)" (??0bad_cast@std@@QAE@ABV01@@Z)
+     1>cryptlib.lib(asn.obj) : error LNK2001: 无法解析的外部符号 "public: __thiscall std::bad_cast::bad_cast(class std::bad_cast const &)" (??0bad_cast@std@@QAE@ABV01@@Z)
+     1>cryptlib.lib(pubkey.obj) : error LNK2001: 无法解析的外部符号 "public: __thiscall std::bad_cast::bad_cast(class std::bad_cast const &)" (??0bad_cast@std@@QAE@ABV01@@Z)
+     1>cryptlib.lib(iterhash.obj) : error LNK2001: 无法解析的外部符号 "public: __thiscall std::bad_cast::bad_cast(class std::bad_cast const &)" (??0bad_cast@std@@QAE@ABV01@@Z)
+     1>cryptlib.lib(sha.obj) : error LNK2001: 无法解析的外部符号 "public: __thiscall std::bad_cast::bad_cast(class std::bad_cast const &)" (??0bad_cast@std@@QAE@ABV01@@Z)
+     1>cryptlib.lib(filters.obj) : error LNK2001: 无法解析的外部符号 "public: __thiscall std::bad_cast::bad_cast(class std::bad_cast const &)" (??0bad_cast@std@@QAE@ABV01@@Z)
+     1>cryptlib.lib(fips140.obj) : error LNK2001: 无法解析的外部符号 "public: __thiscall std::bad_cast::bad_cast(class std::bad_cast const &)" (??0bad_cast@std@@QAE@ABV01@@Z)
+     1>cryptlib.lib(dll.obj) : error LNK2001: 无法解析的外部符号 "public: __thiscall std::bad_cast::bad_cast(class std::bad_cast const &)" (??0bad_cast@std@@QAE@ABV01@@Z)
+     1>cryptlib.lib(nbtheory.obj) : error LNK2001: 无法解析的外部符号 "public: __thiscall std::bad_cast::bad_cast(class std::bad_cast const &)" (??0bad_cast@std@@QAE@ABV01@@Z)
+     1>cryptlib.lib(integer.obj) : error LNK2001: 无法解析的外部符号 "public: __thiscall std::bad_cast::bad_cast(class std::bad_cast const &)" (??0bad_cast@std@@QAE@ABV01@@Z)
+     1>cryptlib.lib(misc.obj) : error LNK2001: 无法解析的外部符号 "public: __thiscall std::bad_cast::bad_cast(class std::bad_cast const &)" (??0bad_cast@std@@QAE@ABV01@@Z)
+     1>cryptlib.lib(queue.obj) : error LNK2001: 无法解析的外部符号 "public: __thiscall std::bad_cast::bad_cast(class std::bad_cast const &)" (??0bad_cast@std@@QAE@ABV01@@Z)
+     1>cryptlib.lib(algparam.obj) : error LNK2001: 无法解析的外部符号 "public: __thiscall std::bad_cast::bad_cast(class std::bad_cast const &)" (??0bad_cast@std@@QAE@ABV01@@Z)
+     1>libcpmtd.lib(wlocale.obj) : error LNK2001: 无法解析的外部符号 "public: __thiscall std::bad_cast::bad_cast(class std::bad_cast const &)" (??0bad_cast@std@@QAE@ABV01@@Z)
+     1>libcpmtd.lib(xlocale.obj) : error LNK2001: 无法解析的外部符号 "public: __thiscall std::bad_cast::bad_cast(class std::bad_cast const &)" (??0bad_cast@std@@QAE@ABV01@@Z)
+     1>cryptlib.lib(cryptlib.obj) : error LNK2001: 无法解析的外部符号 "public: __thiscall std::bad_cast::bad_cast(class std::bad_cast const &)" (??0bad_cast@std@@QAE@ABV01@@Z)
+     1>cryptlib.lib(des.obj) : error LNK2001: 无法解析的外部符号 "public: __thiscall std::bad_cast::bad_cast(class std::bad_cast const &)" (??0bad_cast@std@@QAE@ABV01@@Z)
+     1>TestCryPto.obj : error LNK2001: 无法解析的外部符号 "public: __thiscall std::bad_cast::bad_cast(class std::bad_cast const &)" (??0bad_cast@std@@QAE@ABV01@@Z)
+     1>libcpmtd.lib(cout.obj) : error LNK2001: 无法解析的外部符号 "public: __thiscall std::bad_cast::bad_cast(class std::bad_cast const &)" (??0bad_cast@std@@QAE@ABV01@@Z)
+     1>libcpmtd.lib(cerr.obj) : error LNK2001: 无法解析的外部符号 "public: __thiscall std::bad_cast::bad_cast(class std::bad_cast const &)" (??0bad_cast@std@@QAE@ABV01@@Z)
+     1>libcpmtd.lib(locale.obj) : error LNK2001: 无法解析的外部符号 "public: __thiscall std::bad_cast::bad_cast(class std::bad_cast const &)" (??0bad_cast@std@@QAE@ABV01@@Z)
+     1>cryptlib.lib(hrtimer.obj) : error LNK2001: 无法解析的外部符号 "public: virtual __thiscall std::bad_cast::~bad_cast(void)" (??1bad_cast@std@@UAE@XZ)
+     1>cryptlib.lib(rng.obj) : error LNK2001: 无法解析的外部符号 "public: virtual __thiscall std::bad_cast::~bad_cast(void)" (??1bad_cast@std@@UAE@XZ)
+     1>cryptlib.lib(osrng.obj) : error LNK2001: 无法解析的外部符号 "public: virtual __thiscall std::bad_cast::~bad_cast(void)" (??1bad_cast@std@@UAE@XZ)
+     1>cryptlib.lib(hmac.obj) : error LNK2001: 无法解析的外部符号 "public: virtual __thiscall std::bad_cast::~bad_cast(void)" (??1bad_cast@std@@UAE@XZ)
+     1>cryptlib.lib(randpool.obj) : error LNK2001: 无法解析的外部符号 "public: virtual __thiscall std::bad_cast::~bad_cast(void)" (??1bad_cast@std@@UAE@XZ)
+     1>cryptlib.lib(gf2n.obj) : error LNK2001: 无法解析的外部符号 "public: virtual __thiscall std::bad_cast::~bad_cast(void)" (??1bad_cast@std@@UAE@XZ)
+     1>cryptlib.lib(ec2n.obj) : error LNK2001: 无法解析的外部符号 "public: virtual __thiscall std::bad_cast::~bad_cast(void)" (??1bad_cast@std@@UAE@XZ)
+     1>cryptlib.lib(ecp.obj) : error LNK2001: 无法解析的外部符号 "public: virtual __thiscall std::bad_cast::~bad_cast(void)" (??1bad_cast@std@@UAE@XZ)
+     1>cryptlib.lib(basecode.obj) : error LNK2001: 无法解析的外部符号 "public: virtual __thiscall std::bad_cast::~bad_cast(void)" (??1bad_cast@std@@UAE@XZ)
+     1>cryptlib.lib(mqueue.obj) : error LNK2001: 无法解析的外部符号 "public: virtual __thiscall std::bad_cast::~bad_cast(void)" (??1bad_cast@std@@UAE@XZ)
+     1>cryptlib.lib(rijndael.obj) : error LNK2001: 无法解析的外部符号 "public: virtual __thiscall std::bad_cast::~bad_cast(void)" (??1bad_cast@std@@UAE@XZ)
+     1>cryptlib.lib(modes.obj) : error LNK2001: 无法解析的外部符号 "public: virtual __thiscall std::bad_cast::~bad_cast(void)" (??1bad_cast@std@@UAE@XZ)
+     1>cryptlib.lib(gfpcrypt.obj) : error LNK2001: 无法解析的外部符号 "public: virtual __thiscall std::bad_cast::~bad_cast(void)" (??1bad_cast@std@@UAE@XZ)
+     1>cryptlib.lib(asn.obj) : error LNK2001: 无法解析的外部符号 "public: virtual __thiscall std::bad_cast::~bad_cast(void)" (??1bad_cast@std@@UAE@XZ)
+     1>cryptlib.lib(pubkey.obj) : error LNK2001: 无法解析的外部符号 "public: virtual __thiscall std::bad_cast::~bad_cast(void)" (??1bad_cast@std@@UAE@XZ)
+     1>cryptlib.lib(iterhash.obj) : error LNK2001: 无法解析的外部符号 "public: virtual __thiscall std::bad_cast::~bad_cast(void)" (??1bad_cast@std@@UAE@XZ)
+     1>cryptlib.lib(sha.obj) : error LNK2001: 无法解析的外部符号 "public: virtual __thiscall std::bad_cast::~bad_cast(void)" (??1bad_cast@std@@UAE@XZ)
+     1>cryptlib.lib(filters.obj) : error LNK2001: 无法解析的外部符号 "public: virtual __thiscall std::bad_cast::~bad_cast(void)" (??1bad_cast@std@@UAE@XZ)
+     1>cryptlib.lib(fips140.obj) : error LNK2001: 无法解析的外部符号 "public: virtual __thiscall std::bad_cast::~bad_cast(void)" (??1bad_cast@std@@UAE@XZ)
+     1>cryptlib.lib(dll.obj) : error LNK2001: 无法解析的外部符号 "public: virtual __thiscall std::bad_cast::~bad_cast(void)" (??1bad_cast@std@@UAE@XZ)
+     1>cryptlib.lib(nbtheory.obj) : error LNK2001: 无法解析的外部符号 "public: virtual __thiscall std::bad_cast::~bad_cast(void)" (??1bad_cast@std@@UAE@XZ)
+     1>cryptlib.lib(integer.obj) : error LNK2001: 无法解析的外部符号 "public: virtual __thiscall std::bad_cast::~bad_cast(void)" (??1bad_cast@std@@UAE@XZ)
+     1>cryptlib.lib(misc.obj) : error LNK2001: 无法解析的外部符号 "public: virtual __thiscall std::bad_cast::~bad_cast(void)" (??1bad_cast@std@@UAE@XZ)
+     1>cryptlib.lib(queue.obj) : error LNK2001: 无法解析的外部符号 "public: virtual __thiscall std::bad_cast::~bad_cast(void)" (??1bad_cast@std@@UAE@XZ)
+     1>cryptlib.lib(algparam.obj) : error LNK2001: 无法解析的外部符号 "public: virtual __thiscall std::bad_cast::~bad_cast(void)" (??1bad_cast@std@@UAE@XZ)
+     1>libcpmtd.lib(wlocale.obj) : error LNK2001: 无法解析的外部符号 "public: virtual __thiscall std::bad_cast::~bad_cast(void)" (??1bad_cast@std@@UAE@XZ)
+     1>libcpmtd.lib(xlocale.obj) : error LNK2001: 无法解析的外部符号 "public: virtual __thiscall std::bad_cast::~bad_cast(void)" (??1bad_cast@std@@UAE@XZ)
+     1>cryptlib.lib(cryptlib.obj) : error LNK2001: 无法解析的外部符号 "public: virtual __thiscall std::bad_cast::~bad_cast(void)" (??1bad_cast@std@@UAE@XZ)
+     1>cryptlib.lib(des.obj) : error LNK2001: 无法解析的外部符号 "public: virtual __thiscall std::bad_cast::~bad_cast(void)" (??1bad_cast@std@@UAE@XZ)
+     1>TestCryPto.obj : error LNK2001: 无法解析的外部符号 "public: virtual __thiscall std::bad_cast::~bad_cast(void)" (??1bad_cast@std@@UAE@XZ)
+     1>libcpmtd.lib(cout.obj) : error LNK2001: 无法解析的外部符号 "public: virtual __thiscall std::bad_cast::~bad_cast(void)" (??1bad_cast@std@@UAE@XZ)
+     1>libcpmtd.lib(cerr.obj) : error LNK2001: 无法解析的外部符号 "public: virtual __thiscall std::bad_cast::~bad_cast(void)" (??1bad_cast@std@@UAE@XZ)
+     1>libcpmtd.lib(locale.obj) : error LNK2001: 无法解析的外部符号 "public: virtual __thiscall std::bad_cast::~bad_cast(void)" (??1bad_cast@std@@UAE@XZ)
+     1>cryptlib.lib(hrtimer.obj) : error LNK2001: 无法解析的外部符号 _localeconv
+     1>cryptlib.lib(rng.obj) : error LNK2001: 无法解析的外部符号 _localeconv
+     1>cryptlib.lib(osrng.obj) : error LNK2001: 无法解析的外部符号 _localeconv
+     1>cryptlib.lib(hmac.obj) : error LNK2001: 无法解析的外部符号 _localeconv
+     1>cryptlib.lib(randpool.obj) : error LNK2001: 无法解析的外部符号 _localeconv
+     1>cryptlib.lib(gf2n.obj) : error LNK2001: 无法解析的外部符号 _localeconv
+     1>cryptlib.lib(ec2n.obj) : error LNK2001: 无法解析的外部符号 _localeconv
+     1>cryptlib.lib(ecp.obj) : error LNK2001: 无法解析的外部符号 _localeconv
+     1>cryptlib.lib(basecode.obj) : error LNK2001: 无法解析的外部符号 _localeconv
+     1>cryptlib.lib(mqueue.obj) : error LNK2001: 无法解析的外部符号 _localeconv
+     1>cryptlib.lib(rijndael.obj) : error LNK2001: 无法解析的外部符号 _localeconv
+     1>cryptlib.lib(modes.obj) : error LNK2001: 无法解析的外部符号 _localeconv
+     1>cryptlib.lib(gfpcrypt.obj) : error LNK2001: 无法解析的外部符号 _localeconv
+     1>cryptlib.lib(asn.obj) : error LNK2001: 无法解析的外部符号 _localeconv
+     1>cryptlib.lib(pubkey.obj) : error LNK2001: 无法解析的外部符号 _localeconv
+     1>cryptlib.lib(iterhash.obj) : error LNK2001: 无法解析的外部符号 _localeconv
+     1>cryptlib.lib(sha.obj) : error LNK2001: 无法解析的外部符号 _localeconv
+     1>cryptlib.lib(filters.obj) : error LNK2001: 无法解析的外部符号 _localeconv
+     1>cryptlib.lib(fips140.obj) : error LNK2001: 无法解析的外部符号 _localeconv
+     1>cryptlib.lib(dll.obj) : error LNK2001: 无法解析的外部符号 _localeconv
+     1>cryptlib.lib(nbtheory.obj) : error LNK2001: 无法解析的外部符号 _localeconv
+     1>cryptlib.lib(integer.obj) : error LNK2001: 无法解析的外部符号 _localeconv
+     1>cryptlib.lib(misc.obj) : error LNK2001: 无法解析的外部符号 _localeconv
+     1>cryptlib.lib(queue.obj) : error LNK2001: 无法解析的外部符号 _localeconv
+     1>cryptlib.lib(algparam.obj) : error LNK2001: 无法解析的外部符号 _localeconv
+     1>libcpmtd.lib(xstoflt.obj) : error LNK2001: 无法解析的外部符号 _localeconv
+     1>libcpmtd.lib(xstoxflt.obj) : error LNK2001: 无法解析的外部符号 _localeconv
+     1>cryptlib.lib(cryptlib.obj) : error LNK2001: 无法解析的外部符号 _localeconv
+     1>cryptlib.lib(des.obj) : error LNK2001: 无法解析的外部符号 _localeconv
+     1>TestCryPto.obj : error LNK2001: 无法解析的外部符号 _localeconv
+     1>libcpmtd.lib(locale.obj) : error LNK2001: 无法解析的外部符号 _localeconv
+     1>libcpmtd.lib(wlocale.obj) : error LNK2001: 无法解析的外部符号 _localeconv
+     1>libcpmtd.lib(xlocale.obj) : error LNK2001: 无法解析的外部符号 _localeconv
+     1>cryptlib.lib(hmac.obj) : error LNK2001: 无法解析的外部符号 @_RTC_CheckStackVars@8
+     1>cryptlib.lib(randpool.obj) : error LNK2001: 无法解析的外部符号 @_RTC_CheckStackVars@8
+     1>cryptlib.lib(hrtimer.obj) : error LNK2001: 无法解析的外部符号 @_RTC_CheckStackVars@8
+     1>cryptlib.lib(basecode.obj) : error LNK2001: 无法解析的外部符号 @_RTC_CheckStackVars@8
+     1>cryptlib.lib(hex.obj) : error LNK2001: 无法解析的外部符号 @_RTC_CheckStackVars@8
+     1>cryptlib.lib(rng.obj) : error LNK2001: 无法解析的外部符号 @_RTC_CheckStackVars@8
+     1>cryptlib.lib(osrng.obj) : error LNK2001: 无法解析的外部符号 @_RTC_CheckStackVars@8
+     1>cryptlib.lib(gfpcrypt.obj) : error LNK2001: 无法解析的外部符号 @_RTC_CheckStackVars@8
+     1>cryptlib.lib(gf2n.obj) : error LNK2001: 无法解析的外部符号 @_RTC_CheckStackVars@8
+     1>cryptlib.lib(ec2n.obj) : error LNK2001: 无法解析的外部符号 @_RTC_CheckStackVars@8
+     1>cryptlib.lib(ecp.obj) : error LNK2001: 无法解析的外部符号 @_RTC_CheckStackVars@8
+     1>cryptlib.lib(cpu.obj) : error LNK2001: 无法解析的外部符号 @_RTC_CheckStackVars@8
+     1>cryptlib.lib(mqueue.obj) : error LNK2001: 无法解析的外部符号 @_RTC_CheckStackVars@8
+     1>cryptlib.lib(rijndael.obj) : error LNK2001: 无法解析的外部符号 @_RTC_CheckStackVars@8
+     1>cryptlib.lib(modes.obj) : error LNK2001: 无法解析的外部符号 @_RTC_CheckStackVars@8
+     1>cryptlib.lib(asn.obj) : error LNK2001: 无法解析的外部符号 @_RTC_CheckStackVars@8
+     1>cryptlib.lib(pubkey.obj) : error LNK2001: 无法解析的外部符号 @_RTC_CheckStackVars@8
+     1>cryptlib.lib(iterhash.obj) : error LNK2001: 无法解析的外部符号 @_RTC_CheckStackVars@8
+     1>cryptlib.lib(sha.obj) : error LNK2001: 无法解析的外部符号 @_RTC_CheckStackVars@8
+     1>cryptlib.lib(filters.obj) : error LNK2001: 无法解析的外部符号 @_RTC_CheckStackVars@8
+     1>cryptlib.lib(fips140.obj) : error LNK2001: 无法解析的外部符号 @_RTC_CheckStackVars@8
+     1>cryptlib.lib(dll.obj) : error LNK2001: 无法解析的外部符号 @_RTC_CheckStackVars@8
+     1>cryptlib.lib(nbtheory.obj) : error LNK2001: 无法解析的外部符号 @_RTC_CheckStackVars@8
+     1>cryptlib.lib(integer.obj) : error LNK2001: 无法解析的外部符号 @_RTC_CheckStackVars@8
+     1>cryptlib.lib(misc.obj) : error LNK2001: 无法解析的外部符号 @_RTC_CheckStackVars@8
+     1>cryptlib.lib(queue.obj) : error LNK2001: 无法解析的外部符号 @_RTC_CheckStackVars@8
+     1>cryptlib.lib(algparam.obj) : error LNK2001: 无法解析的外部符号 @_RTC_CheckStackVars@8
+     1>TestCryPto.obj : error LNK2001: 无法解析的外部符号 @_RTC_CheckStackVars@8
+     1>cryptlib.lib(cryptlib.obj) : error LNK2001: 无法解析的外部符号 @_RTC_CheckStackVars@8
+     1>cryptlib.lib(des.obj) : error LNK2001: 无法解析的外部符号 @_RTC_CheckStackVars@8
+     1>cryptlib.lib(pch.obj) : error LNK2001: 无法解析的外部符号 @_RTC_CheckStackVars@8
+     1>libcpmtd.lib(thread0.obj) : error LNK2001: 无法解析的外部符号 @__security_check_cookie@4
+     1>libcpmtd.lib(cthread.obj) : error LNK2001: 无法解析的外部符号 @__security_check_cookie@4
+     1>libcpmtd.lib(xtime.obj) : error LNK2001: 无法解析的外部符号 @__security_check_cookie@4
+     1>libcpmtd.lib(cond.obj) : error LNK2001: 无法解析的外部符号 @__security_check_cookie@4
+     1>cryptlib.lib(hmac.obj) : error LNK2001: 无法解析的外部符号 @__security_check_cookie@4
+     1>cryptlib.lib(randpool.obj) : error LNK2001: 无法解析的外部符号 @__security_check_cookie@4
+     1>cryptlib.lib(hrtimer.obj) : error LNK2001: 无法解析的外部符号 @__security_check_cookie@4
+     1>libcpmtd.lib(mutex.obj) : error LNK2001: 无法解析的外部符号 @__security_check_cookie@4
+     1>cryptlib.lib(basecode.obj) : error LNK2001: 无法解析的外部符号 @__security_check_cookie@4
+     1>cryptlib.lib(hex.obj) : error LNK2001: 无法解析的外部符号 @__security_check_cookie@4
+     1>cryptlib.lib(rng.obj) : error LNK2001: 无法解析的外部符号 @__security_check_cookie@4
+     1>cryptlib.lib(osrng.obj) : error LNK2001: 无法解析的外部符号 @__security_check_cookie@4
+     1>cryptlib.lib(gfpcrypt.obj) : error LNK2001: 无法解析的外部符号 @__security_check_cookie@4
+     1>cryptlib.lib(gf2n.obj) : error LNK2001: 无法解析的外部符号 @__security_check_cookie@4
+     1>cryptlib.lib(ec2n.obj) : error LNK2001: 无法解析的外部符号 @__security_check_cookie@4
+     1>cryptlib.lib(ecp.obj) : error LNK2001: 无法解析的外部符号 @__security_check_cookie@4
+     1>cryptlib.lib(cpu.obj) : error LNK2001: 无法解析的外部符号 @__security_check_cookie@4
+     1>cryptlib.lib(mqueue.obj) : error LNK2001: 无法解析的外部符号 @__security_check_cookie@4
+     1>cryptlib.lib(rijndael.obj) : error LNK2001: 无法解析的外部符号 @__security_check_cookie@4
+     1>cryptlib.lib(modes.obj) : error LNK2001: 无法解析的外部符号 @__security_check_cookie@4
+     1>cryptlib.lib(asn.obj) : error LNK2001: 无法解析的外部符号 @__security_check_cookie@4
+     1>cryptlib.lib(pubkey.obj) : error LNK2001: 无法解析的外部符号 @__security_check_cookie@4
+     1>cryptlib.lib(iterhash.obj) : error LNK2001: 无法解析的外部符号 @__security_check_cookie@4
+     1>cryptlib.lib(sha.obj) : error LNK2001: 无法解析的外部符号 @__security_check_cookie@4
+     1>cryptlib.lib(filters.obj) : error LNK2001: 无法解析的外部符号 @__security_check_cookie@4
+     1>cryptlib.lib(fips140.obj) : error LNK2001: 无法解析的外部符号 @__security_check_cookie@4
+     1>cryptlib.lib(dll.obj) : error LNK2001: 无法解析的外部符号 @__security_check_cookie@4
+     1>cryptlib.lib(nbtheory.obj) : error LNK2001: 无法解析的外部符号 @__security_check_cookie@4
+     1>cryptlib.lib(integer.obj) : error LNK2001: 无法解析的外部符号 @__security_check_cookie@4
+     1>cryptlib.lib(misc.obj) : error LNK2001: 无法解析的外部符号 @__security_check_cookie@4
+     1>cryptlib.lib(queue.obj) : error LNK2001: 无法解析的外部符号 @__security_check_cookie@4
+     1>cryptlib.lib(algparam.obj) : error LNK2001: 无法解析的外部符号 @__security_check_cookie@4
+     1>libcpmtd.lib(xldtento.obj) : error LNK2001: 无法解析的外部符号 @__security_check_cookie@4
+     1>cryptlib.lib(cryptlib.obj) : error LNK2001: 无法解析的外部符号 @__security_check_cookie@4
+     1>cryptlib.lib(des.obj) : error LNK2001: 无法解析的外部符号 @__security_check_cookie@4
+     1>cryptlib.lib(pch.obj) : error LNK2001: 无法解析的外部符号 @__security_check_cookie@4
+     1>libcpmtd.lib(xfdtento.obj) : error LNK2001: 无法解析的外部符号 @__security_check_cookie@4
+     1>libcpmtd.lib(xprec.obj) : error LNK2001: 无法解析的外部符号 @__security_check_cookie@4
+     1>libcpmtd.lib(xdtento.obj) : error LNK2001: 无法解析的外部符号 @__security_check_cookie@4
+     1>libcpmtd.lib(xlprec.obj) : error LNK2001: 无法解析的外部符号 @__security_check_cookie@4
+     1>libcpmtd.lib(xmbtowc.obj) : error LNK2001: 无法解析的外部符号 @__security_check_cookie@4
+     1>libcpmtd.lib(xstoflt.obj) : error LNK2001: 无法解析的外部符号 @__security_check_cookie@4
+     1>libcpmtd.lib(xstoxflt.obj) : error LNK2001: 无法解析的外部符号 @__security_check_cookie@4
+     1>libcpmtd.lib(xfprec.obj) : error LNK2001: 无法解析的外部符号 @__security_check_cookie@4
+     1>libcpmtd.lib(xstof.obj) : error LNK2001: 无法解析的外部符号 @__security_check_cookie@4
+     1>libcpmtd.lib(xstod.obj) : error LNK2001: 无法解析的外部符号 @__security_check_cookie@4
+     1>libcpmtd.lib(xstold.obj) : error LNK2001: 无法解析的外部符号 @__security_check_cookie@4
+     1>libcpmtd.lib(xdateord.obj) : error LNK2001: 无法解析的外部符号 @__security_check_cookie@4
+     1>libcpmtd.lib(iosptrs.obj) : error LNK2001: 无法解析的外部符号 @__security_check_cookie@4
+     1>libcpmtd.lib(locale.obj) : error LNK2001: 无法解析的外部符号 @__security_check_cookie@4
+     1>libcpmtd.lib(wlocale.obj) : error LNK2001: 无法解析的外部符号 @__security_check_cookie@4
+     1>libcpmtd.lib(xlocale.obj) : error LNK2001: 无法解析的外部符号 @__security_check_cookie@4
+     1>libcpmtd.lib(syserror.obj) : error LNK2001: 无法解析的外部符号 @__security_check_cookie@4
+     1>libcpmtd.lib(ios.obj) : error LNK2001: 无法解析的外部符号 @__security_check_cookie@4
+     1>libcpmtd.lib(cout.obj) : error LNK2001: 无法解析的外部符号 @__security_check_cookie@4
+     1>libcpmtd.lib(cerr.obj) : error LNK2001: 无法解析的外部符号 @__security_check_cookie@4
+     1>TestCryPto.obj : error LNK2001: 无法解析的外部符号 @__security_check_cookie@4
+     1>libcpmtd.lib(xthrow.obj) : error LNK2001: 无法解析的外部符号 @__security_check_cookie@4
+     1>libcpmtd.lib(xwctomb.obj) : error LNK2001: 无法解析的外部符号 @__security_check_cookie@4
+     1>libcpmtd.lib(locale0.obj) : error LNK2001: 无法解析的外部符号 @__security_check_cookie@4
+     1>cryptlib.lib(hrtimer.obj) : error LNK2001: 无法解析的外部符号 __CxxThrowException@8
+     1>libcpmtd.lib(mutex.obj) : error LNK2001: 无法解析的外部符号 __CxxThrowException@8
+     1>libcpmtd.lib(thread0.obj) : error LNK2001: 无法解析的外部符号 __CxxThrowException@8
+     1>cryptlib.lib(rng.obj) : error LNK2001: 无法解析的外部符号 __CxxThrowException@8
+     1>cryptlib.lib(osrng.obj) : error LNK2001: 无法解析的外部符号 __CxxThrowException@8
+     1>cryptlib.lib(hmac.obj) : error LNK2001: 无法解析的外部符号 __CxxThrowException@8
+     1>cryptlib.lib(randpool.obj) : error LNK2001: 无法解析的外部符号 __CxxThrowException@8
+     1>cryptlib.lib(ec2n.obj) : error LNK2001: 无法解析的外部符号 __CxxThrowException@8
+     1>cryptlib.lib(ecp.obj) : error LNK2001: 无法解析的外部符号 __CxxThrowException@8
+     1>cryptlib.lib(basecode.obj) : error LNK2001: 无法解析的外部符号 __CxxThrowException@8
+     1>cryptlib.lib(hex.obj) : error LNK2001: 无法解析的外部符号 __CxxThrowException@8
+     1>cryptlib.lib(rijndael.obj) : error LNK2001: 无法解析的外部符号 __CxxThrowException@8
+     1>cryptlib.lib(modes.obj) : error LNK2001: 无法解析的外部符号 __CxxThrowException@8
+     1>cryptlib.lib(gfpcrypt.obj) : error LNK2001: 无法解析的外部符号 __CxxThrowException@8
+     1>cryptlib.lib(gf2n.obj) : error LNK2001: 无法解析的外部符号 __CxxThrowException@8
+     1>cryptlib.lib(pubkey.obj) : error LNK2001: 无法解析的外部符号 __CxxThrowException@8
+     1>cryptlib.lib(iterhash.obj) : error LNK2001: 无法解析的外部符号 __CxxThrowException@8
+     1>cryptlib.lib(sha.obj) : error LNK2001: 无法解析的外部符号 __CxxThrowException@8
+     1>cryptlib.lib(mqueue.obj) : error LNK2001: 无法解析的外部符号 __CxxThrowException@8
+     1>cryptlib.lib(fips140.obj) : error LNK2001: 无法解析的外部符号 __CxxThrowException@8
+     1>cryptlib.lib(dll.obj) : error LNK2001: 无法解析的外部符号 __CxxThrowException@8
+     1>cryptlib.lib(nbtheory.obj) : error LNK2001: 无法解析的外部符号 __CxxThrowException@8
+     1>cryptlib.lib(asn.obj) : error LNK2001: 无法解析的外部符号 __CxxThrowException@8
+     1>cryptlib.lib(misc.obj) : error LNK2001: 无法解析的外部符号 __CxxThrowException@8
+     1>cryptlib.lib(queue.obj) : error LNK2001: 无法解析的外部符号 __CxxThrowException@8
+     1>cryptlib.lib(algparam.obj) : error LNK2001: 无法解析的外部符号 __CxxThrowException@8
+     1>cryptlib.lib(filters.obj) : error LNK2001: 无法解析的外部符号 __CxxThrowException@8
+     1>cryptlib.lib(cryptlib.obj) : error LNK2001: 无法解析的外部符号 __CxxThrowException@8
+     1>cryptlib.lib(des.obj) : error LNK2001: 无法解析的外部符号 __CxxThrowException@8
+     1>cryptlib.lib(pch.obj) : error LNK2001: 无法解析的外部符号 __CxxThrowException@8
+     1>cryptlib.lib(integer.obj) : error LNK2001: 无法解析的外部符号 __CxxThrowException@8
+     1>libcpmtd.lib(locale.obj) : error LNK2001: 无法解析的外部符号 __CxxThrowException@8
+     1>libcpmtd.lib(wlocale.obj) : error LNK2001: 无法解析的外部符号 __CxxThrowException@8
+     1>libcpmtd.lib(xlocale.obj) : error LNK2001: 无法解析的外部符号 __CxxThrowException@8
+     1>libcpmtd.lib(xdateord.obj) : error LNK2001: 无法解析的外部符号 __CxxThrowException@8
+     1>libcpmtd.lib(ios.obj) : error LNK2001: 无法解析的外部符号 __CxxThrowException@8
+     1>libcpmtd.lib(cout.obj) : error LNK2001: 无法解析的外部符号 __CxxThrowException@8
+     1>libcpmtd.lib(cerr.obj) : error LNK2001: 无法解析的外部符号 __CxxThrowException@8
+     1>libcpmtd.lib(iosptrs.obj) : error LNK2001: 无法解析的外部符号 __CxxThrowException@8
+     1>TestCryPto.obj : error LNK2001: 无法解析的外部符号 __CxxThrowException@8
+     1>libcpmtd.lib(xthrow.obj) : error LNK2001: 无法解析的外部符号 __CxxThrowException@8
+     1>libcpmtd.lib(locale0.obj) : error LNK2001: 无法解析的外部符号 __CxxThrowException@8
+     1>libcpmtd.lib(syserror.obj) : error LNK2001: 无法解析的外部符号 __CxxThrowException@8
+     1>cryptlib.lib(hmac.obj) : error LNK2001: 无法解析的外部符号 __RTC_CheckEsp
+     1>cryptlib.lib(randpool.obj) : error LNK2001: 无法解析的外部符号 __RTC_CheckEsp
+     1>cryptlib.lib(hrtimer.obj) : error LNK2001: 无法解析的外部符号 __RTC_CheckEsp
+     1>cryptlib.lib(basecode.obj) : error LNK2001: 无法解析的外部符号 __RTC_CheckEsp
+     1>cryptlib.lib(hex.obj) : error LNK2001: 无法解析的外部符号 __RTC_CheckEsp
+     1>cryptlib.lib(rng.obj) : error LNK2001: 无法解析的外部符号 __RTC_CheckEsp
+     1>cryptlib.lib(osrng.obj) : error LNK2001: 无法解析的外部符号 __RTC_CheckEsp
+     1>cryptlib.lib(gfpcrypt.obj) : error LNK2001: 无法解析的外部符号 __RTC_CheckEsp
+     1>cryptlib.lib(gf2n.obj) : error LNK2001: 无法解析的外部符号 __RTC_CheckEsp
+     1>cryptlib.lib(ec2n.obj) : error LNK2001: 无法解析的外部符号 __RTC_CheckEsp
+     1>cryptlib.lib(ecp.obj) : error LNK2001: 无法解析的外部符号 __RTC_CheckEsp
+     1>cryptlib.lib(cpu.obj) : error LNK2001: 无法解析的外部符号 __RTC_CheckEsp
+     1>cryptlib.lib(mqueue.obj) : error LNK2001: 无法解析的外部符号 __RTC_CheckEsp
+     1>cryptlib.lib(rijndael.obj) : error LNK2001: 无法解析的外部符号 __RTC_CheckEsp
+     1>cryptlib.lib(modes.obj) : error LNK2001: 无法解析的外部符号 __RTC_CheckEsp
+     1>cryptlib.lib(asn.obj) : error LNK2001: 无法解析的外部符号 __RTC_CheckEsp
+     1>cryptlib.lib(pubkey.obj) : error LNK2001: 无法解析的外部符号 __RTC_CheckEsp
+     1>cryptlib.lib(iterhash.obj) : error LNK2001: 无法解析的外部符号 __RTC_CheckEsp
+     1>cryptlib.lib(sha.obj) : error LNK2001: 无法解析的外部符号 __RTC_CheckEsp
+     1>cryptlib.lib(filters.obj) : error LNK2001: 无法解析的外部符号 __RTC_CheckEsp
+     1>cryptlib.lib(fips140.obj) : error LNK2001: 无法解析的外部符号 __RTC_CheckEsp
+     1>cryptlib.lib(dll.obj) : error LNK2001: 无法解析的外部符号 __RTC_CheckEsp
+     1>cryptlib.lib(nbtheory.obj) : error LNK2001: 无法解析的外部符号 __RTC_CheckEsp
+     1>cryptlib.lib(integer.obj) : error LNK2001: 无法解析的外部符号 __RTC_CheckEsp
+     1>cryptlib.lib(misc.obj) : error LNK2001: 无法解析的外部符号 __RTC_CheckEsp
+     1>cryptlib.lib(queue.obj) : error LNK2001: 无法解析的外部符号 __RTC_CheckEsp
+     1>cryptlib.lib(algparam.obj) : error LNK2001: 无法解析的外部符号 __RTC_CheckEsp
+     1>TestCryPto.obj : error LNK2001: 无法解析的外部符号 __RTC_CheckEsp
+     1>cryptlib.lib(cryptlib.obj) : error LNK2001: 无法解析的外部符号 __RTC_CheckEsp
+     1>cryptlib.lib(des.obj) : error LNK2001: 无法解析的外部符号 __RTC_CheckEsp
+     1>cryptlib.lib(pch.obj) : error LNK2001: 无法解析的外部符号 __RTC_CheckEsp
+     1>cryptlib.lib(hrtimer.obj) : error LNK2001: 无法解析的外部符号 __RTC_InitBase
+     1>cryptlib.lib(osrng.obj) : error LNK2001: 无法解析的外部符号 __RTC_InitBase
+     1>cryptlib.lib(rdtables.obj) : error LNK2001: 无法解析的外部符号 __RTC_InitBase
+     1>cryptlib.lib(hmac.obj) : error LNK2001: 无法解析的外部符号 __RTC_InitBase
+     1>cryptlib.lib(randpool.obj) : error LNK2001: 无法解析的外部符号 __RTC_InitBase
+     1>cryptlib.lib(ecp.obj) : error LNK2001: 无法解析的外部符号 __RTC_InitBase
+     1>cryptlib.lib(basecode.obj) : error LNK2001: 无法解析的外部符号 __RTC_InitBase
+     1>cryptlib.lib(hex.obj) : error LNK2001: 无法解析的外部符号 __RTC_InitBase
+     1>cryptlib.lib(rng.obj) : error LNK2001: 无法解析的外部符号 __RTC_InitBase
+     1>cryptlib.lib(modes.obj) : error LNK2001: 无法解析的外部符号 __RTC_InitBase
+     1>cryptlib.lib(gfpcrypt.obj) : error LNK2001: 无法解析的外部符号 __RTC_InitBase
+     1>cryptlib.lib(gf2n.obj) : error LNK2001: 无法解析的外部符号 __RTC_InitBase
+     1>cryptlib.lib(ec2n.obj) : error LNK2001: 无法解析的外部符号 __RTC_InitBase
+     1>cryptlib.lib(sha.obj) : error LNK2001: 无法解析的外部符号 __RTC_InitBase
+     1>cryptlib.lib(cpu.obj) : error LNK2001: 无法解析的外部符号 __RTC_InitBase
+     1>cryptlib.lib(mqueue.obj) : error LNK2001: 无法解析的外部符号 __RTC_InitBase
+     1>cryptlib.lib(rijndael.obj) : error LNK2001: 无法解析的外部符号 __RTC_InitBase
+     1>cryptlib.lib(nbtheory.obj) : error LNK2001: 无法解析的外部符号 __RTC_InitBase
+     1>cryptlib.lib(asn.obj) : error LNK2001: 无法解析的外部符号 __RTC_InitBase
+     1>cryptlib.lib(pubkey.obj) : error LNK2001: 无法解析的外部符号 __RTC_InitBase
+     1>cryptlib.lib(iterhash.obj) : error LNK2001: 无法解析的外部符号 __RTC_InitBase
+     1>cryptlib.lib(filters.obj) : error LNK2001: 无法解析的外部符号 __RTC_InitBase
+     1>cryptlib.lib(fips140.obj) : error LNK2001: 无法解析的外部符号 __RTC_InitBase
+     1>cryptlib.lib(dessp.obj) : error LNK2001: 无法解析的外部符号 __RTC_InitBase
+     1>cryptlib.lib(dll.obj) : error LNK2001: 无法解析的外部符号 __RTC_InitBase
+     1>cryptlib.lib(integer.obj) : error LNK2001: 无法解析的外部符号 __RTC_InitBase
+     1>cryptlib.lib(misc.obj) : error LNK2001: 无法解析的外部符号 __RTC_InitBase
+     1>cryptlib.lib(queue.obj) : error LNK2001: 无法解析的外部符号 __RTC_InitBase
+     1>cryptlib.lib(algparam.obj) : error LNK2001: 无法解析的外部符号 __RTC_InitBase
+     1>TestCryPto.obj : error LNK2001: 无法解析的外部符号 __RTC_InitBase
+     1>cryptlib.lib(cryptlib.obj) : error LNK2001: 无法解析的外部符号 __RTC_InitBase
+     1>cryptlib.lib(des.obj) : error LNK2001: 无法解析的外部符号 __RTC_InitBase
+     1>cryptlib.lib(pch.obj) : error LNK2001: 无法解析的外部符号 __RTC_InitBase
+     1>cryptlib.lib(hrtimer.obj) : error LNK2001: 无法解析的外部符号 __RTC_Shutdown
+     1>cryptlib.lib(osrng.obj) : error LNK2001: 无法解析的外部符号 __RTC_Shutdown
+     1>cryptlib.lib(rdtables.obj) : error LNK2001: 无法解析的外部符号 __RTC_Shutdown
+     1>cryptlib.lib(hmac.obj) : error LNK2001: 无法解析的外部符号 __RTC_Shutdown
+     1>cryptlib.lib(randpool.obj) : error LNK2001: 无法解析的外部符号 __RTC_Shutdown
+     1>cryptlib.lib(ecp.obj) : error LNK2001: 无法解析的外部符号 __RTC_Shutdown
+     1>cryptlib.lib(basecode.obj) : error LNK2001: 无法解析的外部符号 __RTC_Shutdown
+     1>cryptlib.lib(hex.obj) : error LNK2001: 无法解析的外部符号 __RTC_Shutdown
+     1>cryptlib.lib(rng.obj) : error LNK2001: 无法解析的外部符号 __RTC_Shutdown
+     1>cryptlib.lib(modes.obj) : error LNK2001: 无法解析的外部符号 __RTC_Shutdown
+     1>cryptlib.lib(gfpcrypt.obj) : error LNK2001: 无法解析的外部符号 __RTC_Shutdown
+     1>cryptlib.lib(gf2n.obj) : error LNK2001: 无法解析的外部符号 __RTC_Shutdown
+     1>cryptlib.lib(ec2n.obj) : error LNK2001: 无法解析的外部符号 __RTC_Shutdown
+     1>cryptlib.lib(sha.obj) : error LNK2001: 无法解析的外部符号 __RTC_Shutdown
+     1>cryptlib.lib(cpu.obj) : error LNK2001: 无法解析的外部符号 __RTC_Shutdown
+     1>cryptlib.lib(mqueue.obj) : error LNK2001: 无法解析的外部符号 __RTC_Shutdown
+     1>cryptlib.lib(rijndael.obj) : error LNK2001: 无法解析的外部符号 __RTC_Shutdown
+     1>cryptlib.lib(nbtheory.obj) : error LNK2001: 无法解析的外部符号 __RTC_Shutdown
+     1>cryptlib.lib(asn.obj) : error LNK2001: 无法解析的外部符号 __RTC_Shutdown
+     1>cryptlib.lib(pubkey.obj) : error LNK2001: 无法解析的外部符号 __RTC_Shutdown
+     1>cryptlib.lib(iterhash.obj) : error LNK2001: 无法解析的外部符号 __RTC_Shutdown
+     1>cryptlib.lib(filters.obj) : error LNK2001: 无法解析的外部符号 __RTC_Shutdown
+     1>cryptlib.lib(fips140.obj) : error LNK2001: 无法解析的外部符号 __RTC_Shutdown
+     1>cryptlib.lib(dessp.obj) : error LNK2001: 无法解析的外部符号 __RTC_Shutdown
+     1>cryptlib.lib(dll.obj) : error LNK2001: 无法解析的外部符号 __RTC_Shutdown
+     1>cryptlib.lib(integer.obj) : error LNK2001: 无法解析的外部符号 __RTC_Shutdown
+     1>cryptlib.lib(misc.obj) : error LNK2001: 无法解析的外部符号 __RTC_Shutdown
+     1>cryptlib.lib(queue.obj) : error LNK2001: 无法解析的外部符号 __RTC_Shutdown
+     1>cryptlib.lib(algparam.obj) : error LNK2001: 无法解析的外部符号 __RTC_Shutdown
+     1>TestCryPto.obj : error LNK2001: 无法解析的外部符号 __RTC_Shutdown
+     1>cryptlib.lib(cryptlib.obj) : error LNK2001: 无法解析的外部符号 __RTC_Shutdown
+     1>cryptlib.lib(des.obj) : error LNK2001: 无法解析的外部符号 __RTC_Shutdown
+     1>cryptlib.lib(pch.obj) : error LNK2001: 无法解析的外部符号 __RTC_Shutdown
+     1>cryptlib.lib(hrtimer.obj) : error LNK2001: 无法解析的外部符号 ___CxxFrameHandler3
+     1>libcpmtd.lib(mutex.obj) : error LNK2001: 无法解析的外部符号 ___CxxFrameHandler3
+     1>libcpmtd.lib(thread0.obj) : error LNK2001: 无法解析的外部符号 ___CxxFrameHandler3
+     1>cryptlib.lib(rng.obj) : error LNK2001: 无法解析的外部符号 ___CxxFrameHandler3
+     1>cryptlib.lib(osrng.obj) : error LNK2001: 无法解析的外部符号 ___CxxFrameHandler3
+     1>cryptlib.lib(hmac.obj) : error LNK2001: 无法解析的外部符号 ___CxxFrameHandler3
+     1>cryptlib.lib(randpool.obj) : error LNK2001: 无法解析的外部符号 ___CxxFrameHandler3
+     1>cryptlib.lib(ec2n.obj) : error LNK2001: 无法解析的外部符号 ___CxxFrameHandler3
+     1>cryptlib.lib(ecp.obj) : error LNK2001: 无法解析的外部符号 ___CxxFrameHandler3
+     1>cryptlib.lib(basecode.obj) : error LNK2001: 无法解析的外部符号 ___CxxFrameHandler3
+     1>cryptlib.lib(hex.obj) : error LNK2001: 无法解析的外部符号 ___CxxFrameHandler3
+     1>cryptlib.lib(rijndael.obj) : error LNK2001: 无法解析的外部符号 ___CxxFrameHandler3
+     1>cryptlib.lib(modes.obj) : error LNK2001: 无法解析的外部符号 ___CxxFrameHandler3
+     1>cryptlib.lib(gfpcrypt.obj) : error LNK2001: 无法解析的外部符号 ___CxxFrameHandler3
+     1>cryptlib.lib(gf2n.obj) : error LNK2001: 无法解析的外部符号 ___CxxFrameHandler3
+     1>cryptlib.lib(pubkey.obj) : error LNK2001: 无法解析的外部符号 ___CxxFrameHandler3
+     1>cryptlib.lib(iterhash.obj) : error LNK2001: 无法解析的外部符号 ___CxxFrameHandler3
+     1>cryptlib.lib(sha.obj) : error LNK2001: 无法解析的外部符号 ___CxxFrameHandler3
+     1>cryptlib.lib(mqueue.obj) : error LNK2001: 无法解析的外部符号 ___CxxFrameHandler3
+     1>cryptlib.lib(fips140.obj) : error LNK2001: 无法解析的外部符号 ___CxxFrameHandler3
+     1>cryptlib.lib(dll.obj) : error LNK2001: 无法解析的外部符号 ___CxxFrameHandler3
+     1>cryptlib.lib(nbtheory.obj) : error LNK2001: 无法解析的外部符号 ___CxxFrameHandler3
+     1>cryptlib.lib(asn.obj) : error LNK2001: 无法解析的外部符号 ___CxxFrameHandler3
+     1>cryptlib.lib(misc.obj) : error LNK2001: 无法解析的外部符号 ___CxxFrameHandler3
+     1>cryptlib.lib(queue.obj) : error LNK2001: 无法解析的外部符号 ___CxxFrameHandler3
+     1>cryptlib.lib(algparam.obj) : error LNK2001: 无法解析的外部符号 ___CxxFrameHandler3
+     1>cryptlib.lib(filters.obj) : error LNK2001: 无法解析的外部符号 ___CxxFrameHandler3
+     1>cryptlib.lib(cryptlib.obj) : error LNK2001: 无法解析的外部符号 ___CxxFrameHandler3
+     1>cryptlib.lib(des.obj) : error LNK2001: 无法解析的外部符号 ___CxxFrameHandler3
+     1>cryptlib.lib(pch.obj) : error LNK2001: 无法解析的外部符号 ___CxxFrameHandler3
+     1>cryptlib.lib(integer.obj) : error LNK2001: 无法解析的外部符号 ___CxxFrameHandler3
+     1>libcpmtd.lib(locale.obj) : error LNK2001: 无法解析的外部符号 ___CxxFrameHandler3
+     1>libcpmtd.lib(wlocale.obj) : error LNK2001: 无法解析的外部符号 ___CxxFrameHandler3
+     1>libcpmtd.lib(xlocale.obj) : error LNK2001: 无法解析的外部符号 ___CxxFrameHandler3
+     1>libcpmtd.lib(xdateord.obj) : error LNK2001: 无法解析的外部符号 ___CxxFrameHandler3
+     1>libcpmtd.lib(ios.obj) : error LNK2001: 无法解析的外部符号 ___CxxFrameHandler3
+     1>libcpmtd.lib(cout.obj) : error LNK2001: 无法解析的外部符号 ___CxxFrameHandler3
+     1>libcpmtd.lib(cerr.obj) : error LNK2001: 无法解析的外部符号 ___CxxFrameHandler3
+     1>libcpmtd.lib(iosptrs.obj) : error LNK2001: 无法解析的外部符号 ___CxxFrameHandler3
+     1>TestCryPto.obj : error LNK2001: 无法解析的外部符号 ___CxxFrameHandler3
+     1>libcpmtd.lib(xthrow.obj) : error LNK2001: 无法解析的外部符号 ___CxxFrameHandler3
+     1>libcpmtd.lib(locale0.obj) : error LNK2001: 无法解析的外部符号 ___CxxFrameHandler3
+     1>libcpmtd.lib(syserror.obj) : error LNK2001: 无法解析的外部符号 ___CxxFrameHandler3
+     1>TestCryPto.obj : error LNK2019: 无法解析的外部符号 __chkstk，该符号在函数 _wmain 中被引用
+     1>cryptlib.lib(hrtimer.obj) : error LNK2001: 无法解析的外部符号 "const type_info::`vftable'" (??_7type_info@@6B@)
+     1>libcpmtd.lib(mutex.obj) : error LNK2001: 无法解析的外部符号 "const type_info::`vftable'" (??_7type_info@@6B@)
+     1>libcpmtd.lib(thread0.obj) : error LNK2001: 无法解析的外部符号 "const type_info::`vftable'" (??_7type_info@@6B@)
+     1>cryptlib.lib(rng.obj) : error LNK2001: 无法解析的外部符号 "const type_info::`vftable'" (??_7type_info@@6B@)
+     1>cryptlib.lib(osrng.obj) : error LNK2001: 无法解析的外部符号 "const type_info::`vftable'" (??_7type_info@@6B@)
+     1>cryptlib.lib(hmac.obj) : error LNK2001: 无法解析的外部符号 "const type_info::`vftable'" (??_7type_info@@6B@)
+     1>cryptlib.lib(randpool.obj) : error LNK2001: 无法解析的外部符号 "const type_info::`vftable'" (??_7type_info@@6B@)
+     1>cryptlib.lib(ec2n.obj) : error LNK2001: 无法解析的外部符号 "const type_info::`vftable'" (??_7type_info@@6B@)
+     1>cryptlib.lib(ecp.obj) : error LNK2001: 无法解析的外部符号 "const type_info::`vftable'" (??_7type_info@@6B@)
+     1>cryptlib.lib(basecode.obj) : error LNK2001: 无法解析的外部符号 "const type_info::`vftable'" (??_7type_info@@6B@)
+     1>cryptlib.lib(hex.obj) : error LNK2001: 无法解析的外部符号 "const type_info::`vftable'" (??_7type_info@@6B@)
+     1>cryptlib.lib(rijndael.obj) : error LNK2001: 无法解析的外部符号 "const type_info::`vftable'" (??_7type_info@@6B@)
+     1>cryptlib.lib(modes.obj) : error LNK2001: 无法解析的外部符号 "const type_info::`vftable'" (??_7type_info@@6B@)
+     1>cryptlib.lib(gfpcrypt.obj) : error LNK2001: 无法解析的外部符号 "const type_info::`vftable'" (??_7type_info@@6B@)
+     1>cryptlib.lib(gf2n.obj) : error LNK2001: 无法解析的外部符号 "const type_info::`vftable'" (??_7type_info@@6B@)
+     1>cryptlib.lib(pubkey.obj) : error LNK2001: 无法解析的外部符号 "const type_info::`vftable'" (??_7type_info@@6B@)
+     1>cryptlib.lib(iterhash.obj) : error LNK2001: 无法解析的外部符号 "const type_info::`vftable'" (??_7type_info@@6B@)
+     1>cryptlib.lib(sha.obj) : error LNK2001: 无法解析的外部符号 "const type_info::`vftable'" (??_7type_info@@6B@)
+     1>cryptlib.lib(mqueue.obj) : error LNK2001: 无法解析的外部符号 "const type_info::`vftable'" (??_7type_info@@6B@)
+     1>cryptlib.lib(fips140.obj) : error LNK2001: 无法解析的外部符号 "const type_info::`vftable'" (??_7type_info@@6B@)
+     1>cryptlib.lib(dll.obj) : error LNK2001: 无法解析的外部符号 "const type_info::`vftable'" (??_7type_info@@6B@)
+     1>cryptlib.lib(nbtheory.obj) : error LNK2001: 无法解析的外部符号 "const type_info::`vftable'" (??_7type_info@@6B@)
+     1>cryptlib.lib(asn.obj) : error LNK2001: 无法解析的外部符号 "const type_info::`vftable'" (??_7type_info@@6B@)
+     1>cryptlib.lib(misc.obj) : error LNK2001: 无法解析的外部符号 "const type_info::`vftable'" (??_7type_info@@6B@)
+     1>cryptlib.lib(queue.obj) : error LNK2001: 无法解析的外部符号 "const type_info::`vftable'" (??_7type_info@@6B@)
+     1>cryptlib.lib(algparam.obj) : error LNK2001: 无法解析的外部符号 "const type_info::`vftable'" (??_7type_info@@6B@)
+     1>cryptlib.lib(filters.obj) : error LNK2001: 无法解析的外部符号 "const type_info::`vftable'" (??_7type_info@@6B@)
+     1>cryptlib.lib(cryptlib.obj) : error LNK2001: 无法解析的外部符号 "const type_info::`vftable'" (??_7type_info@@6B@)
+     1>cryptlib.lib(des.obj) : error LNK2001: 无法解析的外部符号 "const type_info::`vftable'" (??_7type_info@@6B@)
+     1>cryptlib.lib(pch.obj) : error LNK2001: 无法解析的外部符号 "const type_info::`vftable'" (??_7type_info@@6B@)
+     1>cryptlib.lib(integer.obj) : error LNK2001: 无法解析的外部符号 "const type_info::`vftable'" (??_7type_info@@6B@)
+     1>libcpmtd.lib(locale.obj) : error LNK2001: 无法解析的外部符号 "const type_info::`vftable'" (??_7type_info@@6B@)
+     1>libcpmtd.lib(wlocale.obj) : error LNK2001: 无法解析的外部符号 "const type_info::`vftable'" (??_7type_info@@6B@)
+     1>libcpmtd.lib(xlocale.obj) : error LNK2001: 无法解析的外部符号 "const type_info::`vftable'" (??_7type_info@@6B@)
+     1>libcpmtd.lib(xdateord.obj) : error LNK2001: 无法解析的外部符号 "const type_info::`vftable'" (??_7type_info@@6B@)
+     1>libcpmtd.lib(ios.obj) : error LNK2001: 无法解析的外部符号 "const type_info::`vftable'" (??_7type_info@@6B@)
+     1>libcpmtd.lib(cout.obj) : error LNK2001: 无法解析的外部符号 "const type_info::`vftable'" (??_7type_info@@6B@)
+     1>libcpmtd.lib(cerr.obj) : error LNK2001: 无法解析的外部符号 "const type_info::`vftable'" (??_7type_info@@6B@)
+     1>libcpmtd.lib(iosptrs.obj) : error LNK2001: 无法解析的外部符号 "const type_info::`vftable'" (??_7type_info@@6B@)
+     1>TestCryPto.obj : error LNK2001: 无法解析的外部符号 "const type_info::`vftable'" (??_7type_info@@6B@)
+     1>libcpmtd.lib(xthrow.obj) : error LNK2001: 无法解析的外部符号 "const type_info::`vftable'" (??_7type_info@@6B@)
+     1>libcpmtd.lib(locale0.obj) : error LNK2001: 无法解析的外部符号 "const type_info::`vftable'" (??_7type_info@@6B@)
+     1>libcpmtd.lib(syserror.obj) : error LNK2001: 无法解析的外部符号 "const type_info::`vftable'" (??_7type_info@@6B@)
+     1>libcpmtd.lib(thread0.obj) : error LNK2001: 无法解析的外部符号 ___security_cookie
+     1>libcpmtd.lib(cthread.obj) : error LNK2001: 无法解析的外部符号 ___security_cookie
+     1>libcpmtd.lib(xtime.obj) : error LNK2001: 无法解析的外部符号 ___security_cookie
+     1>libcpmtd.lib(cond.obj) : error LNK2001: 无法解析的外部符号 ___security_cookie
+     1>cryptlib.lib(hmac.obj) : error LNK2001: 无法解析的外部符号 ___security_cookie
+     1>cryptlib.lib(randpool.obj) : error LNK2001: 无法解析的外部符号 ___security_cookie
+     1>cryptlib.lib(hrtimer.obj) : error LNK2001: 无法解析的外部符号 ___security_cookie
+     1>libcpmtd.lib(mutex.obj) : error LNK2001: 无法解析的外部符号 ___security_cookie
+     1>cryptlib.lib(basecode.obj) : error LNK2001: 无法解析的外部符号 ___security_cookie
+     1>cryptlib.lib(hex.obj) : error LNK2001: 无法解析的外部符号 ___security_cookie
+     1>cryptlib.lib(rng.obj) : error LNK2001: 无法解析的外部符号 ___security_cookie
+     1>cryptlib.lib(osrng.obj) : error LNK2001: 无法解析的外部符号 ___security_cookie
+     1>cryptlib.lib(gfpcrypt.obj) : error LNK2001: 无法解析的外部符号 ___security_cookie
+     1>cryptlib.lib(gf2n.obj) : error LNK2001: 无法解析的外部符号 ___security_cookie
+     1>cryptlib.lib(ec2n.obj) : error LNK2001: 无法解析的外部符号 ___security_cookie
+     1>cryptlib.lib(ecp.obj) : error LNK2001: 无法解析的外部符号 ___security_cookie
+     1>cryptlib.lib(cpu.obj) : error LNK2001: 无法解析的外部符号 ___security_cookie
+     1>cryptlib.lib(mqueue.obj) : error LNK2001: 无法解析的外部符号 ___security_cookie
+     1>cryptlib.lib(rijndael.obj) : error LNK2001: 无法解析的外部符号 ___security_cookie
+     1>cryptlib.lib(modes.obj) : error LNK2001: 无法解析的外部符号 ___security_cookie
+     1>cryptlib.lib(asn.obj) : error LNK2001: 无法解析的外部符号 ___security_cookie
+     1>cryptlib.lib(pubkey.obj) : error LNK2001: 无法解析的外部符号 ___security_cookie
+     1>cryptlib.lib(iterhash.obj) : error LNK2001: 无法解析的外部符号 ___security_cookie
+     1>cryptlib.lib(sha.obj) : error LNK2001: 无法解析的外部符号 ___security_cookie
+     1>cryptlib.lib(filters.obj) : error LNK2001: 无法解析的外部符号 ___security_cookie
+     1>cryptlib.lib(fips140.obj) : error LNK2001: 无法解析的外部符号 ___security_cookie
+     1>cryptlib.lib(dll.obj) : error LNK2001: 无法解析的外部符号 ___security_cookie
+     1>cryptlib.lib(nbtheory.obj) : error LNK2001: 无法解析的外部符号 ___security_cookie
+     1>cryptlib.lib(integer.obj) : error LNK2001: 无法解析的外部符号 ___security_cookie
+     1>cryptlib.lib(misc.obj) : error LNK2001: 无法解析的外部符号 ___security_cookie
+     1>cryptlib.lib(queue.obj) : error LNK2001: 无法解析的外部符号 ___security_cookie
+     1>cryptlib.lib(algparam.obj) : error LNK2001: 无法解析的外部符号 ___security_cookie
+     1>libcpmtd.lib(xldtento.obj) : error LNK2001: 无法解析的外部符号 ___security_cookie
+     1>cryptlib.lib(cryptlib.obj) : error LNK2001: 无法解析的外部符号 ___security_cookie
+     1>cryptlib.lib(des.obj) : error LNK2001: 无法解析的外部符号 ___security_cookie
+     1>cryptlib.lib(pch.obj) : error LNK2001: 无法解析的外部符号 ___security_cookie
+     1>libcpmtd.lib(xfdtento.obj) : error LNK2001: 无法解析的外部符号 ___security_cookie
+     1>libcpmtd.lib(xprec.obj) : error LNK2001: 无法解析的外部符号 ___security_cookie
+     1>libcpmtd.lib(xdtento.obj) : error LNK2001: 无法解析的外部符号 ___security_cookie
+     1>libcpmtd.lib(xlprec.obj) : error LNK2001: 无法解析的外部符号 ___security_cookie
+     1>libcpmtd.lib(xmbtowc.obj) : error LNK2001: 无法解析的外部符号 ___security_cookie
+     1>libcpmtd.lib(xstoflt.obj) : error LNK2001: 无法解析的外部符号 ___security_cookie
+     1>libcpmtd.lib(xstoxflt.obj) : error LNK2001: 无法解析的外部符号 ___security_cookie
+     1>libcpmtd.lib(xfprec.obj) : error LNK2001: 无法解析的外部符号 ___security_cookie
+     1>libcpmtd.lib(xstof.obj) : error LNK2001: 无法解析的外部符号 ___security_cookie
+     1>libcpmtd.lib(xstod.obj) : error LNK2001: 无法解析的外部符号 ___security_cookie
+     1>libcpmtd.lib(xstold.obj) : error LNK2001: 无法解析的外部符号 ___security_cookie
+     1>libcpmtd.lib(xdateord.obj) : error LNK2001: 无法解析的外部符号 ___security_cookie
+     1>libcpmtd.lib(iosptrs.obj) : error LNK2001: 无法解析的外部符号 ___security_cookie
+     1>libcpmtd.lib(locale.obj) : error LNK2001: 无法解析的外部符号 ___security_cookie
+     1>libcpmtd.lib(wlocale.obj) : error LNK2001: 无法解析的外部符号 ___security_cookie
+     1>libcpmtd.lib(xlocale.obj) : error LNK2001: 无法解析的外部符号 ___security_cookie
+     1>libcpmtd.lib(syserror.obj) : error LNK2001: 无法解析的外部符号 ___security_cookie
+     1>libcpmtd.lib(ios.obj) : error LNK2001: 无法解析的外部符号 ___security_cookie
+     1>libcpmtd.lib(cout.obj) : error LNK2001: 无法解析的外部符号 ___security_cookie
+     1>libcpmtd.lib(cerr.obj) : error LNK2001: 无法解析的外部符号 ___security_cookie
+     1>TestCryPto.obj : error LNK2001: 无法解析的外部符号 ___security_cookie
+     1>libcpmtd.lib(xthrow.obj) : error LNK2001: 无法解析的外部符号 ___security_cookie
+     1>libcpmtd.lib(xwctomb.obj) : error LNK2001: 无法解析的外部符号 ___security_cookie
+     1>libcpmtd.lib(locale0.obj) : error LNK2001: 无法解析的外部符号 ___security_cookie
+     1>libcpmtd.lib(mutex.obj) : error LNK2001: 无法解析的外部符号 __fltused
+     1>libcpmtd.lib(thread0.obj) : error LNK2001: 无法解析的外部符号 __fltused
+     1>cryptlib.lib(osrng.obj) : error LNK2001: 无法解析的外部符号 __fltused
+     1>cryptlib.lib(hmac.obj) : error LNK2001: 无法解析的外部符号 __fltused
+     1>cryptlib.lib(randpool.obj) : error LNK2001: 无法解析的外部符号 __fltused
+     1>cryptlib.lib(hrtimer.obj) : error LNK2001: 无法解析的外部符号 __fltused
+     1>cryptlib.lib(ec2n.obj) : error LNK2001: 无法解析的外部符号 __fltused
+     1>cryptlib.lib(ecp.obj) : error LNK2001: 无法解析的外部符号 __fltused
+     1>cryptlib.lib(basecode.obj) : error LNK2001: 无法解析的外部符号 __fltused
+     1>cryptlib.lib(rng.obj) : error LNK2001: 无法解析的外部符号 __fltused
+     1>cryptlib.lib(rijndael.obj) : error LNK2001: 无法解析的外部符号 __fltused
+     1>cryptlib.lib(modes.obj) : error LNK2001: 无法解析的外部符号 __fltused
+     1>cryptlib.lib(gfpcrypt.obj) : error LNK2001: 无法解析的外部符号 __fltused
+     1>cryptlib.lib(gf2n.obj) : error LNK2001: 无法解析的外部符号 __fltused
+     1>cryptlib.lib(pubkey.obj) : error LNK2001: 无法解析的外部符号 __fltused
+     1>cryptlib.lib(iterhash.obj) : error LNK2001: 无法解析的外部符号 __fltused
+     1>cryptlib.lib(sha.obj) : error LNK2001: 无法解析的外部符号 __fltused
+     1>cryptlib.lib(mqueue.obj) : error LNK2001: 无法解析的外部符号 __fltused
+     1>cryptlib.lib(fips140.obj) : error LNK2001: 无法解析的外部符号 __fltused
+     1>cryptlib.lib(dll.obj) : error LNK2001: 无法解析的外部符号 __fltused
+     1>cryptlib.lib(nbtheory.obj) : error LNK2001: 无法解析的外部符号 __fltused
+     1>cryptlib.lib(asn.obj) : error LNK2001: 无法解析的外部符号 __fltused
+     1>cryptlib.lib(misc.obj) : error LNK2001: 无法解析的外部符号 __fltused
+     1>cryptlib.lib(queue.obj) : error LNK2001: 无法解析的外部符号 __fltused
+     1>cryptlib.lib(algparam.obj) : error LNK2001: 无法解析的外部符号 __fltused
+     1>cryptlib.lib(filters.obj) : error LNK2001: 无法解析的外部符号 __fltused
+     1>cryptlib.lib(cryptlib.obj) : error LNK2001: 无法解析的外部符号 __fltused
+     1>cryptlib.lib(des.obj) : error LNK2001: 无法解析的外部符号 __fltused
+     1>cryptlib.lib(pch.obj) : error LNK2001: 无法解析的外部符号 __fltused
+     1>cryptlib.lib(integer.obj) : error LNK2001: 无法解析的外部符号 __fltused
+     1>libcpmtd.lib(xprec.obj) : error LNK2001: 无法解析的外部符号 __fltused
+     1>libcpmtd.lib(xdtento.obj) : error LNK2001: 无法解析的外部符号 __fltused
+     1>libcpmtd.lib(xlprec.obj) : error LNK2001: 无法解析的外部符号 __fltused
+     1>libcpmtd.lib(xldtento.obj) : error LNK2001: 无法解析的外部符号 __fltused
+     1>libcpmtd.lib(xfdscale.obj) : error LNK2001: 无法解析的外部符号 __fltused
+     1>libcpmtd.lib(xfprec.obj) : error LNK2001: 无法解析的外部符号 __fltused
+     1>libcpmtd.lib(xfdtento.obj) : error LNK2001: 无法解析的外部符号 __fltused
+     1>libcpmtd.lib(xdscale.obj) : error LNK2001: 无法解析的外部符号 __fltused
+     1>libcpmtd.lib(xstof.obj) : error LNK2001: 无法解析的外部符号 __fltused
+     1>libcpmtd.lib(xstod.obj) : error LNK2001: 无法解析的外部符号 __fltused
+     1>libcpmtd.lib(xstold.obj) : error LNK2001: 无法解析的外部符号 __fltused
+     1>libcpmtd.lib(xdateord.obj) : error LNK2001: 无法解析的外部符号 __fltused
+     1>libcpmtd.lib(iosptrs.obj) : error LNK2001: 无法解析的外部符号 __fltused
+     1>libcpmtd.lib(locale.obj) : error LNK2001: 无法解析的外部符号 __fltused
+     1>libcpmtd.lib(wlocale.obj) : error LNK2001: 无法解析的外部符号 __fltused
+     1>libcpmtd.lib(xlocale.obj) : error LNK2001: 无法解析的外部符号 __fltused
+     1>libcpmtd.lib(syserror.obj) : error LNK2001: 无法解析的外部符号 __fltused
+     1>libcpmtd.lib(ios.obj) : error LNK2001: 无法解析的外部符号 __fltused
+     1>libcpmtd.lib(cout.obj) : error LNK2001: 无法解析的外部符号 __fltused
+     1>libcpmtd.lib(cerr.obj) : error LNK2001: 无法解析的外部符号 __fltused
+     1>TestCryPto.obj : error LNK2001: 无法解析的外部符号 __fltused
+     1>libcpmtd.lib(xthrow.obj) : error LNK2001: 无法解析的外部符号 __fltused
+     1>libcpmtd.lib(locale0.obj) : error LNK2001: 无法解析的外部符号 __fltused
+     1>libcpmtd.lib(xdebug.obj) : error LNK2001: 无法解析的外部符号 __fltused
+     1>LINK : error LNK2001: 无法解析的外部符号 _wmainCRTStartup
+     1>libcpmtd.lib(xlock.obj) : error LNK2019: 无法解析的外部符号 __lock，该符号在函数 "public: __thiscall std::_Lockit::_Lockit(int)" (??0_Lockit@std@@QAE@H@Z) 中被引用
+     1>libcpmtd.lib(xlock.obj) : error LNK2019: 无法解析的外部符号 __unlock，该符号在函数 "public: __thiscall std::_Lockit::~_Lockit(void)" (??1_Lockit@std@@QAE@XZ) 中被引用
+     1>libcpmtd.lib(uncaught.obj) : error LNK2019: 无法解析的外部符号 "bool __cdecl __uncaught_exception(void)" (?__uncaught_exception@@YA_NXZ)，该符号在函数 "bool __cdecl std::uncaught_exception(void)" (?uncaught_exception@std@@YA_NXZ) 中被引用
+     1>cryptlib.lib(osrng.obj) : error LNK2019: 无法解析的外部符号 __CrtDbgReportW，该符号在函数 "public: __thiscall CryptoPP::OS_RNG_Err::OS_RNG_Err(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (??0OS_RNG_Err@CryptoPP@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) 中被引用
+     1>cryptlib.lib(hrtimer.obj) : error LNK2001: 无法解析的外部符号 __CrtDbgReportW
+     1>libcpmtd.lib(mutex.obj) : error LNK2001: 无法解析的外部符号 __CrtDbgReportW
+     1>cryptlib.lib(gf2n.obj) : error LNK2001: 无法解析的外部符号 __CrtDbgReportW
+     1>cryptlib.lib(ec2n.obj) : error LNK2001: 无法解析的外部符号 __CrtDbgReportW
+     1>cryptlib.lib(ecp.obj) : error LNK2001: 无法解析的外部符号 __CrtDbgReportW
+     1>cryptlib.lib(rng.obj) : error LNK2001: 无法解析的外部符号 __CrtDbgReportW
+     1>cryptlib.lib(asn.obj) : error LNK2001: 无法解析的外部符号 __CrtDbgReportW
+     1>cryptlib.lib(pubkey.obj) : error LNK2001: 无法解析的外部符号 __CrtDbgReportW
+     1>cryptlib.lib(mqueue.obj) : error LNK2001: 无法解析的外部符号 __CrtDbgReportW
+     1>cryptlib.lib(gfpcrypt.obj) : error LNK2001: 无法解析的外部符号 __CrtDbgReportW
+     1>cryptlib.lib(misc.obj) : error LNK2001: 无法解析的外部符号 __CrtDbgReportW
+     1>cryptlib.lib(filters.obj) : error LNK2001: 无法解析的外部符号 __CrtDbgReportW
+     1>cryptlib.lib(dll.obj) : error LNK2001: 无法解析的外部符号 __CrtDbgReportW
+     1>cryptlib.lib(nbtheory.obj) : error LNK2001: 无法解析的外部符号 __CrtDbgReportW
+     1>libcpmtd.lib(xlocale.obj) : error LNK2001: 无法解析的外部符号 __CrtDbgReportW
+     1>libcpmtd.lib(xmbtowc.obj) : error LNK2001: 无法解析的外部符号 __CrtDbgReportW
+     1>cryptlib.lib(cryptlib.obj) : error LNK2001: 无法解析的外部符号 __CrtDbgReportW
+     1>cryptlib.lib(integer.obj) : error LNK2001: 无法解析的外部符号 __CrtDbgReportW
+     1>libcpmtd.lib(stdthrow.obj) : error LNK2001: 无法解析的外部符号 __CrtDbgReportW
+     1>libcpmtd.lib(cout.obj) : error LNK2001: 无法解析的外部符号 __CrtDbgReportW
+     1>libcpmtd.lib(cerr.obj) : error LNK2001: 无法解析的外部符号 __CrtDbgReportW
+     1>libcpmtd.lib(wlocale.obj) : error LNK2001: 无法解析的外部符号 __CrtDbgReportW
+     1>libcpmtd.lib(xthrow.obj) : error LNK2019: 无法解析的外部符号 "public: __thiscall std::exception::exception(char const * const &,int)" (??0exception@std@@QAE@ABQBDH@Z)，该符号在函数 "public: __thiscall std::bad_alloc::bad_alloc(void)" (??0bad_alloc@std@@QAE@XZ) 中被引用
+     1>cryptlib.lib(misc.obj) : error LNK2001: 无法解析的外部符号 "public: __thiscall std::exception::exception(char const * const &,int)" (??0exception@std@@QAE@ABQBDH@Z)
+     1>cryptlib.lib(integer.obj) : error LNK2001: 无法解析的外部符号 ___report_rangecheckfailure
+     1>cryptlib.lib(dll.obj) : error LNK2001: 无法解析的外部符号 ___report_rangecheckfailure
+     1>cryptlib.lib(asn.obj) : error LNK2001: 无法解析的外部符号 ___report_rangecheckfailure
+     1>cryptlib.lib(gf2n.obj) : error LNK2001: 无法解析的外部符号 ___report_rangecheckfailure
+     1>libcpmtd.lib(_tolower.obj) : error LNK2001: 无法解析的外部符号 ___report_rangecheckfailure
+     1>libcpmtd.lib(_toupper.obj) : error LNK2001: 无法解析的外部符号 ___report_rangecheckfailure
+     1>libcpmtd.lib(xstoflt.obj) : error LNK2001: 无法解析的外部符号 ___report_rangecheckfailure
+     1>libcpmtd.lib(xstoxflt.obj) : error LNK2001: 无法解析的外部符号 ___report_rangecheckfailure
+     1>libcpmtd.lib(_tolower.obj) : error LNK2019: 无法解析的外部符号 ___pctype_func，该符号在函数 __Getctype 中被引用
+     1>libcpmtd.lib(_toupper.obj) : error LNK2001: 无法解析的外部符号 ___pctype_func
+     1>libcpmtd.lib(_tolower.obj) : error LNK2019: 无法解析的外部符号 _isupper，该符号在函数 __Tolower 中被引用
+     1>libcpmtd.lib(_tolower.obj) : error LNK2019: 无法解析的外部符号 __wcsdup，该符号在函数 __Getctype 中被引用
+     1>libcpmtd.lib(xstrcoll.obj) : error LNK2001: 无法解析的外部符号 __wcsdup
+     1>libcpmtd.lib(xdateord.obj) : error LNK2001: 无法解析的外部符号 ____lc_locale_name_func
+     1>libcpmtd.lib(xwcscoll.obj) : error LNK2001: 无法解析的外部符号 ____lc_locale_name_func
+     1>libcpmtd.lib(xwcsxfrm.obj) : error LNK2001: 无法解析的外部符号 ____lc_locale_name_func
+     1>libcpmtd.lib(xstrxfrm.obj) : error LNK2001: 无法解析的外部符号 ____lc_locale_name_func
+     1>libcpmtd.lib(_tolower.obj) : error LNK2001: 无法解析的外部符号 ____lc_locale_name_func
+     1>libcpmtd.lib(xwctomb.obj) : error LNK2001: 无法解析的外部符号 ____lc_locale_name_func
+     1>libcpmtd.lib(_toupper.obj) : error LNK2001: 无法解析的外部符号 ____lc_locale_name_func
+     1>libcpmtd.lib(xstrcoll.obj) : error LNK2001: 无法解析的外部符号 ____lc_locale_name_func
+     1>libcpmtd.lib(_tolower.obj) : error LNK2019: 无法解析的外部符号 ____lc_codepage_func，该符号在函数 __Getctype 中被引用
+     1>libcpmtd.lib(xwctomb.obj) : error LNK2001: 无法解析的外部符号 ____lc_codepage_func
+     1>libcpmtd.lib(_toupper.obj) : error LNK2001: 无法解析的外部符号 ____lc_codepage_func
+     1>libcpmtd.lib(_tolower.obj) : error LNK2019: 无法解析的外部符号 ___crtLCMapStringA，该符号在函数 __Tolower 中被引用
+     1>libcpmtd.lib(_toupper.obj) : error LNK2001: 无法解析的外部符号 ___crtLCMapStringA
+     1>libcpmtd.lib(xstrxfrm.obj) : error LNK2001: 无法解析的外部符号 ___crtLCMapStringA
+     1>libcpmtd.lib(_tolower.obj) : error LNK2019: 无法解析的外部符号 __calloc_dbg，该符号在函数 __Getctype 中被引用
+     1>libcpmtd.lib(mutex.obj) : error LNK2001: 无法解析的外部符号 __calloc_dbg
+     1>libcpmtd.lib(cond.obj) : error LNK2001: 无法解析的外部符号 __calloc_dbg
+     1>libcpmtd.lib(xwctomb.obj) : error LNK2019: 无法解析的外部符号 ____mb_cur_max_func，该符号在函数 __Getcvt 中被引用
+     1>libcpmtd.lib(wlocale.obj) : error LNK2001: 无法解析的外部符号 ____mb_cur_max_func
+     1>libcpmtd.lib(xfdtento.obj) : error LNK2019: 无法解析的外部符号 __errno，该符号在函数 __FDtento 中被引用
+     1>libcpmtd.lib(xdtento.obj) : error LNK2001: 无法解析的外部符号 __errno
+     1>libcpmtd.lib(xldtento.obj) : error LNK2001: 无法解析的外部符号 __errno
+     1>libcpmtd.lib(xferaise.obj) : error LNK2001: 无法解析的外部符号 __errno
+     1>libcpmtd.lib(xstoull.obj) : error LNK2001: 无法解析的外部符号 __errno
+     1>libcpmtd.lib(xstrcoll.obj) : error LNK2001: 无法解析的外部符号 __errno
+     1>libcpmtd.lib(xmbtowc.obj) : error LNK2001: 无法解析的外部符号 __errno
+     1>libcpmtd.lib(xwcscoll.obj) : error LNK2001: 无法解析的外部符号 __errno
+     1>libcpmtd.lib(xwctomb.obj) : error LNK2001: 无法解析的外部符号 __errno
+     1>libcpmtd.lib(xstol.obj) : error LNK2001: 无法解析的外部符号 __errno
+     1>libcpmtd.lib(xstoul.obj) : error LNK2001: 无法解析的外部符号 __errno
+     1>libcpmtd.lib(xstoll.obj) : error LNK2001: 无法解析的外部符号 __errno
+     1>libcpmtd.lib(xwctomb.obj) : error LNK2019: 无法解析的外部符号 __ismbblead，该符号在函数 __Getcvt 中被引用
+     1>libcpmtd.lib(_toupper.obj) : error LNK2019: 无法解析的外部符号 _islower，该符号在函数 __Toupper 中被引用
+     1>libcpmtd.lib(xlocale.obj) : error LNK2001: 无法解析的外部符号 __malloc_dbg
+     1>libcpmtd.lib(xwcsxfrm.obj) : error LNK2001: 无法解析的外部符号 __malloc_dbg
+     1>libcpmtd.lib(locale0.obj) : error LNK2001: 无法解析的外部符号 __malloc_dbg
+     1>libcpmtd.lib(xdebug.obj) : error LNK2001: 无法解析的外部符号 __malloc_dbg
+     1>libcpmtd.lib(locale.obj) : error LNK2001: 无法解析的外部符号 __malloc_dbg
+     1>libcpmtd.lib(wlocale.obj) : error LNK2001: 无法解析的外部符号 __malloc_dbg
+     1>libcpmtd.lib(locale0.obj) : error LNK2019: 无法解析的外部符号 _setlocale，该符号在函数 "public: static void __cdecl std::_Locinfo::_Locinfo_ctor(class std::_Locinfo *,char const *)" (?_Locinfo_ctor@_Locinfo@std@@SAXPAV12@PBD@Z) 中被引用
+     1>libcpmtd.lib(locale.obj) : error LNK2001: 无法解析的外部符号 _setlocale
+     1>cryptlib.lib(ecp.obj) : error LNK2001: 无法解析的外部符号 __invalid_parameter
+     1>cryptlib.lib(rng.obj) : error LNK2001: 无法解析的外部符号 __invalid_parameter
+     1>cryptlib.lib(osrng.obj) : error LNK2001: 无法解析的外部符号 __invalid_parameter
+     1>cryptlib.lib(hrtimer.obj) : error LNK2001: 无法解析的外部符号 __invalid_parameter
+     1>cryptlib.lib(mqueue.obj) : error LNK2001: 无法解析的外部符号 __invalid_parameter
+     1>cryptlib.lib(gfpcrypt.obj) : error LNK2001: 无法解析的外部符号 __invalid_parameter
+     1>cryptlib.lib(gf2n.obj) : error LNK2001: 无法解析的外部符号 __invalid_parameter
+     1>cryptlib.lib(ec2n.obj) : error LNK2001: 无法解析的外部符号 __invalid_parameter
+     1>cryptlib.lib(dll.obj) : error LNK2001: 无法解析的外部符号 __invalid_parameter
+     1>cryptlib.lib(nbtheory.obj) : error LNK2001: 无法解析的外部符号 __invalid_parameter
+     1>cryptlib.lib(asn.obj) : error LNK2001: 无法解析的外部符号 __invalid_parameter
+     1>cryptlib.lib(pubkey.obj) : error LNK2001: 无法解析的外部符号 __invalid_parameter
+     1>cryptlib.lib(cryptlib.obj) : error LNK2001: 无法解析的外部符号 __invalid_parameter
+     1>cryptlib.lib(integer.obj) : error LNK2001: 无法解析的外部符号 __invalid_parameter
+     1>cryptlib.lib(misc.obj) : error LNK2001: 无法解析的外部符号 __invalid_parameter
+     1>cryptlib.lib(filters.obj) : error LNK2001: 无法解析的外部符号 __invalid_parameter
+     1>libcpmtd.lib(cout.obj) : error LNK2001: 无法解析的外部符号 __invalid_parameter
+     1>libcpmtd.lib(cerr.obj) : error LNK2001: 无法解析的外部符号 __invalid_parameter
+     1>libcpmtd.lib(wlocale.obj) : error LNK2001: 无法解析的外部符号 __invalid_parameter
+     1>libcpmtd.lib(xlocale.obj) : error LNK2001: 无法解析的外部符号 __invalid_parameter
+     1>libcpmtd.lib(cout.obj) : error LNK2019: 无法解析的外部符号 ___iob_func，该符号在函数 "void __cdecl std::`dynamic initializer for 'fout''(void)" (??__Efout@std@@YAXXZ) 中被引用
+     1>libcpmtd.lib(cerr.obj) : error LNK2001: 无法解析的外部符号 ___iob_func
+     1>libcpmtd.lib(cthread.obj) : error LNK2001: 无法解析的外部符号 ___iob_func
+     1>libcpmtd.lib(cout.obj) : error LNK2019: 无法解析的外部符号 _fclose，该符号在函数 "public: class std::basic_filebuf<char,struct std::char_traits<char> > * __thiscall std::basic_filebuf<char,struct std::char_traits<char> >::close(void)" (?close@?$basic_filebuf@DU?$char_traits@D@std@@@std@@QAEPAV12@XZ) 中被引用
+     1>libcpmtd.lib(cerr.obj) : error LNK2001: 无法解析的外部符号 _fclose
+     1>libcpmtd.lib(cout.obj) : error LNK2019: 无法解析的外部符号 _fflush，该符号在函数 "protected: virtual int __thiscall std::basic_filebuf<char,struct std::char_traits<char> >::sync(void)" (?sync@?$basic_filebuf@DU?$char_traits@D@std@@@std@@MAEHXZ) 中被引用
+     1>libcpmtd.lib(cerr.obj) : error LNK2001: 无法解析的外部符号 _fflush
+     1>libcpmtd.lib(cout.obj) : error LNK2019: 无法解析的外部符号 _fgetc，该符号在函数 "bool __cdecl std::_Fgetc<char>(char &,struct _iobuf *)" (??$_Fgetc@D@std@@YA_NAADPAU_iobuf@@@Z) 中被引用
+     1>libcpmtd.lib(cerr.obj) : error LNK2001: 无法解析的外部符号 _fgetc
+     1>libcpmtd.lib(cout.obj) : error LNK2019: 无法解析的外部符号 _fgetpos，该符号在函数 "protected: virtual class std::fpos<int> __thiscall std::basic_filebuf<char,struct std::char_traits<char> >::seekoff(__int64,int,int)" (?seekoff@?$basic_filebuf@DU?$char_traits@D@std@@@std@@MAE?AV?$fpos@H@2@_JHH@Z) 中被引用
+     1>libcpmtd.lib(cerr.obj) : error LNK2001: 无法解析的外部符号 _fgetpos
+     1>libcpmtd.lib(cout.obj) : error LNK2019: 无法解析的外部符号 _fputc，该符号在函数 "bool __cdecl std::_Fputc<char>(char,struct _iobuf *)" (??$_Fputc@D@std@@YA_NDPAU_iobuf@@@Z) 中被引用
+     1>libcpmtd.lib(cerr.obj) : error LNK2001: 无法解析的外部符号 _fputc
+     1>libcpmtd.lib(cthread.obj) : error LNK2001: 无法解析的外部符号 _fputc
+     1>libcpmtd.lib(cout.obj) : error LNK2019: 无法解析的外部符号 _fsetpos，该符号在函数 "protected: virtual class std::fpos<int> __thiscall std::basic_filebuf<char,struct std::char_traits<char> >::seekpos(class std::fpos<int>,int)" (?seekpos@?$basic_filebuf@DU?$char_traits@D@std@@@std@@MAE?AV?$fpos@H@2@V32@H@Z) 中被引用
+     1>libcpmtd.lib(cerr.obj) : error LNK2001: 无法解析的外部符号 _fsetpos
+     1>libcpmtd.lib(cout.obj) : error LNK2019: 无法解析的外部符号 __fseeki64，该符号在函数 "protected: virtual class std::fpos<int> __thiscall std::basic_filebuf<char,struct std::char_traits<char> >::seekoff(__int64,int,int)" (?seekoff@?$basic_filebuf@DU?$char_traits@D@std@@@std@@MAE?AV?$fpos@H@2@_JHH@Z) 中被引用
+     1>libcpmtd.lib(cerr.obj) : error LNK2001: 无法解析的外部符号 __fseeki64
+     1>libcpmtd.lib(cout.obj) : error LNK2019: 无法解析的外部符号 _fwrite，该符号在函数 "protected: bool __thiscall std::basic_filebuf<char,struct std::char_traits<char> >::_Endwrite(void)" (?_Endwrite@?$basic_filebuf@DU?$char_traits@D@std@@@std@@IAE_NXZ) 中被引用
+     1>libcpmtd.lib(cerr.obj) : error LNK2001: 无法解析的外部符号 _fwrite
+     1>libcpmtd.lib(cout.obj) : error LNK2019: 无法解析的外部符号 _setvbuf，该符号在函数 "protected: virtual class std::basic_streambuf<char,struct std::char_traits<char> > * __thiscall std::basic_filebuf<char,struct std::char_traits<char> >::setbuf(char *,__int64)" (?setbuf@?$basic_filebuf@DU?$char_traits@D@std@@@std@@MAEPAV?$basic_streambuf@DU?$char_traits@D@std@@@2@PAD_J@Z) 中被引用
+     1>libcpmtd.lib(cerr.obj) : error LNK2001: 无法解析的外部符号 _setvbuf
+     1>libcpmtd.lib(cout.obj) : error LNK2019: 无法解析的外部符号 _ungetc，该符号在函数 "bool __cdecl std::_Ungetc<char>(char const &,struct _iobuf *)" (??$_Ungetc@D@std@@YA_NABDPAU_iobuf@@@Z) 中被引用
+     1>libcpmtd.lib(cerr.obj) : error LNK2001: 无法解析的外部符号 _ungetc
+     1>libcpmtd.lib(cout.obj) : error LNK2019: 无法解析的外部符号 __lock_file，该符号在函数 "public: virtual void __thiscall std::basic_filebuf<char,struct std::char_traits<char> >::_Lock(void)" (?_Lock@?$basic_filebuf@DU?$char_traits@D@std@@@std@@UAEXXZ) 中被引用
+     1>libcpmtd.lib(cerr.obj) : error LNK2001: 无法解析的外部符号 __lock_file
+     1>libcpmtd.lib(cout.obj) : error LNK2019: 无法解析的外部符号 __unlock_file，该符号在函数 "public: virtual void __thiscall std::basic_filebuf<char,struct std::char_traits<char> >::_Unlock(void)" (?_Unlock@?$basic_filebuf@DU?$char_traits@D@std@@@std@@UAEXXZ) 中被引用
+     1>libcpmtd.lib(cerr.obj) : error LNK2001: 无法解析的外部符号 __unlock_file
+     1>libcpmtd.lib(xmtx.obj) : error LNK2019: 无法解析的外部符号 ___crtInitializeCriticalSectionEx，该符号在函数 __Mtxinit 中被引用
+     1>libcpmtd.lib(once.obj) : error LNK2001: 无法解析的外部符号 ___crtInitializeCriticalSectionEx
+     1>libcpmtd.lib(xmtx.obj) : error LNK2019: 无法解析的外部符号 ___crtSleep，该符号在函数 __Once 中被引用
+     1>libcpmtd.lib(cthread.obj) : error LNK2001: 无法解析的外部符号 ___crtSleep
+     1>libcpmtd.lib(once.obj) : error LNK2001: 无法解析的外部符号 ___crtSleep
+     1>libcpmtd.lib(iosptrs.obj) : error LNK2019: 无法解析的外部符号 _abort，该符号在函数 "void __cdecl _Atexit(void (__cdecl*)(void))" (?_Atexit@@YAXP6AXXZ@Z) 中被引用
+     1>libcpmtd.lib(cthread.obj) : error LNK2001: 无法解析的外部符号 _abort
+     1>libcpmtd.lib(tss.obj) : error LNK2001: 无法解析的外部符号 _abort
+     1>libcpmtd.lib(xnotify.obj) : error LNK2001: 无法解析的外部符号 _abort
+     1>libcpmtd.lib(xlprec.obj) : error LNK2001: 无法解析的外部符号 _ldexp
+     1>libcpmtd.lib(locale.obj) : error LNK2001: 无法解析的外部符号 _ldexp
+     1>libcpmtd.lib(wlocale.obj) : error LNK2001: 无法解析的外部符号 _ldexp
+     1>libcpmtd.lib(xfprec.obj) : error LNK2001: 无法解析的外部符号 _ldexp
+     1>libcpmtd.lib(xprec.obj) : error LNK2001: 无法解析的外部符号 _ldexp
+     1>libcpmtd.lib(locale.obj) : error LNK2019: 无法解析的外部符号 _strcmp，该符号在函数 "public: static class std::_Locinfo & __cdecl std::_Locinfo::_Locinfo_Addcats(class std::_Locinfo *,int,char const *)" (?_Locinfo_Addcats@_Locinfo@std@@SAAAV12@PAV12@HPBD@Z) 中被引用
+     1>libcpmtd.lib(locale.obj) : error LNK2019: 无法解析的外部符号 __realloc_dbg，该符号在函数 "private: static void __cdecl std::locale::_Locimp::_Locimp_Addfac(class std::locale::_Locimp *,class std::locale::facet *,unsigned int)" (?_Locimp_Addfac@_Locimp@locale@std@@CAXPAV123@PAVfacet@23@I@Z) 中被引用
+     1>libcpmtd.lib(wlocale.obj) : error LNK2019: 无法解析的外部符号 _wcslen，该符号在函数 "wchar_t * __cdecl std::_Maklocwcs(wchar_t const *)" (?_Maklocwcs@std@@YAPA_WPB_W@Z) 中被引用
+     1>libcpmtd.lib(wlocale.obj) : error LNK2019: 无法解析的外部符号 __Getdays，该符号在函数 "public: char const * __thiscall std::_Locinfo::_Getdays(void)const " (?_Getdays@_Locinfo@std@@QBEPBDXZ) 中被引用
+     1>libcpmtd.lib(xlocale.obj) : error LNK2001: 无法解析的外部符号 __Getdays
+     1>libcpmtd.lib(wlocale.obj) : error LNK2019: 无法解析的外部符号 __Getmonths，该符号在函数 "public: char const * __thiscall std::_Locinfo::_Getmonths(void)const " (?_Getmonths@_Locinfo@std@@QBEPBDXZ) 中被引用
+     1>libcpmtd.lib(xlocale.obj) : error LNK2001: 无法解析的外部符号 __Getmonths
+     1>libcpmtd.lib(wlocale.obj) : error LNK2019: 无法解析的外部符号 __W_Getdays，该符号在函数 "public: unsigned short const * __thiscall std::_Locinfo::_W_Getdays(void)const " (?_W_Getdays@_Locinfo@std@@QBEPBGXZ) 中被引用
+     1>libcpmtd.lib(wlocale.obj) : error LNK2019: 无法解析的外部符号 __W_Getmonths，该符号在函数 "public: unsigned short const * __thiscall std::_Locinfo::_W_Getmonths(void)const " (?_W_Getmonths@_Locinfo@std@@QBEPBGXZ) 中被引用
+     1>libcpmtd.lib(wlocale.obj) : error LNK2019: 无法解析的外部符号 __W_Gettnames，该符号在函数 "public: class std::_Timevec __thiscall std::_Locinfo::_W_Gettnames(void)const " (?_W_Gettnames@_Locinfo@std@@QBE?AV_Timevec@2@XZ) 中被引用
+     1>libcpmtd.lib(wlocale.obj) : error LNK2019: 无法解析的外部符号 __Wcsftime，该符号在函数 "protected: virtual class std::ostreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > __thiscall std::time_put<unsigned short,class std::ostreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > >::do_put(class std::ostreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> >,class std::ios_base &,unsigned short,struct tm const *,char,char)const " (?do_put@?$time_put@GV?$ostreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@MBE?AV?$ostreambuf_iterator@GU?$char_traits@G@std@@@2@V32@AAVios_base@2@GPBUtm@@DD@Z) 中被引用
+     1>libcpmtd.lib(xlocale.obj) : error LNK2019: 无法解析的外部符号 __Gettnames，该符号在函数 "public: class std::_Timevec __thiscall std::_Locinfo::_Gettnames(void)const " (?_Gettnames@_Locinfo@std@@QBE?AV_Timevec@2@XZ) 中被引用
+     1>libcpmtd.lib(xlocale.obj) : error LNK2019: 无法解析的外部符号 __Strftime，该符号在函数 "protected: virtual class std::ostreambuf_iterator<char,struct std::char_traits<char> > __thiscall std::time_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::do_put(class std::ostreambuf_iterator<char,struct std::char_traits<char> >,class std::ios_base &,char,struct tm const *,char,char)const " (?do_put@?$time_put@DV?$ostreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@MBE?AV?$ostreambuf_iterator@DU?$char_traits@D@std@@@2@V32@AAVios_base@2@DPBUtm@@DD@Z) 中被引用
+     1>libcpmtd.lib(xstopfx.obj) : error LNK2001: 无法解析的外部符号 _isspace
+     1>libcpmtd.lib(xstol.obj) : error LNK2001: 无法解析的外部符号 _isspace
+     1>libcpmtd.lib(xstoul.obj) : error LNK2001: 无法解析的外部符号 _isspace
+     1>libcpmtd.lib(xstoll.obj) : error LNK2001: 无法解析的外部符号 _isspace
+     1>libcpmtd.lib(xstoull.obj) : error LNK2001: 无法解析的外部符号 _isspace
+     1>libcpmtd.lib(xstoul.obj) : error LNK2019: 无法解析的外部符号 _tolower，该符号在函数 __Stoulx 中被引用
+     1>libcpmtd.lib(xstoull.obj) : error LNK2001: 无法解析的外部符号 _tolower
+     1>cryptlib.lib(basecode.obj) : error LNK2001: 无法解析的外部符号 _tolower
+     1>libcpmtd.lib(xstoul.obj) : error LNK2019: 无法解析的外部符号 _memchr，该符号在函数 __Stoulx 中被引用
+     1>libcpmtd.lib(xstoull.obj) : error LNK2001: 无法解析的外部符号 _memchr
+     1>libcpmtd.lib(xstoxflt.obj) : error LNK2001: 无法解析的外部符号 _memchr
+     1>libcpmtd.lib(xtime.obj) : error LNK2001: 无法解析的外部符号 __allmul
+     1>libcpmtd.lib(xstoull.obj) : error LNK2001: 无法解析的外部符号 __allmul
+     1>cryptlib.lib(integer.obj) : error LNK2001: 无法解析的外部符号 __allmul
+     1>cryptlib.lib(queue.obj) : error LNK2001: 无法解析的外部符号 __allmul
+     1>cryptlib.lib(hrtimer.obj) : error LNK2001: 无法解析的外部符号 __allmul
+     1>libcpmtd.lib(xstoull.obj) : error LNK2019: 无法解析的外部符号 __aulldiv，该符号在函数 __Stoullx 中被引用
+     1>cryptlib.lib(integer.obj) : error LNK2001: 无法解析的外部符号 __aulldiv
+     1>cryptlib.lib(dll.obj) : error LNK2001: 无法解析的外部符号 __aulldiv
+     1>libcpmtd.lib(xtime.obj) : error LNK2001: 无法解析的外部符号 __aulldiv
+     1>cryptlib.lib(mqueue.obj) : error LNK2019: 无法解析的外部符号 _memcmp，该符号在函数 "public: virtual bool __thiscall CryptoPP::EqualityComparisonFilter::ChannelMessageSeriesEnd(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,int,bool)" (?ChannelMessageSeriesEnd@EqualityComparisonFilter@CryptoPP@@UAE_NABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@H_N@Z) 中被引用
+     1>cryptlib.lib(rng.obj) : error LNK2001: 无法解析的外部符号 _memcmp
+     1>libcpmtd.lib(xstrcoll.obj) : error LNK2001: 无法解析的外部符号 _memcmp
+     1>cryptlib.lib(integer.obj) : error LNK2001: 无法解析的外部符号 _memcmp
+     1>cryptlib.lib(filters.obj) : error LNK2001: 无法解析的外部符号 _memcmp
+     1>cryptlib.lib(dll.obj) : error LNK2001: 无法解析的外部符号 _memcmp
+     1>libcpmtd.lib(xstrcoll.obj) : error LNK2019: 无法解析的外部符号 ____lc_collate_cp_func，该符号在函数 __Getcoll 中被引用
+     1>libcpmtd.lib(xstrxfrm.obj) : error LNK2001: 无法解析的外部符号 ____lc_collate_cp_func
+     1>libcpmtd.lib(xstrcoll.obj) : error LNK2019: 无法解析的外部符号 ___crtCompareStringA，该符号在函数 __Strcoll 中被引用
+     1>libcpmtd.lib(xdateord.obj) : error LNK2019: 无法解析的外部符号 ___crtGetLocaleInfoEx，该符号在函数 __Getdateorder 中被引用
+     1>libcpmtd.lib(xwcscoll.obj) : error LNK2019: 无法解析的外部符号 ___crtCompareStringW，该符号在函数 __Wcscoll 中被引用
+     1>libcpmtd.lib(xwcsxfrm.obj) : error LNK2019: 无法解析的外部符号 ___crtLCMapStringW，该符号在函数 __Wcsxfrm 中被引用
+     1>libcpmtd.lib(xtowlower.obj) : error LNK2001: 无法解析的外部符号 ___crtLCMapStringW
+     1>libcpmtd.lib(xtowupper.obj) : error LNK2001: 无法解析的外部符号 ___crtLCMapStringW
+     1>libcpmtd.lib(xstopfx.obj) : error LNK2019: 无法解析的外部符号 _isxdigit，该符号在函数 __Stopfx 中被引用
+     1>libcpmtd.lib(xstopfx.obj) : error LNK2019: 无法解析的外部符号 _isalnum，该符号在函数 __Stopfx 中被引用
+     1>libcpmtd.lib(xstoflt.obj) : error LNK2019: 无法解析的外部符号 _isdigit，该符号在函数 __Stoflt 中被引用
+     1>libcpmtd.lib(xstoxflt.obj) : error LNK2001: 无法解析的外部符号 _isdigit
+     1>libcpmtd.lib(xfprec.obj) : error LNK2019: 无法解析的外部符号 _sqrt，该符号在函数 __FXp_sqrtx 中被引用
+     1>libcpmtd.lib(xprec.obj) : error LNK2001: 无法解析的外部符号 _sqrt
+     1>libcpmtd.lib(xlprec.obj) : error LNK2001: 无法解析的外部符号 _sqrt
+     1>cryptlib.lib(ecp.obj) : error LNK2001: 无法解析的外部符号 "public: bool __thiscall type_info::operator==(class type_info const &)const " (??8type_info@@QBE_NABV0@@Z)
+     1>cryptlib.lib(hex.obj) : error LNK2001: 无法解析的外部符号 "public: bool __thiscall type_info::operator==(class type_info const &)const " (??8type_info@@QBE_NABV0@@Z)
+     1>cryptlib.lib(nbtheory.obj) : error LNK2001: 无法解析的外部符号 "public: bool __thiscall type_info::operator==(class type_info const &)const " (??8type_info@@QBE_NABV0@@Z)
+     1>cryptlib.lib(gfpcrypt.obj) : error LNK2001: 无法解析的外部符号 "public: bool __thiscall type_info::operator==(class type_info const &)const " (??8type_info@@QBE_NABV0@@Z)
+     1>cryptlib.lib(gf2n.obj) : error LNK2001: 无法解析的外部符号 "public: bool __thiscall type_info::operator==(class type_info const &)const " (??8type_info@@QBE_NABV0@@Z)
+     1>cryptlib.lib(ec2n.obj) : error LNK2001: 无法解析的外部符号 "public: bool __thiscall type_info::operator==(class type_info const &)const " (??8type_info@@QBE_NABV0@@Z)
+     1>cryptlib.lib(cryptlib.obj) : error LNK2001: 无法解析的外部符号 "public: bool __thiscall type_info::operator==(class type_info const &)const " (??8type_info@@QBE_NABV0@@Z)
+     1>cryptlib.lib(integer.obj) : error LNK2001: 无法解析的外部符号 "public: bool __thiscall type_info::operator==(class type_info const &)const " (??8type_info@@QBE_NABV0@@Z)
+     1>cryptlib.lib(filters.obj) : error LNK2001: 无法解析的外部符号 "public: bool __thiscall type_info::operator==(class type_info const &)const " (??8type_info@@QBE_NABV0@@Z)
+     1>cryptlib.lib(dll.obj) : error LNK2001: 无法解析的外部符号 "public: bool __thiscall type_info::operator==(class type_info const &)const " (??8type_info@@QBE_NABV0@@Z)
+     1>cryptlib.lib(ec2n.obj) : error LNK2001: 无法解析的外部符号 "public: bool __thiscall type_info::operator!=(class type_info const &)const " (??9type_info@@QBE_NABV0@@Z)
+     1>cryptlib.lib(ecp.obj) : error LNK2001: 无法解析的外部符号 "public: bool __thiscall type_info::operator!=(class type_info const &)const " (??9type_info@@QBE_NABV0@@Z)
+     1>cryptlib.lib(hex.obj) : error LNK2001: 无法解析的外部符号 "public: bool __thiscall type_info::operator!=(class type_info const &)const " (??9type_info@@QBE_NABV0@@Z)
+     1>cryptlib.lib(dll.obj) : error LNK2001: 无法解析的外部符号 "public: bool __thiscall type_info::operator!=(class type_info const &)const " (??9type_info@@QBE_NABV0@@Z)
+     1>cryptlib.lib(nbtheory.obj) : error LNK2001: 无法解析的外部符号 "public: bool __thiscall type_info::operator!=(class type_info const &)const " (??9type_info@@QBE_NABV0@@Z)
+     1>cryptlib.lib(gfpcrypt.obj) : error LNK2001: 无法解析的外部符号 "public: bool __thiscall type_info::operator!=(class type_info const &)const " (??9type_info@@QBE_NABV0@@Z)
+     1>cryptlib.lib(gf2n.obj) : error LNK2001: 无法解析的外部符号 "public: bool __thiscall type_info::operator!=(class type_info const &)const " (??9type_info@@QBE_NABV0@@Z)
+     1>cryptlib.lib(cryptlib.obj) : error LNK2001: 无法解析的外部符号 "public: bool __thiscall type_info::operator!=(class type_info const &)const " (??9type_info@@QBE_NABV0@@Z)
+     1>cryptlib.lib(integer.obj) : error LNK2001: 无法解析的外部符号 "public: bool __thiscall type_info::operator!=(class type_info const &)const " (??9type_info@@QBE_NABV0@@Z)
+     1>cryptlib.lib(algparam.obj) : error LNK2001: 无法解析的外部符号 "public: bool __thiscall type_info::operator!=(class type_info const &)const " (??9type_info@@QBE_NABV0@@Z)
+     1>cryptlib.lib(filters.obj) : error LNK2001: 无法解析的外部符号 "public: bool __thiscall type_info::operator!=(class type_info const &)const " (??9type_info@@QBE_NABV0@@Z)
+     1>cryptlib.lib(ec2n.obj) : error LNK2001: 无法解析的外部符号 "public: char const * __thiscall type_info::name(struct __type_info_node *)const " (?name@type_info@@QBEPBDPAU__type_info_node@@@Z)
+     1>cryptlib.lib(ecp.obj) : error LNK2001: 无法解析的外部符号 "public: char const * __thiscall type_info::name(struct __type_info_node *)const " (?name@type_info@@QBEPBDPAU__type_info_node@@@Z)
+     1>cryptlib.lib(hex.obj) : error LNK2001: 无法解析的外部符号 "public: char const * __thiscall type_info::name(struct __type_info_node *)const " (?name@type_info@@QBEPBDPAU__type_info_node@@@Z)
+     1>cryptlib.lib(dll.obj) : error LNK2001: 无法解析的外部符号 "public: char const * __thiscall type_info::name(struct __type_info_node *)const " (?name@type_info@@QBEPBDPAU__type_info_node@@@Z)
+     1>cryptlib.lib(nbtheory.obj) : error LNK2001: 无法解析的外部符号 "public: char const * __thiscall type_info::name(struct __type_info_node *)const " (?name@type_info@@QBEPBDPAU__type_info_node@@@Z)
+     1>cryptlib.lib(gfpcrypt.obj) : error LNK2001: 无法解析的外部符号 "public: char const * __thiscall type_info::name(struct __type_info_node *)const " (?name@type_info@@QBEPBDPAU__type_info_node@@@Z)
+     1>cryptlib.lib(gf2n.obj) : error LNK2001: 无法解析的外部符号 "public: char const * __thiscall type_info::name(struct __type_info_node *)const " (?name@type_info@@QBEPBDPAU__type_info_node@@@Z)
+     1>cryptlib.lib(cryptlib.obj) : error LNK2001: 无法解析的外部符号 "public: char const * __thiscall type_info::name(struct __type_info_node *)const " (?name@type_info@@QBEPBDPAU__type_info_node@@@Z)
+     1>cryptlib.lib(integer.obj) : error LNK2001: 无法解析的外部符号 "public: char const * __thiscall type_info::name(struct __type_info_node *)const " (?name@type_info@@QBEPBDPAU__type_info_node@@@Z)
+     1>cryptlib.lib(algparam.obj) : error LNK2001: 无法解析的外部符号 "public: char const * __thiscall type_info::name(struct __type_info_node *)const " (?name@type_info@@QBEPBDPAU__type_info_node@@@Z)
+     1>cryptlib.lib(filters.obj) : error LNK2001: 无法解析的外部符号 "public: char const * __thiscall type_info::name(struct __type_info_node *)const " (?name@type_info@@QBEPBDPAU__type_info_node@@@Z)
+     1>cryptlib.lib(ec2n.obj) : error LNK2001: 无法解析的外部符号 "struct __type_info_node __type_info_root_node" (?__type_info_root_node@@3U__type_info_node@@A)
+     1>cryptlib.lib(ecp.obj) : error LNK2001: 无法解析的外部符号 "struct __type_info_node __type_info_root_node" (?__type_info_root_node@@3U__type_info_node@@A)
+     1>cryptlib.lib(hex.obj) : error LNK2001: 无法解析的外部符号 "struct __type_info_node __type_info_root_node" (?__type_info_root_node@@3U__type_info_node@@A)
+     1>cryptlib.lib(dll.obj) : error LNK2001: 无法解析的外部符号 "struct __type_info_node __type_info_root_node" (?__type_info_root_node@@3U__type_info_node@@A)
+     1>cryptlib.lib(nbtheory.obj) : error LNK2001: 无法解析的外部符号 "struct __type_info_node __type_info_root_node" (?__type_info_root_node@@3U__type_info_node@@A)
+     1>cryptlib.lib(gfpcrypt.obj) : error LNK2001: 无法解析的外部符号 "struct __type_info_node __type_info_root_node" (?__type_info_root_node@@3U__type_info_node@@A)
+     1>cryptlib.lib(gf2n.obj) : error LNK2001: 无法解析的外部符号 "struct __type_info_node __type_info_root_node" (?__type_info_root_node@@3U__type_info_node@@A)
+     1>cryptlib.lib(cryptlib.obj) : error LNK2001: 无法解析的外部符号 "struct __type_info_node __type_info_root_node" (?__type_info_root_node@@3U__type_info_node@@A)
+     1>cryptlib.lib(integer.obj) : error LNK2001: 无法解析的外部符号 "struct __type_info_node __type_info_root_node" (?__type_info_root_node@@3U__type_info_node@@A)
+     1>cryptlib.lib(algparam.obj) : error LNK2001: 无法解析的外部符号 "struct __type_info_node __type_info_root_node" (?__type_info_root_node@@3U__type_info_node@@A)
+     1>cryptlib.lib(filters.obj) : error LNK2001: 无法解析的外部符号 "struct __type_info_node __type_info_root_node" (?__type_info_root_node@@3U__type_info_node@@A)
+     1>cryptlib.lib(rijndael.obj) : error LNK2001: 无法解析的外部符号 __allshl
+     1>cryptlib.lib(hrtimer.obj) : error LNK2001: 无法解析的外部符号 __allshl
+     1>libcpmtd.lib(xtime.obj) : error LNK2001: 无法解析的外部符号 __allshl
+     1>cryptlib.lib(integer.obj) : error LNK2001: 无法解析的外部符号 __allshl
+     1>cryptlib.lib(dll.obj) : error LNK2001: 无法解析的外部符号 __allshl
+     1>cryptlib.lib(asn.obj) : error LNK2001: 无法解析的外部符号 __allshl
+     1>cryptlib.lib(iterhash.obj) : error LNK2001: 无法解析的外部符号 __allshl
+     1>cryptlib.lib(integer.obj) : error LNK2019: 无法解析的外部符号 __aullrem，该符号在函数 "class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl CryptoPP::IntToString<unsigned __int64>(unsigned __int64,unsigned int)" (??$IntToString@_K@CryptoPP@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@_KI@Z) 中被引用
+     1>cryptlib.lib(dll.obj) : error LNK2001: 无法解析的外部符号 __aullrem
+     1>libcpmtd.lib(xtime.obj) : error LNK2001: 无法解析的外部符号 __aullrem
+     1>cryptlib.lib(iterhash.obj) : error LNK2001: 无法解析的外部符号 __aullshr
+     1>cryptlib.lib(sha.obj) : error LNK2001: 无法解析的外部符号 __aullshr
+     1>cryptlib.lib(modes.obj) : error LNK2001: 无法解析的外部符号 __aullshr
+     1>cryptlib.lib(integer.obj) : error LNK2001: 无法解析的外部符号 __aullshr
+     1>cryptlib.lib(misc.obj) : error LNK2001: 无法解析的外部符号 __aullshr
+     1>cryptlib.lib(dll.obj) : error LNK2001: 无法解析的外部符号 __aullshr
+     1>cryptlib.lib(asn.obj) : error LNK2001: 无法解析的外部符号 __aullshr
+     1>cryptlib.lib(misc.obj) : error LNK2019: 无法解析的外部符号 _malloc，该符号在函数 "void * __cdecl CryptoPP::UnalignedAllocate(unsigned int)" (?UnalignedAllocate@CryptoPP@@YAPAXI@Z) 中被引用
+     1>cryptlib.lib(misc.obj) : error LNK2019: 无法解析的外部符号 __aligned_free，该符号在函数 "void __cdecl CryptoPP::AlignedDeallocate(void *)" (?AlignedDeallocate@CryptoPP@@YAXPAX@Z) 中被引用
+     1>cryptlib.lib(misc.obj) : error LNK2019: 无法解析的外部符号 __aligned_malloc，该符号在函数 "void * __cdecl CryptoPP::AlignedAllocate(unsigned int)" (?AlignedAllocate@CryptoPP@@YAPAXI@Z) 中被引用
+     1>cryptlib.lib(misc.obj) : error LNK2019: 无法解析的外部符号 _wcstombs_s，该符号在函数 "class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl CryptoPP::StringNarrow(wchar_t const *,bool)" (?StringNarrow@CryptoPP@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PB_W_N@Z) 中被引用
+     1>cryptlib.lib(filters.obj) : error LNK2019: 无法解析的外部符号 ___RTDynamicCast，该符号在函数 "public: __thiscall CryptoPP::StreamTransformationFilter::StreamTransformationFilter(class CryptoPP::StreamTransformation &,class CryptoPP::BufferedTransformation *,enum CryptoPP::BlockPaddingSchemeDef::BlockPaddingScheme,bool)" (??0StreamTransformationFilter@CryptoPP@@QAE@AAVStreamTransformation@1@PAVBufferedTransformation@1@W4BlockPaddingScheme@BlockPaddingSchemeDef@1@_N@Z) 中被引用
+     1>cryptlib.lib(dll.obj) : error LNK2019: 无法解析的外部符号 "void __stdcall `eh vector constructor iterator'(void *,unsigned int,int,void (__thiscall*)(void *),void (__thiscall*)(void *))" (??_L@YGXPAXIHP6EX0@Z1@Z)，该符号在函数 "public: virtual class CryptoPP::Integer __thiscall CryptoPP::DL_KeyAgreementAlgorithm_DH<class CryptoPP::Integer,struct CryptoPP::EnumToType<enum CryptoPP::CofactorMultiplicationOption,0> >::AgreeWithStaticPrivateKey(class CryptoPP::DL_GroupParameters<class CryptoPP::Integer> const &,class CryptoPP::Integer const &,bool,class CryptoPP::Integer const &)const " (?AgreeWithStaticPrivateKey@?$DL_KeyAgreementAlgorithm_DH@VInteger@CryptoPP@@U?$EnumToType@W4CofactorMultiplicationOption@CryptoPP@@$0A@@2@@CryptoPP@@UBE?AVInteger@2@ABV?$DL_GroupParameters@VInteger@CryptoPP@@@2@ABV32@_N1@Z) 中被引用
+     1>cryptlib.lib(gfpcrypt.obj) : error LNK2001: 无法解析的外部符号 "void __stdcall `eh vector constructor iterator'(void *,unsigned int,int,void (__thiscall*)(void *),void (__thiscall*)(void *))" (??_L@YGXPAXIHP6EX0@Z1@Z)
+     1>cryptlib.lib(dll.obj) : error LNK2019: 无法解析的外部符号 "void __stdcall `eh vector destructor iterator'(void *,unsigned int,int,void (__thiscall*)(void *))" (??_M@YGXPAXIHP6EX0@Z@Z)，该符号在函数 "void __cdecl `void __cdecl CryptoPP::GetRecommendedParameters(struct GetRecommendedParameters::EcRecommendedParameters<class CryptoPP::EC2N> const * &,struct GetRecommendedParameters::EcRecommendedParameters<class CryptoPP::EC2N> const * &)'::`2'::`dynamic atexit destructor for 'rec''(void)" (??__Frec@?1??GetRecommendedParameters@CryptoPP@@YAXAAPBU?$EcRecommendedParameters@VEC2N@CryptoPP@@@1@0@Z@YAXXZ) 中被引用
+     1>cryptlib.lib(gfpcrypt.obj) : error LNK2001: 无法解析的外部符号 "void __stdcall `eh vector destructor iterator'(void *,unsigned int,int,void (__thiscall*)(void *))" (??_M@YGXPAXIHP6EX0@Z@Z)
+     1>libcpmtd.lib(mutex.obj) : error LNK2001: 无法解析的外部符号 "void __stdcall `eh vector destructor iterator'(void *,unsigned int,int,void (__thiscall*)(void *))" (??_M@YGXPAXIHP6EX0@Z@Z)
+     1>cryptlib.lib(dll.obj) : error LNK2019: 无法解析的外部符号 _strncmp，该符号在函数 "public: __thiscall CryptoPP::GetValueHelperClass<class CryptoPP::DL_GroupParameters<struct CryptoPP::EC2NPoint>,class CryptoPP::DL_GroupParameters<struct CryptoPP::EC2NPoint> >::GetValueHelperClass<class CryptoPP::DL_GroupParameters<struct CryptoPP::EC2NPoint>,class CryptoPP::DL_GroupParameters<struct CryptoPP::EC2NPoint> >(class CryptoPP::DL_GroupParameters<struct CryptoPP::EC2NPoint> const *,char const *,class type_info const &,void *,class CryptoPP::NameValuePairs const *)" (??0?$GetValueHelperClass@V?$DL_GroupParameters@UEC2NPoint@CryptoPP@@@CryptoPP@@V12@@CryptoPP@@QAE@PBV?$DL_GroupParameters@UEC2NPoint@CryptoPP@@@1@PBDABVtype_info@@PAXPBVNameValuePairs@1@@Z) 中被引用
+     1>cryptlib.lib(gfpcrypt.obj) : error LNK2001: 无法解析的外部符号 _strncmp
+     1>cryptlib.lib(nbtheory.obj) : error LNK2019: 无法解析的外部符号 __dtoui3，该符号在函数 "class CryptoPP::Integer __cdecl CryptoPP::MaurerProvablePrime(class CryptoPP::RandomNumberGenerator &,unsigned int)" (?MaurerProvablePrime@CryptoPP@@YA?AVInteger@1@AAVRandomNumberGenerator@1@I@Z) 中被引用
+     1>cryptlib.lib(hrtimer.obj) : error LNK2001: 无法解析的外部符号 __dtoui3
+     1>cryptlib.lib(nbtheory.obj) : error LNK2019: 无法解析的外部符号 __libm_sse2_log_precise，该符号在函数 "unsigned int __cdecl CryptoPP::DiscreteLogWorkFactor(unsigned int)" (?DiscreteLogWorkFactor@CryptoPP@@YAII@Z) 中被引用
+     1>cryptlib.lib(rng.obj) : error LNK2001: 无法解析的外部符号 __libm_sse2_log_precise
+     1>cryptlib.lib(nbtheory.obj) : error LNK2019: 无法解析的外部符号 __libm_sse2_pow_precise，该符号在函数 "class CryptoPP::Integer __cdecl CryptoPP::MaurerProvablePrime(class CryptoPP::RandomNumberGenerator &,unsigned int)" (?MaurerProvablePrime@CryptoPP@@YA?AVInteger@1@AAVRandomNumberGenerator@1@I@Z) 中被引用
+     1>cryptlib.lib(cpu.obj) : error LNK2019: 无法解析的外部符号 __except_handler4，该符号在函数 "bool __cdecl CryptoPP::CpuId(unsigned int,unsigned int * const)" (?CpuId@CryptoPP@@YA_NIQAI@Z) 中被引用
+     1>cryptlib.lib(modes.obj) : error LNK2019: 无法解析的外部符号 _memmove_s，该符号在函数 "protected: virtual void __thiscall CryptoPP::CFB_ModePolicy::TransformRegister(void)" (?TransformRegister@CFB_ModePolicy@CryptoPP@@MAEXXZ) 中被引用
+     1>cryptlib.lib(basecode.obj) : error LNK2019: 无法解析的外部符号 _isalpha，该符号在函数 "public: static void __cdecl CryptoPP::BaseN_Decoder::InitializeDecodingLookupArray(int *,unsigned char const *,unsigned int,bool)" (?InitializeDecodingLookupArray@BaseN_Decoder@CryptoPP@@SAXPAHPBEI_N@Z) 中被引用
+     1>cryptlib.lib(basecode.obj) : error LNK2019: 无法解析的外部符号 _toupper，该符号在函数 "public: static void __cdecl CryptoPP::BaseN_Decoder::InitializeDecodingLookupArray(int *,unsigned char const *,unsigned int,bool)" (?InitializeDecodingLookupArray@BaseN_Decoder@CryptoPP@@SAXPAHPBEI_N@Z) 中被引用
+     1>cryptlib.lib(rng.obj) : error LNK2019: 无法解析的外部符号 _clock，该符号在函数 "public: __thiscall CryptoPP::X917RNG::X917RNG(class CryptoPP::BlockTransformation *,unsigned char const *,unsigned char const *)" (??0X917RNG@CryptoPP@@QAE@PAVBlockTransformation@1@PBE1@Z) 中被引用
+     1>cryptlib.lib(hrtimer.obj) : error LNK2001: 无法解析的外部符号 _clock
+     1>cryptlib.lib(rng.obj) : error LNK2019: 无法解析的外部符号 __time64，该符号在函数 _time 中被引用
+     1>cryptlib.lib(randpool.obj) : error LNK2001: 无法解析的外部符号 __time64
+     1>cryptlib.lib(hrtimer.obj) : error LNK2019: 无法解析的外部符号 __ultod3，该符号在函数 "private: double __thiscall CryptoPP::TimerBase::ConvertTo(unsigned __int64,enum CryptoPP::TimerBase::Unit)" (?ConvertTo@TimerBase@CryptoPP@@AAEN_KW4Unit@12@@Z) 中被引用
+     1>libcpmtd.lib(mutex.obj) : error LNK2019: 无法解析的外部符号 "public: __thiscall Concurrency::critical_section::critical_section(void)" (??0critical_section@Concurrency@@QAE@XZ)，该符号在函数 __Mtx_init 中被引用
+     1>libcpmtd.lib(mutex.obj) : error LNK2019: 无法解析的外部符号 "public: __thiscall Concurrency::critical_section::~critical_section(void)" (??1critical_section@Concurrency@@QAE@XZ)，该符号在函数 "public: void * __thiscall Concurrency::critical_section::`scalar deleting destructor'(unsigned int)" (??_Gcritical_section@Concurrency@@QAEPAXI@Z) 中被引用
+     1>libcpmtd.lib(mutex.obj) : error LNK2019: 无法解析的外部符号 "public: void __thiscall Concurrency::critical_section::lock(void)" (?lock@critical_section@Concurrency@@QAEXXZ)，该符号在函数 "int __cdecl mtx_do_lock(struct _Mtx_internal_imp_t * *,struct xtime const *)" (?mtx_do_lock@@YAHPAPAU_Mtx_internal_imp_t@@PBUxtime@@@Z) 中被引用
+     1>libcpmtd.lib(mutex.obj) : error LNK2019: 无法解析的外部符号 "public: bool __thiscall Concurrency::critical_section::try_lock(void)" (?try_lock@critical_section@Concurrency@@QAE_NXZ)，该符号在函数 "int __cdecl mtx_do_lock(struct _Mtx_internal_imp_t * *,struct xtime const *)" (?mtx_do_lock@@YAHPAPAU_Mtx_internal_imp_t@@PBUxtime@@@Z) 中被引用
+     1>libcpmtd.lib(mutex.obj) : error LNK2019: 无法解析的外部符号 "public: bool __thiscall Concurrency::critical_section::try_lock_for(unsigned int)" (?try_lock_for@critical_section@Concurrency@@QAE_NI@Z)，该符号在函数 "int __cdecl mtx_do_lock(struct _Mtx_internal_imp_t * *,struct xtime const *)" (?mtx_do_lock@@YAHPAPAU_Mtx_internal_imp_t@@PBUxtime@@@Z) 中被引用
+     1>libcpmtd.lib(mutex.obj) : error LNK2019: 无法解析的外部符号 "public: void __thiscall Concurrency::critical_section::unlock(void)" (?unlock@critical_section@Concurrency@@QAEXXZ)，该符号在函数 __Mtx_unlock 中被引用
+     1>libcpmtd.lib(mutex.obj) : error LNK2019: 无法解析的外部符号 "public: __thiscall Concurrency::critical_section::scoped_lock::scoped_lock(class Concurrency::critical_section &)" (??0scoped_lock@critical_section@Concurrency@@QAE@AAV12@@Z)，该符号在函数 "public: void __thiscall Concurrency::details::_CancellationTokenState::_Cancel(void)" (?_Cancel@_CancellationTokenState@details@Concurrency@@QAEXXZ) 中被引用
+     1>libcpmtd.lib(mutex.obj) : error LNK2019: 无法解析的外部符号 "public: __thiscall Concurrency::critical_section::scoped_lock::~scoped_lock(void)" (??1scoped_lock@critical_section@Concurrency@@QAE@XZ)，该符号在函数 "public: void __thiscall Concurrency::details::_CancellationTokenState::_Cancel(void)" (?_Cancel@_CancellationTokenState@details@Concurrency@@QAEXXZ) 中被引用
+     1>libcpmtd.lib(mutex.obj) : error LNK2019: 无法解析的外部符号 "public: void __thiscall Concurrency::event::set(void)" (?set@event@Concurrency@@QAEXXZ)，该符号在函数 "public: void __thiscall Concurrency::details::_CancellationTokenState::_Cancel(void)" (?_Cancel@_CancellationTokenState@details@Concurrency@@QAEXXZ) 中被引用
+     1>libcpmtd.lib(mutex.obj) : error LNK2019: 无法解析的外部符号 "long __cdecl Concurrency::details::platform::GetCurrentThreadId(void)" (?GetCurrentThreadId@platform@details@Concurrency@@YAJXZ)，该符号在函数 "private: void __thiscall Concurrency::details::_CancellationTokenRegistration::_Invoke(void)" (?_Invoke@_CancellationTokenRegistration@details@Concurrency@@AAEXXZ) 中被引用
+     1>libcpmtd.lib(stdhndlr.obj) : error LNK2019: 无法解析的外部符号 "int (__cdecl*__cdecl _set_new_handler(int (__cdecl*)(unsigned int)))(unsigned int)" (?_set_new_handler@@YAP6AHI@ZP6AHI@Z@Z)，该符号在函数 "void (__cdecl*__cdecl std::set_new_handler(void (__cdecl*)(void)))(void)" (?set_new_handler@std@@YAP6AXXZP6AXXZ@Z) 中被引用
+     1>libcpmtd.lib(cthread.obj) : error LNK2019: 无法解析的外部符号 _fputs，该符号在函数 __Thrd_abort 中被引用
+     1>libcpmtd.lib(cthread.obj) : error LNK2019: 无法解析的外部符号 __beginthreadex，该符号在函数 __Thrd_start 中被引用
+     1>libcpmtd.lib(cthread.obj) : error LNK2019: 无法解析的外部符号 __endthreadex，该符号在函数 __Thrd_exit 中被引用
+     1>libcpmtd.lib(tss.obj) : error LNK2019: 无法解析的外部符号 ___crtFlsAlloc，该符号在函数 _sys_tss_create 中被引用
+     1>libcpmtd.lib(tss.obj) : error LNK2019: 无法解析的外部符号 ___crtFlsFree，该符号在函数 _sys_tss_destroy 中被引用
+     1>libcpmtd.lib(tss.obj) : error LNK2019: 无法解析的外部符号 ___crtFlsGetValue，该符号在函数 _sys_tss_get 中被引用
+     1>libcpmtd.lib(tss.obj) : error LNK2019: 无法解析的外部符号 ___crtFlsSetValue，该符号在函数 _sys_tss_set 中被引用
+     1>libcpmtd.lib(tss.obj) : error LNK2019: 无法解析的外部符号 _calloc，该符号在函数 _getTssData 中被引用
+     1>libcpmtd.lib(xnotify.obj) : error LNK2001: 无法解析的外部符号 _calloc
+     1>libcpmtd.lib(cond.obj) : error LNK2019: 无法解析的外部符号 "public: __thiscall Concurrency::details::_Condition_variable::_Condition_variable(void)" (??0_Condition_variable@details@Concurrency@@QAE@XZ)，该符号在函数 __Cnd_init 中被引用
+     1>libcpmtd.lib(cond.obj) : error LNK2019: 无法解析的外部符号 "public: __thiscall Concurrency::details::_Condition_variable::~_Condition_variable(void)" (??1_Condition_variable@details@Concurrency@@QAE@XZ)，该符号在函数 "public: void * __thiscall Concurrency::details::_Condition_variable::`scalar deleting destructor'(unsigned int)" (??_G_Condition_variable@details@Concurrency@@QAEPAXI@Z) 中被引用
+     1>libcpmtd.lib(cond.obj) : error LNK2019: 无法解析的外部符号 "public: void __thiscall Concurrency::details::_Condition_variable::wait(class Concurrency::critical_section &)" (?wait@_Condition_variable@details@Concurrency@@QAEXAAVcritical_section@3@@Z)，该符号在函数 "int __cdecl do_wait(struct _Cnd_internal_imp_t * *,struct _Mtx_internal_imp_t * *,struct xtime const *)" (?do_wait@@YAHPAPAU_Cnd_internal_imp_t@@PAPAU_Mtx_internal_imp_t@@PBUxtime@@@Z) 中被引用
+     1>libcpmtd.lib(cond.obj) : error LNK2019: 无法解析的外部符号 "public: bool __thiscall Concurrency::details::_Condition_variable::wait_for(class Concurrency::critical_section &,unsigned int)" (?wait_for@_Condition_variable@details@Concurrency@@QAE_NAAVcritical_section@3@I@Z)，该符号在函数 "int __cdecl do_wait(struct _Cnd_internal_imp_t * *,struct _Mtx_internal_imp_t * *,struct xtime const *)" (?do_wait@@YAHPAPAU_Cnd_internal_imp_t@@PAPAU_Mtx_internal_imp_t@@PBUxtime@@@Z) 中被引用
+     1>libcpmtd.lib(cond.obj) : error LNK2019: 无法解析的外部符号 "public: void __thiscall Concurrency::details::_Condition_variable::notify_one(void)" (?notify_one@_Condition_variable@details@Concurrency@@QAEXXZ)，该符号在函数 "int __cdecl do_signal(struct _Cnd_internal_imp_t * *,int)" (?do_signal@@YAHPAPAU_Cnd_internal_imp_t@@H@Z) 中被引用
+     1>libcpmtd.lib(cond.obj) : error LNK2019: 无法解析的外部符号 "public: void __thiscall Concurrency::details::_Condition_variable::notify_all(void)" (?notify_all@_Condition_variable@details@Concurrency@@QAEXXZ)，该符号在函数 "int __cdecl do_signal(struct _Cnd_internal_imp_t * *,int)" (?do_signal@@YAHPAPAU_Cnd_internal_imp_t@@H@Z) 中被引用
+     1>D:\Practice\TestCryPto\Debug\TestCryPto.exe : fatal error LNK1120: 150 个无法解析的外部命令
+     1>已完成生成项目“D:\Practice\TestCryPto\TestCryPto\TestCryPto.vcxproj”(Rebuild 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:01.18
